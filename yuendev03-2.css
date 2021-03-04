@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:700,700i,400|Quicksand:400,400i,700,700i');
-@import url('https://dl.dropbox.com/s/cfg9ui7y88t65ip/yuen01.css');
+@import url('https://moonien.github.io/yuen01.css');
 
 .yuendev03 { --bg-color:#111;width:500px;margin:30px auto;text-align:justify;font:12px karla;line-height:16px;box-shadow:0px 0px 4px rgba(0,0,0,0.3);background:url(https://i64.servimg.com/u/f64/19/28/65/32/brush_10.jpg) center fixed,var(--yeet);background-blend-mode:multiply;background-size:cover;color:#111; }
 
