@@ -74,3 +74,6 @@ width:615px;height:530px;margin:30px auto;text-align:justify;font:13px karla;lin
 #zephyr { --lecon:"\a53";--eight:var(--zephyr); }
 
 #eykta .lan-eykta-links span:before { transform:rotate(-20deg); }
+
+#jody .lan-eykta-cont,
+#zephyr .lan-eykta-cont { opacity:0.8; }
