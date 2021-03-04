@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Ubuntu+Mono:400,700');
-@import url('https://dl.dropbox.com/s/cfg9ui7y88t65ip/yuen01.css');
+@import url('https://moonien.github.io/yuen01.css');
 
 .yuencomm02-sending,
 .yuencomm02-receiving { --bg-color:#fff;width:250px;margin:30px auto;border-radius:10px;box-shadow:0px 0px 5px -2px var(--yeet);background:linear-gradient(180deg, transparent 30%, var(--yeet) 400%),white;font:13px ubuntu mono;line-height:15px;counter-reset:messages;color:#222;text-align:left; }
