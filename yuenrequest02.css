@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i|Ubuntu+Mono:700,700i|Plaster');
-@import url('https://dl.dropbox.com/s/cfg9ui7y88t65ip/yuen01.css');
+@import url('https://moonien.github.io/yuen01.css');
 
 .yuenrequest02 { --bg-color:#f2f2f2;width:100%;min-width:310px;max-width:600px;margin:30px auto;text-align:justify;font:12px roboto;line-height:16px;background:var(--yeet);box-shadow:0px 0px 10px -5px var(--yeet),inset 0px 0px 0px 600px rgba(0,0,0,0.3);color:#111; }
 .yuenrequest02-box { padding:20px; }
