@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700');
 @import url('https://dl.dropbox.com/s/cfg9ui7y88t65ip/yuen01.css');
 
+
 .yuentracker05,
 .yuentracker05-500 { --ybg-img:url(https://i64.servimg.com/u/f64/19/28/65/32/16y1u_11.jpg);--tbt:var(--ybg-img) center fixed;--bg-color:#fafafa;
 width:600px;margin:30px auto;box-shadow:0px 0px 10px -5px rgba(0,0,0,0.5); }
