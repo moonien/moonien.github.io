@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Damion|Laila:500,400,700');
+@import url('https://dl.dropbox.com/s/cfg9ui7y88t65ip/yuen01.css');
+
+.yuenrequest01 { --bg-color:#fff;width:500px;margin:40px auto;text-align:justify;box-shadow:0px 0px 5px -2px rgba(0,0,0,0.3);font:13px karla;line-height:18px;background:white;color:black; }
+
+.yuenrequest01-header { border:30px solid white;border-left-width:120px;height:245px;background-size:cover;background-position:center; }
+.yuenrequest01-header-box { background:white;mix-blend-mode:screen;height:245px; }
+.yuenrequest01-header-box1,
+.yuenrequest01-header-box2,
+.yuenrequest01-header-box3 { background:black;position:relative; }
+.yuenrequest01-header-box1 { margin-top:-5px;margin-left:60px;height:190px; }
+.yuenrequest01-header-box2,
+.yuenrequest01-header-box3 { margin-left:175px;height:60px;width:60px;border-radius:70px; }
+.yuenrequest01-header-box3 { margin:0px;margin-top:-120px;margin-left:5px; }
+.yuenrequest01-header-title { margin-top:-245px;position:relative;z-index:17;margin-left:-90px;font:500 12px laila;text-transform:uppercase;text-align:left;width:220px;letter-spacing:1px;color:#444;line-height:14px; }
+.yuenrequest01-header-title span { display:block;text-transform:lowercase;font:italic 34px damion;line-height:21px;color:var(--yeet); }
+.yuenrequest01-header-info { margin-top:15px;position:relative;z-index:18;margin-left:-100px;height:180px;display:flex;flex-flow:row wrap;align-content:flex-end;font:11px laila;text-transform:uppercase;text-align:left;width:130px;color:#bbb;line-height:14px; }
+.yuenrequest01-header-info span { width:100%;display:block;margin-top:3px; }
+
+.yuenrequest01-quote { padding:30px;margin-top:-30px;background:var(--yeet);color:white;font:20px laila;line-height:24px;;text-align:center; }
+.yuenrequest01-quote:before { content:"";display:block;margin-top:-85px;height:60px;width:60px;border-radius:70px;background:var(--yeet);float:right;margin-right:115px; }
+.yuenrequest01-quote font:before { content:"❝";margin-right:10px; }
+.yuenrequest01-quote font:after { content:"❞";margin-left:10px; }
+.yuenrequest01-quote span { line-height:14px;font-size:14px;display:block;margin-top:14px;color:#eee; }
+.yuenrequest01-quote span:before { content:"—";margin-right:5px; }
+
+.yuenrequest01-cont { padding:40px; }
+.yuenrequest01-cont:before { content:"";display:block;margin-top:-45px;height:60px;width:60px;border-radius:70px;background:var(--yeet);margin-left:50px; }
+.yuenrequest01-cont-name { width:300px;text-transform:uppercase;text-align:center;color:var(--yeet);font:700 21px laila;margin-left:140px;margin-top:-30px;line-height:20px;margin-bottom:30px; }
+.yuenrequest01-cont b { color:var(--yeet);font-family:laila;line-height:15px; }

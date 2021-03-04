@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Ubuntu+Mono');
+@import url('https://dl.dropbox.com/s/cfg9ui7y88t65ip/yuen01.css');
+
+.yuentwitter-light,
+.yuentwitter-dark { --bg-color:#fdfdfd;--bgs:white;--color:#111;--border:#ccc;
+box-shadow:0px 0px 10px -5px black;border-radius:8px;background:var(--bg-color);width:100%;max-width:450px;min-width:300px;margin:30px auto;overflow:hidden;font:13px karla;line-height:18px;text-align:justify;color:var(--color); }
+
+.yuentwitter-dark { --bg-color:#222;--bgs:#181818;--color:#f2f2f2;--border:#383838; }
+
+.yuentwitter-light b,
+.yuentwitter-dark b,
+.yuentwitter-light i,
+.yuentwitter-dark i { color:inherit;font-style:normal;font-weight:normal; }
+.yuentwitter-light a,
+.yuentwitter-dark a { color:var(--yeet)!important;transition:0s!important;text-decoration:none!important }
+.yuentwitter-light a:hover,
+.yuentwitter-dark a:hover { text-decoration:underline!important }
+
+.yuentwitter-head { }
+.yuentwitter-head-image img { width:100%;height:180px;object-fit:cover;border-bottom:6px solid var(--bgs); }
+.yuentwitter-head-icon img { border-radius:100%;width:110px;height:110px;object-fit:cover;border:3px solid var(--bgs);background:var(--bgs);margin-top:-70px;margin-left:30px; }
+.yuentwitter-head label { float:right;margin-top:-35px;font-size:14px;line-height:25px;padding:0px 10px;border-radius:15px;color:var(--yeet);border:1px solid var(--yeet);margin-right:20px;transition:0.2s; }
+.yuentwitter-head label:hover { background:var(--yeet);color:var(--bg-color); }
+.yuentwitter-head-info font { margin:5px;color:#777;display:flex;align-items:center;text-align:left; }
+.yuentwitter-head-info font:before { content:var(--twicon);margin-right:5px;font-family:honeybee;font-size:110%; }
+.yuentwitter-head-info .yuentwitter-location { --twicon:"\eb1b"; }
+.yuentwitter-head-info .yuentwitter-link { --twicon:"\ea96"; }
+.yuentwitter-head-info .yuentwitter-join { --twicon:"\e983"; }
+
+.yuentwitter-head-private { padding:40px;border-top:1px solid var(--border);display:flex;flex-flow:column wrap;text-align:center; }
+.yuentwitter-head-private b { font-size:20px;font-weight:bold;line-height:25px;margin-bottom:5px; }
+.yuentwitter-head-private i { color:#676767; }
+
+.yuentwitter-retweet { margin-bottom:10px;font-size:14px;color:#888!important;display:flex;align-items:center;justify-content:flex-start; }
+.yuentwitter-retweet:before { content:"\ebc2";margin-right:8px;font-family:honeybee;font-size:120%; }
+.yuentwitter-retweet a { color:#888!important;font-weight:bold; }
+.yuentwitter-retweet a:after { content:" retweeted"; }
+
+.yuentwitter-tweet { padding:35px;font-size:18px;line-height:24px;border-top:4px double var(--border); }
+.yuentwitter-dark .yuentwitter-tweet:first-child,
+.yuentwitter-light .yuentwitter-tweet:first-child { border:none; }
+
+div[class*="yuentwitter-tweet-img"] { border-radius:8px;border:1px solid var(--border);overflow:hidden;margin-top:25px;line-height:0px; }
+div[class*="yuentwitter-tweet-img"] img { object-fit:cover; }
+.yuentwitter-tweet-img1 img { width:100%; }
+.yuentwitter-tweet-img2,
+.yuentwitter-tweet-img3,
+.yuentwitter-tweet-img4 { height:250px; }
+.yuentwitter-reply .yuentwitter-tweet-img1,
+.yuentwitter-reply .yuentwitter-tweet-img2,
+.yuentwitter-reply .yuentwitter-tweet-img3,
+.yuentwitter-reply .yuentwitter-tweet-img4 { height:180px; }
+.yuentwitter-quote .yuentwitter-tweet-img1,
+.yuentwitter-quote .yuentwitter-tweet-img2,
+.yuentwitter-quote .yuentwitter-tweet-img3,
+.yuentwitter-quote .yuentwitter-tweet-img4 { height:220px; }
+.yuentwitter-quote .yuentwitter-tweet-img1 img,
+.yuentwitter-reply .yuentwitter-tweet-img1 img { height:100%; }
+.yuentwitter-tweet-img2,
+.yuentwitter-tweet-img4 { display:flex;justify-content:space-between;align-content:space-between;flex-flow:row wrap; }
+.yuentwitter-tweet-img2 img,
+.yuentwitter-tweet-img3 img:first-child { height:100%;width:49.5%; }
+.yuentwitter-tweet-img3 img:first-child { float:left; }
+.yuentwitter-tweet-img3 img:nth-child(2),
+.yuentwitter-tweet-img3 img:nth-child(3) { float:right; }
+.yuentwitter-tweet-img3 img:nth-child(3) { margin-top:1.0%; }
+.yuentwitter-tweet-img3 img:nth-child(2),
+.yuentwitter-tweet-img3 img:nth-child(3),
+.yuentwitter-tweet-img4 img { height:49.4%;width:49.5%; }
+
+.yuentwitter-reply { padding:25px;font-size:14px;line-height:19px;border-top:1px solid var(--border);background:var(--bg-color); }
+.yuentwitter-reply:nth-child(3) { position:relative;z-index:4; }
+.yuentwitter-reply:nth-child(2) { margin-top:25px;outline:1px solid var(--border);outline-offset:24px;z-index:3; }
+.yuentwitter-thread-cont { border-left:2px solid var(--border);margin:5px 0px;margin-left:25px;padding-left:25px;padding-bottom:10px; }
+.yuentwitter-reply .yuentwitter-thread:nth-last-child(1) .yuentwitter-thread-cont { border-color:var(--bg-color); }
+.yuentwitter-reply div[class*="yuentwitter-tweet-img"] { margin-top:20px; }
+
+.yuentwitter-quote { border-radius:8px;border:1px solid var(--border);overflow:hidden;margin-top:25px;font-size:14px;line-height:19px;padding:15px; }
+.yuentwitter-quote div[class*="yuentwitter-tweet-img"] { margin:-15px;margin-top:20px;width:calc(100% + 30px);border:none;border-radius:0px; }
+
+
+
+
+
+
+.yuentwitter-head-info { padding:10px 30px;padding-bottom:30px;display:flex;flex-flow:row wrap; }
+.yuentwitter-tweet-author,
+.yuentwitter-thread-author,
+.yuentwitter-quote-author { display:flex;width:100%;justify-content:flex-start;align-items:center;margin-bottom:15px;text-align:left; }
+.yuentwitter-thread-author { margin:0px; }
+.yuentwitter-quote-author { margin-bottom:10px; }
+
+.yuentwitter-thread-author img,
+.yuentwitter-tweet-author img,
+.yuentwitter-quote-author img { width:50px;height:50px;object-fit:cover;border-radius:100px;border:1px solid var(--border);margin-right:10px; }
+.yuentwitter-tweet-author img { width:60px;height:60px; }
+.yuentwitter-quote-author img { width:40px;height:40px; }
+
+.yuentwitter-tweet-author span,
+.yuentwitter-thread-author span,
+.yuentwitter-quote-author span { display:flex;flex-flow:column wrap;line-height:20px;align-items:center;width:calc(100% - 60px); }
+.yuentwitter-thread-author span { flex-flow:row wrap;line-height:18px; }
+
+.yuentwitter-head-info i,
+.yuentwitter-tweet-author span i,
+.yuentwitter-thread-author span i,
+.yuentwitter-quote-author span i { font-style:normal;font-size:16px;width:100%;color:#676767!important;margin:5px 0px; }
+.yuentwitter-head-info span { font-size:14px;line-height:19px;margin:15px 0px;width:100%; }
+.yuentwitter-tweet-author span i { margin:0px;font-size:14px; }
+.yuentwitter-thread-author span i { width:auto; }
+.yuentwitter-thread-author span i,
+.yuentwitter-quote-author span i { margin:0px;font-size:12px; }
+
+.yuentwitter-head-info b,
+.yuentwitter-tweet-author span b,
+.yuentwitter-thread-author span b,
+.yuentwitter-quote-author span b { font-size:20px;width:100%;display:flex;align-items:center;font-weight:bold!important; }
+.yuentwitter-tweet-author span b { font-size:16px; }
+.yuentwitter-thread-author span b { width:auto;font-size:14px;margin-right:8px; }
+.yuentwitter-quote-author span b { font-size:14px; }
+
+.yuentwitter-head-info b.yntwt-verified:after,
+.yuentwitter-tweet-author span b.yntwt-verified:after,
+.yuentwitter-thread-author span b.yntwt-verified:after,
+.yuentwitter-quote-author span b.yntwt-verified:after { content:"\ec8b";color:var(--bg-color);background:var(--yeet);font-family:honeybee;margin-left:8px;width:22px;height:22px;display:flex;flex-flow:row nowrap;align-items:center;justify-content:center;font-size:65%;border-radius:30px;padding-top:1px;padding-right:1px;box-sizing:border-box; }
+.yuentwitter-tweet-author span b.yntwt-verified:after { width:18px;height:18px; }
+.yuentwitter-thread-author span b.yntwt-verified:after,
+.yuentwitter-quote-author span b.yntwt-verified:after { margin-left:3px;width:15px;height:15px; }
+
+.yuentwitter-light b.yntwt-private:after,
+.yuentwitter-dark b.yntwt-private:after { content:"\eaef";font-family:honeybee;margin-left:5px;font-size:90%; }
+
+.yuentwitter-thread-author span font { margin-top:2px;color:#777;width:100%; }

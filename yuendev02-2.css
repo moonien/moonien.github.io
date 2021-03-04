@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700i,700|Playfair+Display:400i');
+@import url('https://dl.dropbox.com/s/cfg9ui7y88t65ip/yuen01.css');
+
+.yuendev02 { --yeet:#5867A3;--bg-color:#fff;
+width:440px;margin:60px auto; }
+.yuendev02-box { padding:12px;border:3px double #fff;background:url(https://66.media.tumblr.com/tumblr_lvuln9WYkZ1r1ne7to3_250.jpg); }
+.yuendev02-cont { background:white;padding:20px;font:11px roboto;letter-spacing:1px;line-height:15px;margin-top:12px;text-align:justify;color:#333; }
+.yuendev02-cont:first-child { margin:0px; }
+
+.yuendev02-cont yuendev02-quote { display:block;font:bold 30px arial;text-align:center;line-height:30px;margin:10px; }
+.yuendev02-cont yuendev02-quote:before { content:"❝";margin-right:10px; }
+.yuendev02-cont yuendev02-quote:after { content:"❞";margin-left:10px; }
+.yuendev02-cont yuendev02-quotesource { display:block;text-align:center;font:italic 11px playfair display;margin:0px 50px;line-height:10px; }
+.yuendev02-cont yuendev02-quotesource:before { content:"―";margin-right:10px; }
+
+.yuendev02-cont yh { font:bold 13px roboto;text-transform:uppercase;letter-spacing:0px;display:block;margin-right:10%;text-align:left; }
+.yuendev02-cont yh:after { display:block;content:"";height:4px;margin-top:5px;background:var(--yeet);background:#ccc;border-left:32px solid var(--yeet);margin-right:60%; }
+
+.yuendev02-cont yuendev02-dialogue { display:block; }
+.yuendev02-cont yuendev02-dialogue p { font:12px courier;line-height:16px;display:block;margin:0px;padding:0px;margin-top:8px; }
+.yuendev02-cont yuendev02-dialogue p:first-child { margin:0px; }
+
+.yuendev02-cont yuendev02-img3,
+.yuendev02-cont yuendev02-img2,
+.yuendev02-cont yuendev02-img1 { display:block; }
+.yuendev02-cont yuendev02-img1 img { margin:1%;width:98%; }
+.yuendev02-cont yuendev02-img2,
+.yuendev02-cont yuendev02-img3 { font-size:0px;display:block;text-align:center;line-height:0px; }
+.yuendev02-cont yuendev02-img3 img { margin:1%;width:115px;height:115px;object-fit:cover; }
+.yuendev02-cont yuendev02-img2 img { margin:1%;width:175px;height:175px;object-fit:cover; }
+
+.yuendev02-cont b,
+.yuendev02-cont a,
+.yuendev02-cont i { color:var(--yeet)!important; }
+
+
+
+.yuendev02 a[href^="https://cttw.jcink.net/index.php?showuser=18258"]:before { font-size:23px!important; }

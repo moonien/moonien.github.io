@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i|Open+Sans:600|Ubuntu+Mono');
+@import url('https://dl.dropbox.com/s/cfg9ui7y88t65ip/yuen01.css');
+
+.yuendev01 { --bg-color:#fff;width:var(--box-width);margin:50px auto;background:white;text-align:justify;box-shadow:0px 0px 5px var(--yeet);font:11px montserrat;line-height:16px;color:#555; }
+.yuendev01-box { padding:15px; }
+.yuendev01-boxing { border:1px solid var(--yeet);margin-top:-1px; }
+.yuendev01-boxing:first-child { margin-top:0px; }
+
+.yuendev01-head { color:white;text-align:center;padding:20px 0px;text-transform:uppercase;background:var(--yeet);margin:-1px 0px; }
+.yuendev01-head font { display:block;font:700 27px montserrat;line-height:25px; }
+.yuendev01-head span { display:block;font-size:11px;font-weight:700;line-height:15px; }
+.yuendev01-head img { width:100%;margin-top:-19px;margin-bottom:-19px; }
+
+.yuendev01-cont { margin:30px; }
+.yuendev01-cont y1 { display:block;font-size:20px;font-weight:700;line-height:20px;text-align:center;text-transform:uppercase;margin:20px auto;color:var(--yeet); }
+.yuendev01-cont yli { display:block;line-height:22px; }
+.yuendev01-cont yli:before { content:"\eb97";font-family:honeybee;float:left;padding-left:20px;padding-right:5px;font-size:20px;line-height:22px;color:var(--yeet); }
+.yuendev01-cont b,
+.yuendev01-cont i,
+.yuendev01-cont a { color:var(--yeet); }
+.yuendev01-cont yblock { display:block;line-height:14px;opacity:0.7; }
+
+.yuendev01-img3,
+.yuendev01-img2,
+.yuendev01-img1 { margin:13px 15px;font-size:0px;display:flex;justify-content:space-between;flex-flow:row wrap; }
+div[class^="yuendev01-img"] img { margin:2px 0px; }
+.yuendev01-img3 img { width:calc(33% - 2px);object-fit:cover; }
+.yuendev01-img1 img { width:100%; }
+.yuendev01-img2 img { width:calc(50% - 2px);object-fit:cover;margin-right:4px;margin-bottom:4px; }
+.yuendev01-img3.y-moodboard img { height:calc((var(--box-width) - 60px) / 100 * 33 - 2px); }
+.yuendev01-img2.y-moodboard img { height:calc((var(--box-width) - 60px) / 100 * 50 - 2px); }
+
+.yuendev01-chat b,
+.yuendev01-chat p { font:13px ubuntu mono!important;line-height:14px!important;color:#555!important;padding:0px; }
+.yuendev01-chat b { text-transform:uppercase;font-weight:bold!important; }
+.yuendev01-chat p { margin:0px;background:white;display:block;padding:15px 25px;text-align:left; }
+.yuendev01-chat p:nth-child(2n) { background:#f6f6f6; }
+
+.yuendev01-quote { margin:30px;text-transform:uppercase; }
+.yuendev01-quote yquote { display:block;font:600 27px open sans;line-height:30px;color:#333; }
+.yuendev01-quote yquote:before { content:"❝";padding-right:5px; }
+.yuendev01-quote yquote:after { content:"❞";padding-left:5px; }
+.yuendev01-quote ysource { border-top:2px solid var(--yeet);margin-top:15px;padding-top:10px;text-align:right;color:#555;font:600 12px open sans;line-height:10px;display:block; }
+
+.yuendev01-foot { font:700 10px montserrat; text-align:right;padding-right:20px;color:white;text-transform:uppercase;line-height:25px;background:var(--yeet); }
+
+
+
+.yuendev01 a[href^="https://cttw.jcink.net/index.php?showuser=18258"]:before { font-size:25px!important;margin-top:-29px;margin-left:-20px; }

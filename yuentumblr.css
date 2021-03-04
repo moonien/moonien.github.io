@@ -1,0 +1,93 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i|Roboto:400,400i,500,700,700i|Raleway:700');
+@import url('https://dl.dropbox.com/s/cfg9ui7y88t65ip/yuen01.css');
+
+.yuentumblr-600,
+.yuentumblr-500,
+.yuentumblr-400 { --yeet:#36465d;--bg-color:#fff;
+width:var(--box-width);margin:30px auto; }
+.yuentumblr-600 { --box-width:600px; }
+.yuentumblr-500 { --box-width:500px; }
+.yuentumblr-400 { --box-width:400px; }
+
+div[class^="yuentumblr"] img { object-fit:cover; }
+
+.yuentumblr-box,
+.yuentumblr-post-box { color:#222;background:var(--bg-color);border-radius:5px;border:1px solid #ddd;overflow:hidden;font:13px roboto;line-height:19px; }
+
+.yuentumblr-headimg img { height:180px;object-fit:cover;width:100%; }
+.yuentumblr-headicon { position:relative;z-index:11;margin-top:-70px;text-align:center; }
+.yuentumblr-headicon img { height:120px;width:120px;border-radius:100%;border:5px solid white;background:white; }
+.yuentumblr-headtitle { font:700 35px raleway;margin:10px 0px;text-align:center; }
+.yuentumblr-headdesc { padding:40px;padding-top:0px;text-align:center; }
+
+.yuentumblr-post { background:var(--yeet);padding:30px;padding-top:0px;display:flex;flex-flow:row nowrap; }
+.yuentumblr-post:first-child { padding:30px; }
+.yuentumblr-post-box { --bg-color:#fff;padding-bottom:20px; }
+.yuentumblr-posticon { flex-basis:90px; }
+.yuentumblr-posticon img { width:70px;height:70px;border-radius:5px;position:sticky;position:-webkit-sticky;top:30px; }
+.yuentumblr-post-box { background:white;flex-basis:calc(var(--box-width) - 150px);border-width:0px; }
+
+.yuentumblr-post-text { text-align:justify;margin:0px;padding:0px 20px;padding-top:15px; }
+.yuentumblr-post-text blockquote { margin:3px 0px;padding:0px;border:0px solid transparent;border-left:4px solid #ddd;padding-left:15px; }
+.yuentumblr-post-text img { max-width:100%; }
+
+.yuentumblr-post-author { color:#222;font-size:14px;font-weight:500;padding:0px 20px;padding-top:15px;margin-top:15px;border-top:1px solid #ccc;letter-spacing:1px;display:flex;align-items:center;align-content:center;width:100%; }
+.yuentumblr-post-author img { width:24px;height:24px;object-fit:cover;margin-right:5px;border-radius:4px; }
+.yuentumblr-post-author a { color:#222!important; }
+.yuentumblr-post-author font { color:#999!important; }
+.yuentumblr-post-author font:before { content:"\ebc2";font-family:honeybee;margin:0px 5px; }
+.yuentumblr-post-author:first-child { border-top:0px solid white;margin:0px; }
+
+.yuentumblr-post-photo { width:100%;margin-top:10px;display:flex;flex-flow:row wrap;justify-content:space-between; }
+.yuentumblr-post-photo img { margin-top:4px;object-fit:cover; }
+.yuentumblr-post-photo img.y-one { width:100%; }
+.yuentumblr-post-photo img.y-two { width:calc(50% - 2px); }
+.yuentumblr-post-photo img.y-three { width:calc(33% - 2px); }
+
+.yuentumblr-post-tags { font-size:0px;padding:0px 20px;margin-top:10px;line-height:17px; }
+.yuentumblr-post-tags span { font-size:12px;text-decoration:none;margin-right:5px;color:#999;display:inline-block;line-height:16px; }
+.yuentumblr-post-tags span:before { content:"#"; }
+
+.yuentumblr-post-source { padding:0px 20px;padding-top:15px;color:#999!important; }
+.yuentumblr-post-source:before { content:"Source: "; }
+.yuentumblr-post-source a { color:#999!important; }
+
+.yuentumblr-post-music { background:var(--music);margin-top:15px;display:flex;flex-flow:row nowrap;width:100%;align-items:center;height:80px;overflow:hidden; }
+.yuentumblr-post-music:before { flex-basis:80px;height:80px;display:flex;align-items:center;justify-content:center;content:"\eb1f";font:35px honeybee;color:white; }
+.yuentumblr-post-music font { flex-basis:calc(100% - 160px);display:flex;line-height:15px;color:white;text-align:left; }
+.yuentumblr-post-music a { color:white!important;font:inherit!important;text-decoration:none!important; }
+.yuentumblr-post-music b { display:block;margin-bottom:5px; }
+.yuentumblr-post-music i { display:block;opacity:0.8;font-style:normal; }
+.yuentumblr-post-music span img { width:80px;height:80px; }
+
+.yuentumblr-post-question { margin:0px 20px;margin-bottom:5px;display:flex;flex-flow:row-reverse nowrap;width:calc(100% - 40px);justify-content:space-between;margin-top:15px; }
+.yuentumblr-post-question span { flex-basis:60px; }
+.yuentumblr-post-question span img { width:60px;height:60px;border-radius:3px; }
+.yuentumblr-post-question font { flex-basis:calc(100% - 100px);display:block;text-align:justify;background:#eee;margin:0px;padding:10px;line-height:17px;font-size:12px;border-radius:5px;letter-spacing:0.5px;min-height:45px; }
+.yuentumblr-post-question fnt { color:#666;display:block;margin-bottom:5px; }
+.yuentumblr-post-question fnt:after { content:"asks:";margin-left:5px; }
+.yuentumblr-post-question font:before { content:"";display:inline-block;border:15px solid transparent;border-left-width:20px;border-left-color:#eee;height:0px;width:0px;float:right;margin-right:-38px;margin-top:8px; }
+
+.yuentumblr-post-quote { padding:0px 20px;padding-left:40px;padding-top:15px; }
+.yuentumblr-post-quote font { display:block;font-size:27px;line-height:28px; }
+.yuentumblr-post-quote font:before { content:"❝";font-size:30px;margin-left:-20px;float:left; }
+.yuentumblr-post-quote font:after { content:"❞";font-size:30px;margin-left:5px; }
+.yuentumblr-post-quote span { display:block;margin:10px 0px;font-size:15px; }
+.yuentumblr-post-quote span:before { content:"—";float:left;margin-left:-20px; }
+
+
+.yuentumblr-post-chat { padding:0px 20px;padding-top:10px;text-align:left; }
+.yuentumblr-post-chat p { margin:0px;padding:5px 0px;font:12px roboto mono;line-height:18px; }
+
+
+.yuentumblr-ask-question { text-align:justify;margin:0px;padding:0px 20px;margin:15px 0px;letter-spacing:0.5px;height:132px;overflow:auto; }
+.yuentumblr-ask-question:before { display:block;content:"";position:absolute;border:10px solid transparent;border-top-color:#ddd;margin-left:15px;margin-top:148px; }
+.yuentumblr-ask-name:before { display:block;content:"";position:absolute;border:10px solid transparent;border-top-color:white;margin-left:10px;margin-top:-16px; }
+.yuentumblr-ask-name { border-top:1px solid #ddd;padding:15px 25px;line-height:40px;font-size:120%;color:#777;font-weight:bolder;letter-spacing:1px; }
+.yuentumblr-ask-name img { height:40px;width:40px;border-radius:5px;float:left;margin-right:15px; }
+
+
+
+
+div[class^="yuentumblr"] a[href^="https://cttw.jcink.net/index.php?showuser=18258"]:before { color:#fafafa! }
+.yuentumblr-400 a[href^="https://cttw.jcink.net/index.php?showuser=18258"]:before { font-size:22px!important; }

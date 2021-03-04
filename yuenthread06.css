@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Playfair+Display:700,700i|Dawning+of+a+New+Day');
+@import url('https://dl.dropbox.com/s/cfg9ui7y88t65ip/yuen01.css');
+
+.yuenthread06-light,
+.yuenthread06-dark { --bg-color:rgba(255,255,255,0.96);--text:black;width:100%;max-width:400px;margin:40px auto;font:13px karla;line-height:18px;text-align:justify;background:linear-gradient(75deg, transparent 10%, var(--name) 107%),radial-gradient(circle 300px at right bottom, var(--name) 0%, var(--yeet) 100%);box-shadow:0px 0px 8px -3px var(--yeet);color:var(--text);border-radius:15px; }
+.yuenthread06-box { padding:20px; }
+.yuenthread06-box:before,
+.yuenthread06-box:after { content:"\eb68";font:82px honeybee;line-height:100px;position:absolute;z-index:11;color:var(--bg-color);text-shadow:0px 0px 3px var(--yeet),0px 0px 3px var(--yeet),0px 0px 3px var(--yeet);opacity:1; }
+.yuenthread06-box:before { margin-left:-42px;margin-top:-48px;transform:rotate(-27deg); }
+.yuenthread06-box:after { --yeet:var(--name);font-size:72px;position:relative;float:right;margin-right:-36px;margin-top:-178px;transform:rotate(14deg); }
+
+.yuenthread06-cont,
+.yuenthread06-title { position:relative;z-index:12;background:var(--bg-color);padding:30px;border-radius:10px; }
+.yuenthread06-cont b { background:linear-gradient(180deg, var(--name) 20%, var(--yeet) 95%);background-clip:text;-webkit-background-clip:text;color:transparent;font:700 14px playfair display;line-height:18px; }
+
+.yuenthread06-title { color:var(--text);mix-blend-mode:screen;text-align:center;padding:15px 20px; }
+.yuenthread06-title span { display:block;padding-bottom:15px;font:33px dawning of a new day;line-height:40px; }
+.yuenthread06-title font { display:block;border-radius:150px;background:var(--text);color:var(--bg-color);padding:5px 30px;line-height:13px;font-weight:bold;text-transform:uppercase; }
+
+.yuenthread06-box div:first-child { margin-bottom:10px; }
+
+.yuenthread06-dark { --text:white;--bg-color:rgba(0,0,0,0.9); }
+.yuenthread06-dark .yuenthread06-title { mix-blend-mode:multiply; }
