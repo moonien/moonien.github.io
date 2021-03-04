@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,500,500i|Space+Mono:400i');
-@import url('https://dl.dropbox.com/s/cfg9ui7y88t65ip/yuen01.css');
+@import url('https://moonien.github.io/yuen01.css');
 @import url('https://solrainha.github.io/saturnicons/saturnicons.css');
-@font-face { font-family:greatbeast;src:url(https://dl.dropbox.com/s/9omqol3rtonl7ra/GreatBeastPersonalUseOnly-VG8zx.ttf); }
+@font-face { font-family:greatbeast;src:url(https://moonien.github.io/GreatBeastPersonalUseOnly-VG8zx.ttf); }
 
 .yuendev07hrs-light,
 .yuendev07hrs-dark { --bg-color:#fff;--bg-rgba:255,255,255;--border:#ccc;
