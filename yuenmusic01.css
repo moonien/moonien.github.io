@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,400i,700');
-@import url('https://dl.dropbox.com/s/cfg9ui7y88t65ip/yuen01.css');
+@import url('https://moonien.github.io/yuen01.css');
 
 .yuenmusic01 { --bg-color:#fafafa;width:290px;margin:50px auto; }
 .yuenmusic01-box { width:100%;height:200px;display:flex;align-items:center;flex-flow:row wrap;justify-content:center; }
