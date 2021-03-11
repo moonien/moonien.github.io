@@ -175,6 +175,7 @@ border:1px solid var(--yeet);height:var(--box-height);overflow:auto;background:l
 
 
 #yuen-sample.yuenapp01-color { --bg-op:250,250,250; }
+.yuenapp01-bw { --black:#333;--white:#eee; }
 
 
 div[class*="yuenapp01"] { scrollbar-width:thin;scrollbar-color:var(--yeet) transparent; }
