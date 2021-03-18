@@ -41,6 +41,13 @@
 
 
 
+.yuenrequest02-character-cont { scrollbar-width:thin;scrollbar-color:var(--yeet) transparent; }
+.yuenrequest02-character-cont::-webkit-scrollbar { width:6px!important;border:none!important;border-radius:5px!important;background:transparent!important; }
+.yuenrequest02-character-cont::-webkit-scrollbar-track { background:transparent!important;border:none!important;border-radius:5px!important; }
+.yuenrequest02-character-cont::-webkit-scrollbar-thumb { background:var(--yeet)!important;border-radius:5px!important;border:none!important;border-radius:5px!important; }
+
+
+
 #y-moon label yClosed:after,
 #y-moon label yClosed:before,
 #y-moon label yClosed:before { content:"\ebee"; }
