@@ -86,8 +86,10 @@ div[class^="yuentumblr"] img { object-fit:cover; }
 .yuentumblr-ask-name { border-top:1px solid #ddd;padding:15px 25px;line-height:40px;font-size:120%;color:#777;font-weight:bolder;letter-spacing:1px; }
 .yuentumblr-ask-name img { height:40px;width:40px;border-radius:5px;float:left;margin-right:15px; }
 
+.yuentumblr-ask-question { scrollbar-width:thin;scrollbar-color:var(--yeet) transparent; }
+.yuentumblr-ask-question::-webkit-scrollbar { width:6px!important;border:none!important;border-radius:5px!important;background:transparent!important; }
+.yuentumblr-ask-question::-webkit-scrollbar-track { background:transparent!important;border:none!important;border-radius:5px!important; }
+.yuentumblr-ask-question::-webkit-scrollbar-thumb { background:var(--yeet)!important;border-radius:5px!important;border:none!important;border-radius:5px!important; }
 
 
-
-div[class^="yuentumblr"] a[href^="https://cttw.jcink.net/index.php?showuser=18258"]:before { color:#fafafa! }
 .yuentumblr-400 a[href^="https://cttw.jcink.net/index.php?showuser=18258"]:before { font-size:22px!important; }
