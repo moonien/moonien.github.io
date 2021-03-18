@@ -27,7 +27,7 @@
 
 .yuenrequest03-wanted-cont { box-sizing:border-box;width:290px;padding:0px 20px;border-bottom:34px solid transparent;border-top:50px solid transparent;border-right:20px solid transparent;overflow:auto;height:300px;scrollbar-color:var(--yeet) #eee;scrollbar-width:thin; }
 
-.yuenrequest03-wanted-cont::-webkit-scrollbar { width:6px!important;border:none!important; }
+.yuenrequest03-wanted-cont::-webkit-scrollbar { width:6px!important;background:transparent!important;border:none!important; }
 .yuenrequest03-wanted-cont::-webkit-scrollbar-track { background:#eee!important;border-radius:5px!important;border:none!important; }
 .yuenrequest03-wanted-cont::-webkit-scrollbar-thumb { background:var(--yeet)!important;border-radius:5px!important;border:none!important; }
 
