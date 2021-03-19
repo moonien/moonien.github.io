@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,500,700,700i|Montserrat:700');
+@import url('https://dl.dropbox.com/s/9s289mbhxpdhb3l/starry.css');
+
+#lan-eykta a{text-decoration:none;}
+
+#lan-eykta { 
+width:615px;margin:30px auto;text-align:justify;background:#fafafa;border:1px solid #ccc; }
+#lan-eykta b,
+#lan-eykta i { color:var(--eight); }
+#lan-eykta-2 { display:block;position:relative;clear:both;height:580px;overflow:hidden; }
+
+#lan-eykta [type=radio] { display:none; }
+
+.lan-eykta-nav { font-size:0px;text-align:left; }
+.lan-eykta-nav label { display:inline-block;margin:2px;position:absolute;z-index:127;top:20px;left:15px; }
+.lan-eykta-nav label a { display:flex;align-items:center;justify-content:center;width:40px;height:40px;background:var(--eight);text-decoration:none;color:white;outline:1px solid #ddd; }
+.lan-eykta-nav label a:before { margin:3px;content:var(--lecon);font:27px starry; }
+
+.lan-eykta-nav label[for="le00"] a { width:128px;background:transparent;outline:none;text-shadow:2px 2px 0px var(--eight); }
+.lan-eykta-nav label[for="le00"] a:after { content:"EYKTA";font:700 19px montserrat;border-bottom:5px solid var(--eight);margin-right:9px; }
+.lan-eykta-nav label[for="le01"] { top:64px; }
+.lan-eykta-nav label[for="le02"] { top:64px;left:59px; }
+.lan-eykta-nav label[for="le03"] { top:64px;left:103px; }
+.lan-eykta-nav label[for="le04"] { top:108px; }
+.lan-eykta-nav label[for="le05"] { top:108px;left:59px; }
+.lan-eykta-nav label[for="le06"] { top:108px;left:103px; }
+.lan-eykta-nav label[for="le07"] { top:152px; }
+.lan-eykta-nav label[for="le08"] { top:152px;left:59px; }
+.lan-eykta-nav label[for="le09"] { top:152px;left:103px; }
+
+.lan-eykta-box { background:linear-gradient(180deg, var(--eight) 10%, var(--delilah) 20%, var(--christoph) 30%, var(--thanh) 40%, var(--molly) 50%, var(--sasha) 60%, var(--violet) 70%, var(--jody) 80%, var(--bah) 90%, var(--zephyr) 100%);box-shadow:inset 0px 0px 0px 1000px rgba(250,250,250,0.6);transition:0.8s; }
+
+.lan-eykta-cont { height:580px;display:flex;flex-flow:row nowrap;align-content:flex-end;align-items:flex-end;font:13px karla;line-height:16px;text-align:justify; }
+
+.lan-eykta-img { position:relative;z-index:12;top:20px;width:200px; }
+.lan-eykta-img img { height:280px;width:200px;object-fit:cover;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom:20px solid var(--eight); }
+#eykta lebox { position:relative;width:0px;z-index:12; }
+#eykta lebox:before { content:"";display:block;width:200px;height:20px;background:var(--zephyr);border-bottom-right-radius:20px;margin-top:-580px; } 
+
+.lan-eykta-text { position:relative;width:365px;z-index:12;height:520px;padding:25px;display:flex;flex-flow:column wrap;justify-content:space-between;align-content:space-between; }
+.lan-eykta-desc { width:100%;height:287px; }
+
+.lan-eykta-desc, 
+.lan-eykta-plotideas,
+.lan-eykta-claims { box-sizing:border-box;background:#fafafa;padding:0px 20px;border-top:15px solid transparent;border-bottom:15px solid transparent;border-radius:10px; }
+.lan-eykta-desc { flex-grow:1;margin:15px 0px;overflow:auto; }
+.lan-eykta-plotideas,
+.lan-eykta-claims { padding:0px 10px;padding-right:10px;border-width:10px;border-radius:7px;text-align:left;line-height:10px; }
+
+.lan-eykta-plotideas { width:100%;flex-grow:1;font-size:0px; }
+.lan-eykta-plotideas:before { content:"WANTED";color:white;background:var(--eight);border-radius:0px 7px 0px 7px;float:right;font:700 14px karla;padding:5px 10px;margin-top:-10px;margin-right:-10px; }
+#eykta .lan-eykta-plotideas { width:55%;height:100px;overflow:auto; }
+#eykta .lan-eykta-plotideas:before { display:none; }
+.lan-eykta-plotideas span { display:inline-block;font-size:12px;margin:3px 0px;margin-right:4px; }
+.lan-eykta-plotideas span:before { content:"#";color:var(--eight); }
+
+.lan-eykta-claims { width:42%;margin-left:3%;height:100px;overflow:auto; }
+.lan-eykta-claims span { display:block;border-top:1px solid var(--eight);padding:5px 0px; }
+.lan-eykta-claims span:first-child { border-width:0px; }
+
+.lan-eykta-name { width:96%;padding:0px 2%;display:flex;flex-flow:row wrap;text-align:left;justify-content:flex-start;order:-1; }
+.lan-eykta-name font { width:100%;color:var(--eight);font:700 25px montserrat;line-height:30px;text-shadow:2px 2px 0px rgba(250,250,250,0.7);text-transform:uppercase; }
+.lan-eykta-name span { background:var(--eight);color:#fff;font:700 11px karla;text-transform:uppercase;padding:2px 5px;border-radius:3px;margin-top:3px;margin-right:3px; }
+
+.lan-eykta-links { position:relative;z-index:7;width:0px; }
+.lan-eykta-links span:before { display:flex;align-items:center;justify-content:center;border-radius:200px;width:200px;height:200px;background:var(--eight);color:rgba(255,255,255,0.9);content:var(--lecon);font:110px starry;margin-top:-420px;margin-left:100px;transform:rotate(-20deg);opacity:0.6;z-index:7; }
+.lan-eykta-links font { display:flex;align-items:center;justify-content:center;border-radius:200px;width:40px;height:40px;background:var(--eight);z-index:20; }
+.lan-eykta-links font a { color:rgba(255,255,255,1)!important;text-shadow:1px 1px 0px rgba(0,0,0,0.3); }
+.lan-eykta-links font a:after { content:var(--lancon);font:25px starry; }
+.lan-eykta-links font.le-app a:after { --lancon:"\a96"; }
+.lan-eykta-links font.le-app { margin-top:-156px;margin-left:58px; }
+.lan-eykta-links font.le-dev a:after { --lancon:"\a25"; }
+.lan-eykta-links font.le-dev { margin-top:8px;margin-left:53px; }
+.lan-eykta-links font.le-req a:after { --lancon:"\a83"; }
+.lan-eykta-links font.le-req { margin-top:-178px;margin-left:153px; }
+
+
+
+#lan-eykta #le00:checked+label ~ .lan-eykta-box { margin-top:0px; }
+#lan-eykta #le01:checked+label ~ .lan-eykta-box { margin-top:-580px; }
+#lan-eykta #le02:checked+label ~ .lan-eykta-box { margin-top:-1160px; }
+#lan-eykta #le03:checked+label ~ .lan-eykta-box { margin-top:-1740px; }
+#lan-eykta #le04:checked+label ~ .lan-eykta-box { margin-top:-2320px; }
+#lan-eykta #le05:checked+label ~ .lan-eykta-box { margin-top:-2900px; }
+#lan-eykta #le06:checked+label ~ .lan-eykta-box { margin-top:-3480px; }
+#lan-eykta #le07:checked+label ~ .lan-eykta-box { margin-top:-4060px; }
+#lan-eykta #le08:checked+label ~ .lan-eykta-box { margin-top:-4640px; }
+#lan-eykta #le09:checked+label ~ .lan-eykta-box { margin-top:-5220px; }
+
+
+#eykta { --lecon:"\a7"; }
+#delilah { --lecon:"\a14";--eight:var(--delilah); }
+#christoph { --lecon:"\a24";--eight:var(--christoph); }
+#thanh { --lecon:"\a37";--eight:var(--thanh); }
+#molly { --lecon:"\a30";--eight:var(--molly); }
+#sasha { --lecon:"\a78";--eight:var(--sasha); }
+#violet { --lecon:"\a101";--eight:var(--violet); }
+#jody { --lecon:"\a91";--eight:var(--jody); }
+#zephyr { --lecon:"\a53";--eight:var(--zephyr); }
+#bah { --lecon:"\a96";--eight:var(--bah); }
+
+#eykta .lan-eykta-links span:before { transform:rotate(-20deg); }
