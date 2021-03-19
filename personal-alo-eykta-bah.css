@@ -12,7 +12,7 @@ width:615px;margin:30px auto;text-align:justify;background:#fafafa;border:1px so
 #lan-eykta [type=radio] { display:none; }
 
 .lan-eykta-nav { font-size:0px;text-align:left; }
-.lan-eykta-nav label { display:inline-block;margin:2px;position:absolute;z-index:127;top:20px;left:15px; }
+.lan-eykta-nav label { display:inline-block;margin:2px;position:absolute;z-index:127;top:20px;left:15px;cursor:pointer; }
 .lan-eykta-nav label a { display:flex;align-items:center;justify-content:center;width:40px;height:40px;background:var(--eight);text-decoration:none;color:white;outline:1px solid #ddd; }
 .lan-eykta-nav label a:before { margin:3px;content:var(--lecon);font:27px starry; }
 
