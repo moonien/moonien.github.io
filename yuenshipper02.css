@@ -33,7 +33,9 @@
 
 .yuenshipper02-foot { height:380px;margin-top:-30px; }
 .yuenshipper02-foot img { width:320px;height:380px;object-fit:cover;clip-path:circle(71% at 78% 70%);float:right;position:relative;z-index:12;margin-left:-350px; }
-.yuenshipper02-foot span { position:relative;z-index:17;display:flex;height:380px;width:310px;padding:60px 0px;padding-left:40px;box-sizing:border-box;font:700 25px montserrat;align-items:center;text-transform:uppercase;text-align:left;color:#fafafa;text-shadow:1px 1px 0px var(--yeet),-1px 1px 0px var(--yeet),1px -1px 0px var(--yeet),-1px -1px 0px var(--yeet); }
+.yuenshipper02-foot span { position:relative;z-index:17;display:flex;height:380px;width:310px;padding:60px 0px;padding-left:40px;box-sizing:border-box;font:700 25px montserrat;align-items:center;text-transform:uppercase;text-align:left;-webkit-text-stroke:thin;-webkit-text-fill-color:#fafafa;color:var(--yeet);
+  
+  /*color:#fafafa;text-shadow:1px 1px 0px var(--yeet),-1px 1px 0px var(--yeet),1px -1px 0px var(--yeet),-1px -1px 0px var(--yeet);*/ }
 
 
 .yuenshipper02-plot y1 { display:block;text-align:right;padding:5px 10px;border-bottom:1px solid var(--yeet);color:var(--yeet);font:700 14px montserrat;margin-bottom:10px;margin-top:10px;line-height:14px;text-transform:uppercase;letter-spacing:2px;text-shadow:2px 2px 0px #eee; }
