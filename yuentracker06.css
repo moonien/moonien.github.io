@@ -35,8 +35,8 @@ border-bottom:1px dashed var(--yeet);padding-bottom:5px; }
 .yuentracker06-year { background:var(--yeet);color:var(--bg-color);font:700 25px/30px montserrat;text-align:center;padding:10px;margin-top:-1px; }
 .yuentracker06-month { border-left:28px solid var(--yeet);border-bottom:1px solid var(--yeet);border-top:1px solid var(--yeet);margin-top:-1px;background:var(--bg-color);padding:5px 10px;font:700 20px/25px montserrat;text-transform:uppercase;color:var(--yeet); }
 
-.yn-scroll { max-height:480px;overflow:auto;scrollbar-width:thin;scrollbar-color:var(--yeet) transparent; }
-.yn-scroll::-webkit-scrollbar { width:6px!important;margin-left:3px;border:none!important;border-radius:5px!important;background:transparent!important; }
+.yn-scroll { max-height:480px;overflow:auto;scrollbar-width:thin;scrollbar-color:var(--yeet) transparent;padding-right:3px; }
+.yn-scroll::-webkit-scrollbar { width:6px!important;border:none!important;border-radius:5px!important;background:transparent!important; }
 .yn-scroll::-webkit-scrollbar-track { background:transparent!important;border:none!important;border-radius:5px!important; }
 .yn-scroll::-webkit-scrollbar-thumb { background:var(--yeet)!important;border-radius:5px!important;border:none!important;border-radius:5px!important; }
 .yn-scroll .yuentracker06-year,
