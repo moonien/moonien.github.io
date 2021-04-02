@@ -4,10 +4,10 @@
 .yuencomm02-sending,
 .yuencomm02-receiving { --bg-color:#fff;width:250px;margin:30px auto;border-radius:10px;box-shadow:0px 0px 5px -2px var(--yeet);background:linear-gradient(180deg, transparent 30%, var(--yeet) 400%),white;font:13px ubuntu mono;line-height:15px;counter-reset:messages;color:#222;text-align:left; }
 
-.yuencomm02-box { padding:25px;display:flex;flex-flow:column wrap;align-items:center; }
+.yuencomm02-box { width:100%;box-siizing:border-box;padding:25px;display:flex;flex-flow:column wrap;align-items:center; }
 
-.yuencomm02-phone { display:flex;align-items:flex-end;height:300px; }
-.yuencomm02-scroll { overflow:auto;max-height:300px;padding-right:10px;box-sizing:border-box;margin-right:-10px;scrollbar-width:thin;scrollbar-color:var(--yeet) #dfdfdf; }
+.yuencomm02-phone { width:100%;display:flex;align-items:flex-end;height:300px; }
+.yuencomm02-scroll { width:100%;overflow:auto;max-height:300px;padding-right:10px;box-sizing:border-box;margin-right:-10px;scrollbar-width:thin;scrollbar-color:var(--yeet) #dfdfdf; }
 .yuencomm02-scroll p { counter-increment:messages;padding:10px 12px;margin:2px 0px;background:#f8f8f8;display:inline-block;border-radius:3px 10px 10px 3px;border:1px solid #dfdfdf;overflow:hidden; }
 .yuencomm02-scroll p:first-child { margin-top:0px;border-top-left-radius:10px; }
 .yuencomm02-scroll p:last-child { margin-bottom:0px;border-bottom-left-radius:5px; }
@@ -26,7 +26,7 @@
 
 .yuencomm02-scroll p.y-audio i { opacity:0.8;margin:0px 3px; }
 
-.yuencomm02-cont { width:100%;display:flex;flex-flow:column wrap;justify-content:flex-end;align-items:flex-start;font-family:karla; }
+.yuencomm02-cont { width:100%;width:100%;display:flex;flex-flow:column wrap;justify-content:flex-end;align-items:flex-start;font-family:karla; }
 
 .yuencomm02-sending .yuencomm02-cont { align-items:flex-end; }
 .yuencomm02-sending p { border-radius:10px 3px 3px 10px;background:var(--yeet);color:white;border:none; }
