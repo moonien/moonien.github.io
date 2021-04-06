@@ -26,7 +26,7 @@
 .yuenthread09-cont b { color:var(--yeet);text-shadow:1px 1px 0px #222;font:900 17px roboto;line-height:20px; }
 .yuenthread09-cont i { color:var(--yeet); }
 
-.yuenthread09-foot { background:rgba(20,20,20,0.3);margin:-30px;margin-top:0px;padding-top:10px;padding-right:80px;padding-left:15px;display:flex;flex-flow:row wrap;align-items:flex-end; }
+.yuenthread09-foot { background:rgba(20,20,20,0.3);margin:-30px;margin-top:0px;padding-top:10px;padding-right:75px;padding-left:15px;display:flex;flex-flow:row wrap;align-items:flex-end; }
 .yuenthread09-foot span,
 .yuenthread09-foot a { border-bottom:3px solid var(--yeet);text-transform:uppercase;font:900 17px roboto;line-height:25px;margin-left:15px;margin-bottom:15px; }
 .yuenthread09-foot a { color:#eee!important;font:700 15px karla!important;line-height:23px!important;text-decoration:none; }
