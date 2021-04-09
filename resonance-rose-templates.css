@@ -386,11 +386,11 @@ border-bottom: 2px solid #eee;
   box-sizing: border-box; height: 150px; overflow: auto; padding-right: 10px;
 }
 
-@media screen and (max-device-width: 650px) {
+@media only screen and (max-width: 650px) {
 .res-app-nav { display: none !important; }
 .res-app-body { border: none !important; }
 }
-@media screen and (max-device-width: 550px) {
+@media only screen and (max-width: 550px) {
 .res-post3 { flex-direction: column !important; }
 .res-post3 .res-post3-img { margin-right: 0px !important; display: flex; justify-content: center; align-items: center; margin-bottom: 10px;}
 .res-post1 { flex-direction: column !important; }
