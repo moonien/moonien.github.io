@@ -432,3 +432,5 @@ border-bottom: 2px solid #eee;
 .res-dev-quote span { font:700 25px var(--title-font);line-height:28px;color:var(--accent); }
 .res-dev-quote font { display:flex;flex-align:row nowrap;align-items:center;font:14px/14px var(--fields-font);margin-top:15px; }
 .res-dev-quote font:before { content:"";margin-right:10px;flex-grow:1;border-top:2px solid var(--text);opacity:0.5; }
+
+.res-dev-tracker li { list-style-position:inside; }
