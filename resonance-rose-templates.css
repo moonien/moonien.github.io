@@ -1,5 +1,9 @@
 /***********************************************************************
 	Optional Site Templates
+	for the RESONANCE SKIN by YUEN & ROSE
+	(live preview: https://resonance23.jcink.net/)
+
+	made by ROSE.
 ***********************************************************************/
 
 .res-app {
@@ -420,10 +424,20 @@ border-bottom: 2px solid #eee;
 .res-shiprep-tag {padding: 10px 9px 9px 9px; display: flex; justify-content: center; align-items: center; background: var(--accent);}
 .res-shiprep-tag a {color: var(--text); font: 700 10px var(--main-font); text-transform: uppercase; text-decoration: none;}
 
-/***** Development Templates *****/
+
+
+/***********************************************************************
+	Development Templates
+
+	made by YUEN.
+***********************************************************************/
 
 .res-dev-moodboard { display:flex;flex-flow:row wrap;justify-content:space-between;align-content:space-between;width:calc(clamp(210px,63vw,560px) + 40px);height:calc(clamp(210px,63vw,560px) + 40px);margin:0px auto; }
 .res-dev-moodboard img { width:calc(clamp(70px,21vw,185px) - 5px);height:calc(clamp(70px,21vw,185px) - 5px);object-fit:cover; }
+@media only screen and (min-width: 1024px) and (max-width: 1150px) {
+	.res-dev-moodboard { width:calc(clamp(210px,54vw,500px) + 40px);height:calc(clamp(210px,54vw,500px) + 40px); }
+	.res-dev-moodboard img { width:calc(clamp(70px,18vw,165px) - 5px);height:calc(clamp(70px,18vw,165px) - 5px); }
+}
 
 .res-dev-image img { width:calc(100% - 10px);margin:5px; }
 
