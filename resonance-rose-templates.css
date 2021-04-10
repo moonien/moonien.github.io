@@ -406,11 +406,6 @@ border-bottom: 2px solid #eee;
 
 .res-req-details { flex-flow: row wrap; }
 .res-req-details span { margin: 2px; }
-
-.rs-topicrow-box2 { display:none; }
-.rs-topicrow-cont2 { display:block; }
-.rs-topicrow-cont2 .rs-lastpost { background:var(--background);padding: 10px 20px;padding-bottom:0px;margin:-10px -20px;margin-top:10px; }
-.rs-topicrow-cont2 .rs-lastpost a:hover { color:var(--accent); }
 }
 
 /***** Shipper Reply *****/
