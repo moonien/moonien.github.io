@@ -2,7 +2,7 @@
 @import url('https://moonien.github.io/yuen01.css');
 
 .yuenshipper01 { --yeet:#404040;--bg-color:#fafafa;
-margin:10px auto;width:600px;background:var(--bg-img);background-size:cover;box-shadow:0px 0px 3px rgba(0,0,0,0.2);border:1px solid #404040;border-radius:10px;overflow:hidden; }
+margin:10px auto;color:#111;width:600px;background:var(--bg-img);background-size:cover;box-shadow:0px 0px 3px rgba(0,0,0,0.2);border:1px solid #404040;border-radius:10px;overflow:hidden; }
 
 .yuenshipper01-box { position:relative;clear:both;height:580px;font-size:0px;display:block; }
 
