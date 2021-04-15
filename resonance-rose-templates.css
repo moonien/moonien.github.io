@@ -417,7 +417,7 @@ border-bottom: 2px solid #eee;
 .res-shiprep-body img {display: block; width: 100%; object-fit: cover; object-position: center; opacity: 0.8; transition: 0.5s ease-in;}
 .res-shiprep-body img:hover {opacity: 1;}
 .res-shiprep-tag {padding: 10px 9px 9px 9px; display: flex; justify-content: center; align-items: center; background: var(--accent);}
-.res-shiprep-tag a {color: var(--text); font: 700 10px var(--main-font); text-transform: uppercase; text-decoration: none;}
+.res-shiprep-tag a {color: var(--text)!important; font: 700 10px var(--main-font); text-transform: uppercase; text-decoration: none;}
 
 
 
