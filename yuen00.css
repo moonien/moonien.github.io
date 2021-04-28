@@ -9,7 +9,7 @@
 .yuengallery-box { background:linear-gradient(180deg, rgba(250,250,250,1) 30%, rgba(var(--yeet2),0.2) 80%) fixed,#fff;padding:10px;border-top-left-radius:220px; }
 .yuengallery { width:530px; }
 
-.yuengallery-nav { position:sticky;position:-webkit-sticky;top:70px;margin:30px 15px;margin-top:280px;float:left;width:140px;overflow:hidden;height:306px; }
+.yuengallery-nav { position:sticky;position:-webkit-sticky;top:70px;margin:30px 15px;margin-top:280px;float:left;width:140px;overflow:hidden;height:335px; }
 .yuengallery-nav span a { display:flex;width:100%;box-sizing:border-box;align-items:center;text-transform:uppercase;font:11px rubik;color:var(--yeet);justify-content:space-between;margin:5px 0px;padding:0px 10px;color:var(--yeet);border-radius:50px;text-shadow:0px 0px 2px #fff,0px 0px 2px #fff,1px 1px 0px #fff; }
 .yuengallery-nav span a:before { height:30px;content:var(--yicon);font:15px honeybee;text-shadow:0px 0px 2px var(--yeet),0px 0px 2px var(--yeet);color:#fafafa;display:flex;align-items:center;justify-content:center; }
 .yuengallery-nav span:after { content:"";display:block;border:30px solid transparent;border-top-width:0px;border-bottom:1px solid var(--yeet);opacity:0.6; }
@@ -52,8 +52,9 @@
 .yuenupdate .y-misc { --yicon:"\ebc9"; }
 .yuengallery #misc { --yicon:"\ebca"; }
 .yuengallery-nav a[href^="#skin"],
-.yuenupdate .y-skin  { --yicon:"\eb68"; }
-.yuengallery #skin { --yicon:"\eb67"!important; }
+.yuenupdate .y-skin  { --yicon:"\eb67"; }
+.yuengallery #skin { --yicon:"\eb68"!important; }
+
 .yuengallery #yuenct { --yicon:"\ec0f"; }
 .yuengallery #yuenwjsn { --yicon:"\ebe9"; }
 .yuengallery #yuenceo { --yicon:"\ebf1"; }
