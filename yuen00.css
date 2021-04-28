@@ -49,11 +49,11 @@
 .yuenupdate .y-tracker { --yicon:"\ec11"; }
 .yuengallery #tracker { --yicon:"\ec10"!important; }
 .yuengallery-nav a[href^="#misc"],
-.yuenupdate .y-misc { --yicon:"\eb68"; }
-.yuengallery-nav a[href^="#skin"],
-.yuenupdate .y-skin  { --yicon:"\eb67"; }
-.yuengallery #skin { --yicon:"\ec04"!important; }
+.yuenupdate .y-misc { --yicon:"\ebc9"; }
 .yuengallery #misc { --yicon:"\ebca"; }
+.yuengallery-nav a[href^="#skin"],
+.yuenupdate .y-skin  { --yicon:"\eb68"; }
+.yuengallery #skin { --yicon:"\eb67"!important; }
 .yuengallery #yuenct { --yicon:"\ec0f"; }
 .yuengallery #yuenwjsn { --yicon:"\ebe9"; }
 .yuengallery #yuenceo { --yicon:"\ebf1"; }
