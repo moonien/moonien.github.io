@@ -49,7 +49,10 @@
 .yuenupdate .y-tracker { --yicon:"\ec11"; }
 .yuengallery #tracker { --yicon:"\ec10"!important; }
 .yuengallery-nav a[href^="#misc"],
-.yuenupdate .y-misc { --yicon:"\ebc9"; }
+.yuenupdate .y-misc { --yicon:"\eb68"; }
+.yuengallery-nav a[href^="#skin"],
+.yuenupdate .y-skin  { --yicon:"\eb67"; }
+.yuengallery #skin { --yicon:"\ec04"!important; }
 .yuengallery #misc { --yicon:"\ebca"; }
 .yuengallery #yuenct { --yicon:"\ec0f"; }
 .yuengallery #yuenwjsn { --yicon:"\ebe9"; }
