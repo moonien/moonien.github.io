@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Ubuntu+Mono|Montserrat:900');
+@import url('https://moonien.github.io/yuen01.css');
+
+.yuencomm03 { --bg-color:#f9f9f9;margin:30px auto;width:300px;background:var(--bg-color);border-radius:10px;overflow:hidden;box-shadow:0px 0px 8px -3px var(--yeet);font:14px karla;line-height:19px;text-align:left; }
+
+.yuencomm03-box { display:flex;flex-flow:column wrap; }
+
+.yuencomm03-head { height:170px;clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 92%); }
+.yuencomm03-head img { width:100%;height:100%;object-fit:cover;object-position:center; }
+
+.yuencomm03-name { width:calc(100% + 30px);margin:0px -15px;margin-top:-20px;text-transform:uppercase;transform:rotate(-5deg);transform-origin:0% 0%;position:relative; }
+.yuencomm03-name span { font:900 23px montserrat;-webkit-text-stroke:thin;-webkit-text-fill-color:var(--bg-color);color:var(--yeet);text-shadow:2px 2px 0px var(--yeet);padding-left:30px; }
+.yuencomm03-name a { padding-left:10px;text-align:center;font:13px ubuntu mono!important;line-height:25px!important;color:var(--bg-color)!important;display:block;height:30px;background:var(--yeet);clip-path:polygon(0 10%, 100% 5%, 100% 100%, 0% 75%); }
+
+.yuencomm03-cont { order:7;padding:25px;height:270px;display:flex;align-items:flex-end; }
+.yuencomm03-cont-box { width:100%;max-height:270px;overflow:auto;scrollbar-width:thin;scrollbar-color:var(--yeet) transparent; }
+
+.yuencomm03-cont-scroll { display:flex;flex-flow:column wrap;align-items:flex-end; }
+.yuencomm03-cont-scroll p { margin:3px 7px;padding:8px 12px;background:#eaeaea;border-radius:8px 2px 2px 8px; }
+.yuencomm03-cont-scroll p:first-child { border-top-right-radius:8px; }
+
+.yuencomm03-cont-box::-webkit-scrollbar { width:6px!important;border:none!important;border-radius:5px!important;background:transparent!important; }
+.yuencomm03-cont-box::-webkit-scrollbar-track { background:transparent!important;border:none!important;border-radius:5px!important; }
+.yuencomm03-cont-box::-webkit-scrollbar-thumb { background:var(--yeet)!important;border-radius:5px!important;border:none!important;border-radius:5px!important; }
