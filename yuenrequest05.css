@@ -19,7 +19,7 @@ margin:30px auto;width:520px;text-align:justify;font:14px karla;line-height:19px
 .yuenrequest05-character-info { height:35px;display:flex;width:calc(100% - 180px);justify-content:center;align-content:center;align-items:center;color:var(--yeet);font:13px ubuntu mono;text-transform:uppercase; }
 .yuenrequest05-character-info font:before,
 .yuenrequest05-character-info font:after { content:"//";margin:0px 5px; }
-.yuenrequest05-character-info span { margin:2px 5px;padding-bottom:2px;border-bottom:2px solid var(--yeet); }
+.yuenrequest05-character-info span { margin:2px 5px;border-bottom:2px solid var(--yeet); }
 .yuenrequest05-character-text { padding:0px 20px;overflow:auto;height:190px; }
 
 
