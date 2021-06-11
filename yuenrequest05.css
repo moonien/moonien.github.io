@@ -11,11 +11,11 @@ margin:30px auto;width:520px;text-align:justify;font:14px karla;line-height:19px
 .yuenrequest05-head img { width:100%;max-height:250px; }
 
 .yuenrequest05-character { height:310px;background:var(--bg-color); }
-.yuenrequest05-character:before { content:"\eb67";display:block;font:80px honeybee;line-height:80px;position:absolute;margin-left:110px;margin-top:210px;z-index:9;transform:rotate(-1deg);background-color:var(--yeet);background-image:var(--img);background-size:cover;background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuenrequest05-character:before { content:"\eb67";display:block;font:80px honeybee;line-height:80px;position:absolute;margin-left:110px;margin-top:210px;z-index:9;transform:rotate(-1deg);background-color:var(--yeet);background-image:var(--img);background-size:cover;background-position:center;background-clip:text;-webkit-background-clip:text;color:transparent; }
 .yuenrequest05-character-title { display:flex;width:100%;box-sizing:border-box;height:50px;align-items:center;background:var(--yeet);color:var(--bg-color);padding:10px 30px;font:700 17px karla;line-height:20px;text-transform:uppercase; }
 .yuenrequest05-character-title span { display:block;width:100%;text-align:justify; }
 .yuenrequest05-character-image { clip-path:polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 49%, 0% 0%);float:left;height:260px; }
-.yuenrequest05-character-image img { height:260px;width:180px; }
+.yuenrequest05-character-image img { height:260px;width:180px;object-fit:cover; }
 .yuenrequest05-character-info { height:35px;display:flex;width:calc(100% - 180px);justify-content:center;align-content:center;align-items:center;color:var(--yeet);font:13px ubuntu mono;text-transform:uppercase; }
 .yuenrequest05-character-info font:before,
 .yuenrequest05-character-info font:after { content:"//";margin:0px 5px; }
