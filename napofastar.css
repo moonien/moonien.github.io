@@ -1,5 +1,6 @@
-restless-directory character:before { content:var(--mg-icon); color:var(--temp-mg-color); font-size:100px; position:absolute; top:10px; right:10px; opacity:0.3; z-index:1;}
+restless-directory character:before { content:var(--mg-icon); color:var(--temp-mg-color); font-family:cappuccicons; font-size:100px; position:absolute; top:10px; right:10px; opacity:0.3; z-index:1;}
 restless-directory character span { display:none; }
+
 .Atlantis { --mg-icon:"\eca7"; }
 .Pandora { --mg-icon:"\eb96"; }
 .SBEnt { --mg-icon:"\e9b4"; }
