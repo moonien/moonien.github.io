@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Ubuntu+Mono|Montserrat:900');
 @import url('https://moonien.github.io/yuen01.css');
 
-.yuencomm03 { --bg-color:#f9f9f9;margin:30px auto;width:300px;background:var(--bg-color);border-radius:10px;overflow:hidden;box-shadow:0px 0px 8px -3px var(--yeet);font:14px karla;line-height:19px;text-align:left; }
+.yuencomm03 { --bg-color:#f9f9f9;color:#222;margin:30px auto;width:300px;background:var(--bg-color);border-radius:10px;overflow:hidden;box-shadow:0px 0px 8px -3px var(--yeet);font:14px karla;line-height:19px;text-align:left; }
 
 .yuencomm03-box { display:flex;flex-flow:column wrap; }
 
