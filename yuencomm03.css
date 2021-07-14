@@ -18,6 +18,7 @@
 .yuencomm03-cont-scroll { display:flex;flex-flow:column wrap;align-items:flex-end; }
 .yuencomm03-cont-scroll p { margin:3px 7px;padding:8px 12px;background:#eaeaea;border-radius:8px 2px 2px 8px; }
 .yuencomm03-cont-scroll p:first-child { border-top-right-radius:8px; }
+.yuencomm03-cont-scroll p img { max-width:100%;border-radius:3px; }
 
 .yuencomm03-cont-box::-webkit-scrollbar { width:6px!important;border:none!important;border-radius:5px!important;background:transparent!important; }
 .yuencomm03-cont-box::-webkit-scrollbar-track { background:transparent!important;border:none!important;border-radius:5px!important; }
