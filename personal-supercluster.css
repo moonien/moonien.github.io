@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,600,600i,700,700i,900,900i|Ubuntu+Mono');
+@import url('https://solrainha.github.io/saturnicons/saturnicons.css');
+@import url('https://msikma.github.io/pokesprite-spritesheet/assets/pokesprite-pokemon-gen8.css');
+
+.yuensp { --yd:#948adf;--yl:#baa6ff;
+width:500px;margin:30px auto;font:15px nunito;line-height:22px; }
+.yuensp-head { width:max-content;color:var(--yd);font:900 30px nunito;line-height:35px;text-transform:uppercase;margin-bottom:20px;padding-bottom:10px;border-bottom:4px solid #ddd; }
+.yuensp-head span { position:absolute;margin-right:0px;margin-left:calc(450px - 70px);margin-top:-15px; }
+.yuensp-sub { font-size:13px;font-weight:900;color:white;text-shadow:1px 1px 0px var(--yd),-1px 1px 0px var(--yd),1px -1px 0px var(--yd),-1px -1px 0px var(--yd);display:flex;width:100%;justify-content:space-between;margin-bottom:20px; }
+.yuensp a { text-decoration:none; }
+
+.yuensp b,
+.yuensp i,
+.yuensp-tracker y1:before,
+.yuensp-tracker y2:before,
+.yuensp-pkmn y3:before { background:linear-gradient(to top,var(--yd),var(--yl));background-clip:text;-webkit-background-clip:text;color:transparent;text-shadow:none; }
+
+/****
+.yuensp-tracker-cont moon { border-radius:100px;background:linear-gradient(to top,var(--yd),var(--yl));height:70px;padding:10px;display:flex;flex-flow:row nowrap;width:100%;box-sizing:border-box; }
+.yuensp-tracker-cont moon:before,
+.yuensp-tracker-cont moon:after { content:var(--type);order:-2;font:25px saturnicons;background:linear-gradient(to bottom,rgba(250,250,250,0.3),rgba(250,250,250,0.8));display:flex;height:50px;width:50px;justify-content:center;align-items:center;margin-right:10px;border-radius:50px 20px 20px 50px; }
+.yuensp-tracker-cont moon:after { content:var(--status);order:-1;border-radius:10px; }
+.yuensp-tracker-cont moon span { background:linear-gradient(to bottom,rgba(250,250,250,0.3),rgba(250,250,250,0.8));flex-grow:1;border-radius:20px 50px 50px 20px;display:flex;flex-flow:column wrap;justify-content:center; }
+****/
+
+.y-regular { --type:"\e131"; }
+.y-battle { --type:"\e243"; }
+.y-event { --type:"\e0b2"; }
+.y-catch { --type:"\e2aa"; }
+.y-complete { --status:"\e180"; }
+.y-dead { --status:"\e0b7"; }
+.y-active { --status:"\e23a"; }
+.yuensp-tracker y1:before { content:var(--type); }
+.yuensp-tracker y2:before { content:var(--status); }
+
+.yuensp-tracker moon { display:flex;flex-flow:row nowrap;width:100%;box-sizing:border-box;margin:7px 0px;margin-bottom:20px; }
+.yuensp-tracker moon y1,
+.yuensp-tracker moon y2 { order:-1;font:22px saturnicons;background:linear-gradient(to bottom,rgba(250,250,250,0.3),rgba(250,250,250,0.8));display:flex;height:40px;width:40px;justify-content:center;align-items:center;margin-right:7px;border-radius:50px; }
+.yuensp-tracker moon y2 { order:-2; }
+.yuensp-tracker moon span { background:linear-gradient(to bottom,rgba(250,250,250,0.3),rgba(250,250,250,0.8));flex-grow:1;border-radius:50px;display:flex;flex-flow:row wrap;align-items:center;padding:0px 15px;font:13px nunito; }
+.yuensp-tracker moon span a { text-transform:uppercase;font-weight:700;margin-right:5px;color:white;text-shadow:1px 1px 0px var(--yd),-1px 1px 0px var(--yd),1px -1px 0px var(--yd),-1px -1px 0px var(--yd); }
+
+.yuensp-plotter { margin-bottom:20px;text-align:justify; }
+.yuensp-pkmn evo { display:flex;flex-flow:row nowrap;width:100%;justify-content:space-between; }
+.yuensp-pkmn poke,
+.yuensp-pkmn a { background:linear-gradient(to bottom,rgba(250,250,250,0.3),rgba(250,250,250,0.8));display:flex;align-items:center;justify-content:center;height:56px;width:56px;border-radius:100px;padding:3px;margin-top:15px; }
+.yuensp-pkmn y3:before { content:"\e167";font:30px saturnicons; }
+.yuensp-pkmn a[href*=NUMBER] y3:before { content:"\e164";background-image:linear-gradient(to bottom,#aaa,#ccc); }
+.yuensp-pkmn a.evoy y3:before { content:"\e0b3"; }
+.yuensp-pkmn .y-gr { filter:grayscale(100%); }
+.yuensp-pkmn poke { display:flex;width:68px;height:56px;border-radius:10px; }
