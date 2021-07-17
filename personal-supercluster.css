@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,600,600i,700,700i,900,900i|Ubuntu+Mono');
-@import url('https://solrainha.github.io/saturnicons/saturnicons.css');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,600,600i,700,700i,900,900i');
 
 .yuensp { --yd:#948adf;--yl:#baa6ff;
 width:500px;margin:30px auto;font:15px nunito;line-height:22px; }
