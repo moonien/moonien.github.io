@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono|Great+Vibes');
+@import url('https://moonien.github.io/yuen01.css');
+
+.yuendev11 { --bg-color:#f2f2f2;width:clamp(300px,90vw,495px);margin:20px auto; }
+.yuendev11-box { background:radial-gradient(var(--yeet) 0%, transparent 70%);display:flex;flex-flow:row wrap;justify-content:space-between;align-content:space-between;height:clamp(300px,90vw,495px); }
+.yuendev11-box img { object-fit:cover;width:calc(clamp(100px,30vw,165px) - 5px);height:calc(clamp(100px,30vw,165px) - 5px);border-radius:5px;box-shadow:0px 0px 5px -3px rgba(0,0,0,0.4); }
+
+.yuendev11-title { text-align:center;margin-bottom:8px;color:var(--bg-color);text-shadow:0px 0px 3px var(--yeet); }
+.yuendev11-title span { display:block;font:55px great vibes;text-shadow:0px 0px 2px var(--yeet),0px 0px 4px var(--yeet);line-height:38px;position:relative; }
+.yuendev11-title font { display:block;padding:5px;text-transform:uppercase;font:14px ubuntu mono;border-radius:5px;background:linear-gradient(180deg,var(--yeet) -150%, transparent 500%); }
