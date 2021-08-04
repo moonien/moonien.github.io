@@ -2,13 +2,28 @@
 @import url('https://solrainha.github.io/saturnicons/saturnicons.css');
 
 
-#yuen-sting { --moons:"\e1a2"!important; }
-#yuen-sophie { --moons:"\e30a"!important; }
-#yuen-dae { --moons:"\e20f"!important; }
-#yuen-luna { --moons:"\e180"!important; }
-#yuen-yohan { --moons:"\e2f9"!important; }
+#yuen-sting { 
+  --mg-color-2: 200, 178, 89;
+  --temp-mg-color: #a361c8;
+  --moons: "\e1a2"!important; }
+#yuen-sophie { 
+  --mg-color-2: 180, 98, 98;
+  --temp-mg-color: #58a0ca;
+  --moons: "\e30a"!important; }
+#yuen-dae { --mg-color-2: 89, 182, 172;
+  --temp-mg-color: #607ccb;
+  --moons: "\e20f"!important; }
+#yuen-luna { --mg-color-2: 182, 86, 144;
+  --temp-mg-color: #d3aa54;
+  --moons: "\e180"!important; }
+#yuen-yohan { 
+  --mg-color-2: 121, 241, 255;
+  --temp-mg-color: #ffc58d;
+  --moons: "\e2f9"!important; }
 
-#yuen-cw { --yeet:#dd4243!important;--moons:"\e27d"!important; }
+#yuen-cw { --mg-color-2:var(--comeback-bg1);
+  --temp-mg-color: #dd4243!important;
+  --moons: "\e27d"!important; }
 #yuen-cw .yuenoas-cont b { font-size:16px; }
 #yuen-cw i,
 #yuen-cw u { color:var(--yeet); }
