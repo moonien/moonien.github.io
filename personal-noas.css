@@ -21,7 +21,7 @@
   --temp-mg-color: #ffc58d;
   --moons: "\e2f9"!important; }
 
-#yuen-cw { --mg-color-2:var(--comeback-bg1);
+#yuen-cw { --mg-color-2: var(--comeback-bg1);
   --temp-mg-color: #dd4243!important;
   --moons: "\e27d"!important; }
 #yuen-cw .yuenoas-cont b { font-size:16px; }
