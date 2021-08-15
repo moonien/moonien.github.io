@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Ubuntu+Mono');
 @import url('https://moonien.github.io/yuen01.css');
 
-.yuenthread10 { --bg-color:#fbfbfb;--yeet:rgba(var(--moon),1);width:480px;font:14px karla;line-height:19px;text-align:justify;margin:20px auto;border-radius:15px;overflow:hidden;box-shadow:0px 0px 5px rgba(0,0,0,0.1),0px 0px 3px rgba(0,0,0,0.1); }
+.yuenthread10 { --bg-color:#fbfbfb;--yeet:rgba(var(--moon),1);color:#111;width:480px;font:14px karla;line-height:19px;text-align:justify;margin:20px auto;border-radius:15px;overflow:hidden;box-shadow:0px 0px 5px rgba(0,0,0,0.1),0px 0px 3px rgba(0,0,0,0.1); }
 .yuenthread10 img { width:100%;height:100%;object-fit:cover; }
 
 .yuenthread10-head { background:var(--bg-color);color:rgb(var(--moon));padding:15px 20px;font:700 20px karla;border-bottom:3px solid rgb(var(--moon)); }
