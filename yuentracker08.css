@@ -27,10 +27,3 @@ width:450px;margin:20px auto;font:15px jaldi;line-height:18px; }
 .yuentracker08-head ysun:before { color:var(--bg-color);-webkit-text-stroke:4px;-webkit-text-fill-color:transparent;color:white; }
 .yuentracker08-head ystar:after,
 .yuentracker08-head ysun:after { background:var(--bgimg);background-size:cover;background-position:center;background-clip:text;-webkit-background-clip:text;color:transparent; }
-
-.yuentracker08-cont div:nth-child(odd) { --yeet:var(--moon); }
-.yuentracker08-title { display:block;border-radius:7px;background:var(--yeet);color:var(--yeet);padding:15px;text-transform:uppercase;margin-top:20px; }
-.yuentracker08-title b { display:inline-block;background:var(--bg-color);border-radius:5px;padding:3px 5px;font-size:17px; }
-.yuentracker08-thread { background:rgba(200,200,200,0.2);border-radius:7px;padding:15px;margin-top:10px;overflow:hidden; }
-.yuentracker08-thread b { float:right;margin:15px;margin-top:-15px;margin-right:-15px;background:var(--yeet);border-bottom-left-radius:10px;padding:8px;color:var(--bg-color);text-transform:uppercase; }
-.yuentracker08-thread a { all:initial;color:var(--yeet)!important;display:block;text-transform:uppercase;font:700 16px jaldi;line-height:20px; }
