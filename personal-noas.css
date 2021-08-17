@@ -56,7 +56,7 @@
 .yuenyt { height:410px;width:480px;margin:20px auto;border:1px solid var(--bg3);overflow:auto;color:var(--body); }
 .yuenyt-head { background:var(--bg3);display:flex;width:100%;box-sizing:border-box;padding-left:13px;padding-right:20px;align-items:center;height:60px;position:sticky;position:-webkit-sticky;top:0px;z-index:18; }
 .yuenyt-head b { flex-grow:1;font:800 21px montserrat; }
-.yuenyt-head:before { content:"\e30a";font:21px saturnicons;border-radius:50px;width:35px;height:35px;display:flex;align-items:center;justify-content:center;background:var(--temp-mg-color);margin-right:10px;color:var(--bg1);text-shadow:0px 0px 3px rgba(0,0,0,0.3);box-shadow:0px 0px 3px rgba(0,0,0,0.1); }
+.yuenyt-head:before { content:var(--moons);font:21px saturnicons;border-radius:50px;width:35px;height:35px;display:flex;align-items:center;justify-content:center;background:var(--temp-mg-color);margin-right:10px;color:var(--bg1);text-shadow:0px 0px 3px rgba(0,0,0,0.3);box-shadow:0px 0px 3px rgba(0,0,0,0.1); }
 .yuenyt-head:after { content:"\e2a0";font:35px saturnicons;color:var(--temp-mg-color); }
 .yuenyt-image { height:300px;background-size:cover;background-position:center;position:sticky;position:-webkit-sticky;top:60px;text-shadow:0px 0px 3px rgba(0,0,0,0.3); }
 .yuenyt-desc,
