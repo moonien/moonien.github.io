@@ -53,17 +53,17 @@
 
 
 
-.yuenyt { height:410px;width:480px;margin:20px auto;border:1px solid var(--bg3);overflow:auto;color:var(--body); }
-.yuenyt-head { background:var(--bg3);display:flex;width:100%;box-sizing:border-box;padding-left:13px;padding-right:20px;align-items:center;height:60px;position:sticky;position:-webkit-sticky;top:0px;z-index:18; }
+.yuenyt { height:410px;width:480px;margin:20px auto;border:1px solid var(--temp-bg1);overflow:auto;color:var(--body); }
+.yuenyt-head { background:var(--temp-bg1);display:flex;width:100%;box-sizing:border-box;padding-left:13px;padding-right:20px;align-items:center;height:60px;position:sticky;position:-webkit-sticky;top:0px;z-index:18; }
 .yuenyt-head b { flex-grow:1;font:800 21px montserrat; }
 div[id*="yuen-"] .yuenyt-head:before { content:var(--moons);font:21px saturnicons; }
 div[id*="yuen-"] .yuenyt-head:before,
-.yuenyt-head span { font-size:21px;border-radius:50px;width:35px;height:35px;display:flex;align-items:center;justify-content:center;background:var(--temp-mg-color);margin-right:10px;color:var(--bg1);text-shadow:0px 0px 3px rgba(0,0,0,0.3);box-shadow:0px 0px 3px rgba(0,0,0,0.1); }
+.yuenyt-head span { font-size:21px;border-radius:50px;width:35px;height:35px;display:flex;align-items:center;justify-content:center;background:var(--temp-mg-color);margin-right:10px;color:var(--temp-bg1);text-shadow:0px 0px 3px rgba(0,0,0,0.2);box-shadow:0px 0px 3px rgba(0,0,0,0.1); }
 .yuenyt-head:after { content:"\e2a0";font:35px saturnicons;color:var(--temp-mg-color); }
-.yuenyt-image { height:300px;background-size:cover;background-position:center;position:sticky;position:-webkit-sticky;top:60px;text-shadow:0px 0px 3px rgba(0,0,0,0.3); }
+.yuenyt-image { height:300px;background-size:cover;background-position:center;position:sticky;position:-webkit-sticky;top:60px; }
 .yuenyt-desc,
 .yuenyt-title,
 .yuenyt-interview { position:relative;z-index:12; }
 .yuenyt-desc { height:calc(100% - 60px);padding:30px;box-sizing:border-box;color:var(--body);background:rgba(var(--white),0.7);text-align:center;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(5px);font:400 15px montserrat;line-height:23px; }
 .yuenyt-title { padding:0px 20px;display:flex;align-items:center;height:50px;font:700 18px montserrat;background:rgba(var(--white),0.5);backdrop-filter:blur(5px);position:sticky;position:-webkit-sticky;top:60px;z-index:18;border-bottom:0px solid rgba(250,250,250,1); }
-.yuenyt-interview { background:var(--bg3);text-align:justify;padding:20px;padding-top:20px;font:13px montserrat;line-height:18px; }
+.yuenyt-interview { background:var(--temp-bg1);text-align:justify;padding:20px;padding-top:20px;font:13px montserrat;line-height:18px; }
