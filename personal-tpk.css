@@ -17,7 +17,9 @@
 .yuenshipper03-cont-scroll b,
 .yuenshipper03-cont-scroll i,
 .yuenshipper03-cont-special b,
-.yuenshipper03-cont-special i { background:var(--yeet) linear-gradient(0deg,transparent 20%,rgba(255,255,255,0.3) 80%);background-clip:text;-webkit-background-clip:text;color:transparent;text-shadow:none; }
+.yuenshipper03-cont-special i,
+.yuenshipper03-cont-wanted b,
+.yuenshipper03-cont-wanted i { background:var(--yeet) linear-gradient(0deg,transparent 20%,rgba(255,255,255,0.3) 80%);background-clip:text;-webkit-background-clip:text;color:transparent;text-shadow:none; }
 
 .yuenshipper03-cont-head { height:130px;background:var(--yeet) linear-gradient(200deg,rgba(255,255,255,0.5),transparent);border-bottom:10px solid #eee;margin-bottom:20px; }
 .yuenshipper03-cont-head img { width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply; }
