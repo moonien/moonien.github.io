@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,600,600i,700,700i,900,900i');
 @import url('https://msikma.github.io/pokesprite-spritesheet/assets/pokesprite-pokemon-gen8.css');
 
-.yuenshipper03 { --whitefont:#f9f9f9;width:500px;padding:20px;box-sizing:content-box;margin:20px auto;background:var(--whitefont);font:16px nunito;text-align:center;box-shadow:0px 0px 8px -3px rgba(0,0,0,0.2);color:#111;letter-spacing:0px; }
+.yuenshipper03 { --whitefont:#f9f9f9;width:500px;padding:20px;box-sizing:content-box;margin:20px auto;background:var(--whitefont);font:16px nunito;text-align:center;box-shadow:0px 0px 8px -3px rgba(0,0,0,0.2);color:#111;letter-spacing:0px;outline:1px solid var(--whitefont);outline-offset:10px }
 .yuenshipper03-2 { position:relative;clear:both;height:535px; }
 
 .yuenshipper03-box { display:flex;justify-content:flex-start;font-size:0px;background:white; }
@@ -36,6 +36,8 @@
 .yuenshipper03-cont-wanted:before { content:"seeking";background:var(--yeet);position:absolute;margin-top:-27px;margin-left:-35px;font:700 14px nunito;line-height:26px;border-radius:20px;padding:0px 10px;color:var(--whitefont);text-transform:uppercase; }
 #y-rel .yuenshipper03-cont-wanted:before { content:"affiliations"; }
 #y-two .yuenshipper03-cont-wanted:before { content:"goals / arcs"; }
+#y-rel .yuenshipper03-cont-wanted,
+#y-two .yuenshipper03-cont-wanted { width:auto; }
 
 .y-timeline { padding-left:180px;border-top-width:0px; }
 .y-timeline span { margin-left:-15px;display:block;background:var(--yeet) linear-gradient(to left,rgba(255,255,255,0.5),transparent);width:max-content;padding:5px 15px;border-radius:0px 0px 20px 0px;color:var(--whitefont);font-weight:900;margin-bottom:7px;margin-top:7px;position:sticky;position:-webkit-sticky;top:0px;box-shadow:100px 0px 0px white,200px 0px 0px white,0px 7px 0px white,100px 7px 0px white,200px 7px 0px white,0px 7px 0px white; }
