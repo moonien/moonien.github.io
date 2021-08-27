@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,600,600i,700,700i,900,900i');
 @import url('https://msikma.github.io/pokesprite-spritesheet/assets/pokesprite-pokemon-gen8.css');
 
-.yuenshipper03 { --border:#f9f9f9;width:500px;padding:20px;box-sizing:content-box;margin:20px auto;background:var(--border);font:16px nunito;text-align:center;box-shadow:0px 0px 8px -3px rgba(0,0,0,0.2);color:#111; }
+.yuenshipper03 { --whitefont:#f9f9f9;width:500px;padding:20px;box-sizing:content-box;margin:20px auto;background:var(--whitefont);font:16px nunito;text-align:center;box-shadow:0px 0px 8px -3px rgba(0,0,0,0.2);color:#111;letter-spacing:0px; }
 .yuenshipper03-2 { position:relative;clear:both;height:535px; }
 
 .yuenshipper03-box { display:flex;justify-content:flex-start;font-size:0px;background:white; }
@@ -22,7 +22,7 @@
 .yuenshipper03-cont-head { height:130px;background:var(--yeet) linear-gradient(200deg,rgba(255,255,255,0.5),transparent);border-bottom:10px solid #eee;margin-bottom:20px; }
 .yuenshipper03-cont-head img { width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply; }
 .yuenshipper03-cont-title { height:260px;position:absolute;width:165px;text-align:right;display:flex;flex-flow:row wrap;justify-content:flex-end;align-content:center;box-sizing:border-box;border-right:2px solid var(--yeet);padding-right:12px; }
-.yuenshipper03-cont-title b { font:900 18px nunito;text-align:right;color:var(--border);background:var(--yeet) linear-gradient(to right,rgba(255,255,255,0.5),transparent);margin-right:-12px;border-radius:15px 0px 0px 15px;padding:5px 8px;margin-left:15px; }
+.yuenshipper03-cont-title b { font:900 18px nunito;text-align:right;color:var(--whitefont);background:var(--yeet) linear-gradient(to right,rgba(255,255,255,0.5),transparent);margin-right:-12px;border-radius:15px 0px 0px 15px;padding:5px 8px;margin-left:15px; }
 .yuenshipper03-cont-title hr { width:100%;height:0px;opacity:0;margin:0px;padding:0px; }
 .yuenshipper03-cont-title a { color:var(--yeet);font-size:12px;text-transform:uppercase;font-weight:700;margin-top:5px;margin-left:5px;line-height:15px;text-decoration:none; }
 .yuenshipper03-cont-title a[href*="?showtopic"] { border-bottom:2px solid var(--yeet); }
@@ -31,17 +31,25 @@
 
 .yuenshipper03-cont-special { float:right;width:32%;font-size:13px;line-height:15px;overflow:auto;height:90px;margin-top:12px;box-sizing:border-box;padding-right:5px; }
 .yuenshipper03-cont-wanted { width:60%;background:#eee;height:115px;box-sizing:border-box;overflow:auto;border-radius:0px 0px 15px 15px;margin-left:20px;padding:0px 15px;border-top:15px solid transparent;border-bottom:8px solid transparent;font-size:15px;line-height:18px; }
-.yuenshipper03-cont-wanted:before { content:"seeking";background:var(--yeet);position:absolute;margin-top:-27px;margin-left:-35px;font:700 14px nunito;line-height:26px;border-radius:20px;padding:0px 10px;color:var(--border);text-transform:uppercase; }
+.yuenshipper03-cont-wanted:before { content:"seeking";background:var(--yeet);position:absolute;margin-top:-27px;margin-left:-35px;font:700 14px nunito;line-height:26px;border-radius:20px;padding:0px 10px;color:var(--whitefont);text-transform:uppercase; }
 #y-rel .yuenshipper03-cont-wanted:before { content:"affiliations"; }
 #y-two .yuenshipper03-cont-wanted:before { content:"goals / arcs"; }
 
 .y-timeline { padding-left:180px;border-top-width:0px; }
-.y-timeline span { margin-left:-15px;display:block;background:var(--yeet) linear-gradient(to left,rgba(255,255,255,0.5),transparent);width:max-content;padding:5px 15px;border-radius:0px 0px 20px 0px;color:var(--border);font-weight:900;margin-bottom:7px;margin-top:7px;position:sticky;position:-webkit-sticky;top:0px;box-shadow:100px 0px 0px white,200px 0px 0px white,0px 7px 0px white,100px 7px 0px white,200px 7px 0px white,0px 7px 0px white; }
+.y-timeline span { margin-left:-15px;display:block;background:var(--yeet) linear-gradient(to left,rgba(255,255,255,0.5),transparent);width:max-content;padding:5px 15px;border-radius:0px 0px 20px 0px;color:var(--whitefont);font-weight:900;margin-bottom:7px;margin-top:7px;position:sticky;position:-webkit-sticky;top:0px;box-shadow:100px 0px 0px white,200px 0px 0px white,0px 7px 0px white,100px 7px 0px white,200px 7px 0px white,0px 7px 0px white; }
 .y-timeline span:first-child { margin-top:0px; }
 
 .yuenshipper03 #ysc-1:checked+label ~ #y-one.yuenshipper03-cont,
 .yuenshipper03 #ysc-2:checked+label ~ #y-rel.yuenshipper03-cont,
 .yuenshipper03 #ysc-3:checked+label ~ #y-two.yuenshipper03-cont { opacity:1;z-index:2; }
+
+div[class*="yuenshipper03-cont-"] { scrollbar-width:thin;scrollbar-color:var(--yeet) #eee; }
+div[class*="yuenshipper03-cont-"]::-webkit-scrollbar { width:6px!important;border:none!important;border-radius:5px!important;background:#eee!important; }
+div[class*="yuenshipper03-cont-"]::-webkit-scrollbar-track { background:transparent!important;border:none!important;border-radius:5px!important; }
+div[class*="yuenshipper03-cont-"]::-webkit-scrollbar-thumb { background:var(--yeet)!important;border-radius:5px!important;border:none!important;border-radius:5px!important; }
+
+
+
 
 
 #yuen { --yd:#8bacc1;--yl:#8bc1bb; }
@@ -51,9 +59,4 @@
 #y-one { --yeet:var(--yd); }
 #y-two { --yeet:var(--yl); }
 
-
-
-div[class*="yuenshipper03-cont-"] { scrollbar-width:thin;scrollbar-color:var(--yeet) #eee; }
-div[class*="yuenshipper03-cont-"]::-webkit-scrollbar { width:6px!important;border:none!important;border-radius:5px!important;background:#eee!important; }
-div[class*="yuenshipper03-cont-"]::-webkit-scrollbar-track { background:transparent!important;border:none!important;border-radius:5px!important; }
-div[class*="yuenshipper03-cont-"]::-webkit-scrollbar-thumb { background:var(--yeet)!important;border-radius:5px!important;border:none!important;border-radius:5px!important; }
+.tbar { z-index:99; }
