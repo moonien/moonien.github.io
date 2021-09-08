@@ -10,9 +10,11 @@
   --mg-color-2: 180, 98, 98;
   --temp-mg-color: #58a0ca;
   --moons: "\e30a"!important; }
-#yuen-dae { --mg-color-2: 89, 182, 172;
+#yuen-dae,
+#yuen-mischief { --mg-color-2: 89, 182, 172;
   --temp-mg-color: #607ccb;
   --moons: "\e20f"!important; }
+#yuen-mischief { --moons: "\e1ed"!important; }
 #yuen-luna { --mg-color-2: 182, 86, 144;
   --temp-mg-color: #d3aa54;
   --moons: "\e180"!important; }
