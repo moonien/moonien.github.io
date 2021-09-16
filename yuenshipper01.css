@@ -21,29 +21,11 @@ margin:10px auto;color:#111;width:600px;background:var(--bg-img);background-size
 .yuenshipper01-labels label:hover { filter:grayscale(0%); }
 .yuenshipper01-box [type=radio] { display:none; }
 
-.yuenshipper01-character-01,
-.yuenshipper01-character-02,
-.yuenshipper01-character-03,
-.yuenshipper01-character-04,
-.yuenshipper01-character-05,
-.yuenshipper01-character-06,
-.yuenshipper01-character-07,
-.yuenshipper01-character-08,
-.yuenshipper01-character-09,
-.yuenshipper01-character-10,
-.yuenshipper01-character-11,
-.yuenshipper01-character-12,
-.yuenshipper01-character-13,
-.yuenshipper01-character-14,
-.yuenshipper01-character-15,
-.yuenshipper01-character-16,
-.yuenshipper01-character-17,
-.yuenshipper01-character-18,
-.yuenshipper01-character-19,
-.yuenshipper01-character-20,
-.yuenshipper01-character-21,
-.yuenshipper01-character-22,
-.yuenshipper01-character-23 { margin-left:-20px;position:absolute;top:130px;z-index:98;font:12px karla;text-align:justify; }
+div[class*="yuenshipper01-character-0"],
+div[class*="yuenshipper01-character-1"],
+div[class*="yuenshipper01-character-2"],
+div[class*="yuenshipper01-character-3"],
+div[class*="yuenshipper01-character-4"] { margin-left:-20px;position:absolute;top:130px;z-index:98;font:12px karla;text-align:justify; }
 
 
 .yuenshipper01-character-call,
@@ -107,7 +89,26 @@ margin:10px auto;color:#111;width:600px;background:var(--bg-img);background-size
 .yuenshipper01 #yna-20:checked+label ~ .yuenshipper01-character-20 div,
 .yuenshipper01 #yna-21:checked+label ~ .yuenshipper01-character-21 div,
 .yuenshipper01 #yna-22:checked+label ~ .yuenshipper01-character-22 div,
-.yuenshipper01 #yna-23:checked+label ~ .yuenshipper01-character-23 div { transform:scale(1); }
+.yuenshipper01 #yna-23:checked+label ~ .yuenshipper01-character-23 div,
+.yuenshipper01 #yna-24:checked+label ~ .yuenshipper01-character-24 div,
+.yuenshipper01 #yna-25:checked+label ~ .yuenshipper01-character-25 div,
+.yuenshipper01 #yna-26:checked+label ~ .yuenshipper01-character-26 div,
+.yuenshipper01 #yna-27:checked+label ~ .yuenshipper01-character-27 div,
+.yuenshipper01 #yna-28:checked+label ~ .yuenshipper01-character-28 div,
+.yuenshipper01 #yna-29:checked+label ~ .yuenshipper01-character-29 div,
+.yuenshipper01 #yna-30:checked+label ~ .yuenshipper01-character-30 div,
+.yuenshipper01 #yna-31:checked+label ~ .yuenshipper01-character-31 div,
+.yuenshipper01 #yna-32:checked+label ~ .yuenshipper01-character-32 div,
+.yuenshipper01 #yna-33:checked+label ~ .yuenshipper01-character-33 div,
+.yuenshipper01 #yna-34:checked+label ~ .yuenshipper01-character-34 div,
+.yuenshipper01 #yna-35:checked+label ~ .yuenshipper01-character-35 div,
+.yuenshipper01 #yna-36:checked+label ~ .yuenshipper01-character-36 div,
+.yuenshipper01 #yna-37:checked+label ~ .yuenshipper01-character-37 div,
+.yuenshipper01 #yna-38:checked+label ~ .yuenshipper01-character-38 div,
+.yuenshipper01 #yna-39:checked+label ~ .yuenshipper01-character-39 div,
+.yuenshipper01 #yna-40:checked+label ~ .yuenshipper01-character-40 div,
+.yuenshipper01 #yna-41:checked+label ~ .yuenshipper01-character-41 div,
+.yuenshipper01 #yna-42:checked+label ~ .yuenshipper01-character-42 div { transform:scale(1); }
 
 
 div[class*="yuenshipper01"] { scrollbar-width:thin;scrollbar-color:var(--yeet) transparent; }
