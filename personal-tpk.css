@@ -42,7 +42,7 @@
 #y-two .yuenshipper03-cont-wanted { width:auto; }
 
 .y-timeline { padding-left:180px;border-top-width:0px; }
-.y-timeline span { margin-left:-15px;display:block;background:var(--yeet) linear-gradient(to left,rgba(255,255,255,0.5),transparent);width:max-content;padding:5px 15px;border-radius:0px 0px 20px 0px;color:var(--whitefont);font-weight:900;margin-bottom:7px;margin-top:7px;position:sticky;position:-webkit-sticky;top:0px;box-shadow:100px 0px 0px white,200px 0px 0px white,0px 7px 0px white,100px 7px 0px white,200px 7px 0px white,0px 7px 0px white; }
+.y-timeline span { margin-left:-15px;display:block;background:var(--yeet) linear-gradient(to left,rgba(255,255,255,0.5),transparent);width:max-content;padding:5px 15px;border-radius:0px 0px 20px 0px;color:var(--whitefont);font-weight:900;margin-bottom:7px;margin-top:7px;position:sticky;position:-webkit-sticky;top:0px;box-shadow:50px 0px 0px white,100px 0px 0px white,150px 0px 0px white,200px 0px 0px white,250px 0px 0px white,300px 0px 0px white,350px 0px 0px white,0px 7px 0px white,50px 7px 0px white,100px 7px 0px white,150px 7px 0px white,200px 7px 0px white,250px 7px 0px white,300px 7px 0px white,350px 7px 0px white; }
 .y-timeline span:first-child { margin-top:0px; }
 
 .yuenshipper03 #ysc-1:checked+label ~ #y-one.yuenshipper03-cont,
