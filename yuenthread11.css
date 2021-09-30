@@ -15,6 +15,7 @@
 .yuenthread11-info span { background:var(--bg-color);color:var(--yeet);text-transform:uppercase;font:700 12px karla;padding:5px 7px;border-radius:3px; }
 
 .yuenthread11-cont { padding:15px 20px;padding-top:48px;text-align:justify; }
+.yuenthread11-cont b { font-size:16px;color:transparent;background:linear-gradient(to bottom,var(--moon),transparent),var(--yeet);background-clip:text;-webkit-background-clip:text; }
 
 .yuenthread11-tags { padding:0px 20px;font-size:0px;display:flex;text-align:center;justify-content:flex-end; }
 .yuenthread11-tags a { background:linear-gradient(to bottom,var(--moon),transparent),var(--yeet);color:var(--bg-color);text-transform:uppercase;font:700 12px karla;padding:5px 7px;border-radius:5px 5px 0px 0px;margin-left:5px;display:inline-block;text-decoration:none; }
