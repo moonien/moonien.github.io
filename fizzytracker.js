@@ -36,7 +36,7 @@ const Archived_Thread_Forum = "the archives";
 const Skin_Already_Uses_Fontawesome = false;
 
 //if you are using multiple of this tracker in the same thread, and you get a flood control error, try increasing this
-const Next_Tracker_Delay = 5;
+const Next_Tracker_Delay = 10;
 
 //*** END OF CONFIGURATION AREA ***//
 
