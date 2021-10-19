@@ -21,8 +21,8 @@
   --moons: "\e180"!important; }
 #yuen-celeste { --moons: "\e23a"!important; }
 #yuen-yohan { 
-  --mg-color-2: 121, 241, 255;
-  --temp-mg-color: #ffc58d;
+  --mg-color-2: 65, 190, 205;
+  --temp-mg-color: #d59558;
   --moons: "\e2f9"!important; }
 
 #yuen-cw { --mg-color-2: var(--comeback-bg1);
