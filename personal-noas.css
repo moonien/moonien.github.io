@@ -94,6 +94,7 @@ div[id*="yuen-"] .yuenyt-head:before,
 #yuen-mischief { --name:"DO RU-TAE"; }
 #yuen-luna { --name:"MOON WOLMYEONG"; }
 #yuen-yohan { --name:"NOH YOHAN"; }
+#yuen-celeste { --name:"SAE BYEOLJUNG"; }
 
 .yuenoasme-head { font:800 30px montserrat;line-height:30px;text-align:center;padding:20px; }
 .yuenoasme-head span { display:block;width:max-content;background:var(--mg-gradient-3);background-clip:text;-webkit-background-clip:text;color:transparent;margin:0px auto; }
