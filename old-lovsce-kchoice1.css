@@ -5,6 +5,7 @@
 .yuenkchoice center { height:clamp(300px,90vw,480px);display:flex;flex-flow:row wrap;justify-content:space-between;align-content:space-between; }
 .yuenkchoice img { object-fit:cover;width:calc(clamp(100px,30vw,160px) - 5px);height:calc(clamp(100px,30vw,160px) - 5px);border-radius:7px; }
 
+
 .yuenkchoice span,
 .yuenkchoice-text span { display:flex;flex-flow:row nowrap;align-items:center;width:100%;padding:20px;box-sizing:border-box;color:#eee;text-shadow:2px 2px 0px var(--yeet); }
 .yuenkchoice span font:nth-child(1),
