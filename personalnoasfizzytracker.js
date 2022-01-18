@@ -3,6 +3,7 @@
 // THE SCRIPT IS ONLY HOSTED BY YUEN HERE WITH SPECIFIC MODIFICATIONS PERTAINING TO NAP OF A STAR (https://napofastar.jcink.net/)
 
 document.write(`<style>
+@import url('https://icons.cappuccicons.com/cpf.css');
 .fizztrackerwrap, .fizzhistorywrap {position: relative; max-width: 500px; margin: 10px auto; padding: 1px 15px;}
 .fizztrackerwrap p, .fizzhistorywrap p {
     position: relative;
