@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,700,700i');
+
+.yuenien { width:450px;margin:20px auto;text-align:justify;font:16px nunito;line-height:21px;box-shadow:0px 0px 5px rgba(0,0,0,0.3);padding:15px 0px;background:linear-gradient(42deg,transparent 0%,rgba(255,255,255,0.5) 100%),var(--accent);overflow:hidden; }
+.yuenien-box { padding:25px;background:#fafafa; }
+.yuenien-box:before { content:"";display:none;height:180px;width:180px;background:radial-gradient(circle 80px at top 80px left 120px,#fff,transparent),#bbb;opacity:0.1;float:right;margin-top:-80px;margin-right:-80px;border-radius:100%; }
+
+.yuenien-head { text-align:left;text-transform:uppercase;font:700 14px nunito;margin-left:-25px;margin-bottom:15px;color:var(--accent); }
+.yuenien-head span { width:100%;display:flex;align-items:center;margin-bottom:8px; }
+.yuenien-head span:before { content:"";width:70px;height:2px;border-radius:0px 5px 5px 0px;background:var(--accent);margin-right:10px; }
+.yuenien-tag { text-align:left;margin-top:15px;font-size:0px; }
+.yuenien-tag a { display:inline-block;margin-right:10px;margin-top:5px;color:var(--accent);font:700 13px nunito;text-transform:uppercase; }
+.yuenien-tag a:before { content:"#";margin-right:1px; }
+
+img[class*="yuenien-"] { object-fit:cover;display:block;margin:0px auto;margin-bottom:15px;box-sizing:border-box; }
+.yuenien-circle { width:170px;height:170px;border-radius:100%;border:20px solid rgb(230,230,230); }
+.yuenien-rectangular { width:100%;height:180px;border-radius:20px;border:15px solid rgb(230,230,230); }
