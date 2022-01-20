@@ -4,6 +4,9 @@
 .yuenien-box { padding:25px;background:#fafafa; }
 .yuenien-box:before { content:"";display:none;height:180px;width:180px;background:radial-gradient(circle 80px at top 80px left 120px,#fff,transparent),#bbb;opacity:0.1;float:right;margin-top:-80px;margin-right:-80px;border-radius:100%; }
 
+.yuenien-box b,
+.yuenien-box i { color:var(--accent); }
+
 .yuenien-head { text-align:left;text-transform:uppercase;font:700 14px nunito;margin-left:-25px;margin-bottom:15px;color:var(--accent); }
 .yuenien-head span { width:100%;display:flex;align-items:center;margin-bottom:8px; }
 .yuenien-head span:before { content:"";width:70px;height:2px;border-radius:0px 5px 5px 0px;background:var(--accent);margin-right:10px; }
