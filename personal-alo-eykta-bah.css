@@ -97,6 +97,6 @@ width:615px;margin:30px auto;text-align:justify;background:#fafafa;border:1px so
 #violet { --lecon:"\a101";--eight:var(--violet); }
 #jody { --lecon:"\a100";--eight:var(--jody); }
 #zephyr { --lecon:"\a53";--eight:var(--zephyr); }
-#bah { --lecon:"\a96";--eight:var(--bah); }
+#bah { --lecon:"\a13";--eight:var(--bah); }
 
 #eykta .lan-eykta-links span:before { transform:rotate(-20deg); }
