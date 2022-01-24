@@ -47,3 +47,10 @@ border-bottom:1px dashed var(--yeet);padding-bottom:5px; }
 .yn-dead { --icon:"\e964"; }
 .yn-ongoing { --icon:"\ec49"; }
 .yn-complete { --icon:"\ea54"; }
+
+
+
+
+.bellefrench .yn-dead { --icon:"\ea55"; }
+.bellefrench .yn-ongoing { --icon:"\ec49"; }
+.bellefrench .yn-complete { --icon:"\ea54"; }
