@@ -51,6 +51,6 @@ border-bottom:1px dashed var(--yeet);padding-bottom:5px; }
 
 
 
-.bellefrench .yn-dead { --icon:"\ea55"; }
-.bellefrench .yn-ongoing { --icon:"\ec49"; }
-.bellefrench .yn-complete { --icon:"\ea54"; }
+.bellefrench .yn-dead { --icon:"\ea55"!important; }
+.bellefrench .yn-ongoing { --icon:"\ec49"!important; }
+.bellefrench .yn-complete { --icon:"\ea54"!important; }
