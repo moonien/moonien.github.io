@@ -3,10 +3,10 @@
 @import url('https://christieclee.github.io/highalo/starry/starry.css');
 
 .yuentracking { --ybg:#fafafa;color:#555;
-width:620px;margin:10px auto;display:grid;grid-template-rows:200px 200px 200px;grid-template-columns:200px 200px 200px;grid-template-areas:
+width:620px;margin:10px auto;margin-top:20px;display:grid;grid-template-rows:200px 200px 200px;grid-template-columns:200px 200px 200px;grid-template-areas:
  "img img info"
  "tracker tracker starry"
- "tracker tracker icon";column-gap:10px;row-gap:10px;justify-items:stretch;align-items:stretch;justify-content:stretch;align-self:stretch;font:15px nunito; }
+ "tracker tracker icon";column-gap:10px;row-gap:10px;justify-items:stretch;align-items:stretch;justify-content:stretch;font:15px nunito; }
 
 .y-one.x-one { height:200px;width:200px; }
 .y-one.x-two { height:200px;width:410px; }
