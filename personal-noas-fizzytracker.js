@@ -53,7 +53,7 @@ function createTrackerElements (params, Current_Script) {
     params.thisAltTracker = $(`<div id="alt${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
     params.thisHistory = params.thisAltHistory = $(`<div id="history${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
 
-    Open_Thread_Wrapper.append(`<p>active <span class="ph-arrow-clockwise"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
+    Open_Thread_Wrapper.append(`<p>active <span class="ph-arrow-clockwise-bold"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
     Alt_Thread_Wrapper.append(`<p>${params.altSectionTitle || "communications"}</p>`);
     Closed_Thread_Wrapper.append(`<p>archived</p>`);
 
@@ -61,7 +61,7 @@ function createTrackerElements (params, Current_Script) {
     $(Alt_Thread_Wrapper).append(params.thisAltTracker);
     $(Closed_Thread_Wrapper).append(params.thisHistory);
 
-    $(Current_Script).before(`<center style="font-size: 90%;"> Tracker Code by <span class="ph-pencil"></span> <a href="http://fizzyelf.jcink.net">FizzyElf</a> <span class="ph-paw-print"></span></center>`);
+    $(Current_Script).before(`<center style="font-size: 90%;"> Tracker Code by <span class="ph-pencil-fill"></span> <a href="http://fizzyelf.jcink.net">FizzyElf</a> <span class="ph-paw-print-fill"></span></center>`);
 }
 
 function TrackParticipatedThreads(params = {}) {
@@ -78,7 +78,7 @@ console.log("tracker num ", trackernum)
         params = {};
     }
     if (!params.indicators) {
-        params.indicators = ['<span class="ph-check"></span>', '<span class="ph-arrow-right"></span>'];
+        params.indicators = ['<span class="ph-check-bold"></span>', '<span class="ph-arrow-right-bold"></span>'];
     }
     if (!params.lockedMacroIdentifier) {
         params.lockedMacroIdentifier = "[title*=Closed],[class*=lock],[class*=closed]";
