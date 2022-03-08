@@ -26,11 +26,10 @@ width:620px;margin:10px auto;margin-top:20px;display:grid;grid-template-rows:200
 .yuentracking-tracker font { color:#484848;font-size:20px;position:relative;display:block;text-align:right;padding:0px;padding-right:25px;padding-top:10px;width:max-content; }
 .yuentracking-info ul { margin:15px;width:calc(100% - 30px);padding:0px; }
 .yuentracking-info li { list-style:none;display:flex;align-items:center;flex-flow:row nowrap; }
-.yuentracking-info li:before { content:var(--icons);font-family:cappuccicons;margin-right:5px;width:15px;color:rgb(var(--main)); }
-.yuentracking-info li.y-open { --icons:"\ec36"; }
-.yuentracking-info li.y-wip { --icons:"\e921";color:#999;opacity:.5; }
+.yuentracking-info li:before { content:var(--icons);font-size:16px;font-family:phosphor;margin-right:5px;width:15px;color:rgb(var(--main)); }
+.yuentracking-info li.y-open { --icons:"\f6b8"; }
+.yuentracking-info li.y-wip { --icons:"\f6a2";color:#999;opacity:.5; }
 .yuentracking-info li.y-wip:before { color:#999; }
-.yuentracking-info li.y-open:before { font-size:16px; }
 
 .yuentracking-starry { grid-area:starry;display:flex;flex-flow:row wrap;background:rgba(var(--main),.2); }
 .yuentracking-starry span { width:40%;height:40%;margin:5%;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:50px;color:rgba(var(--main),.6);text-shadow:1px 1px 2px;rgba(var(--main),.8); }
