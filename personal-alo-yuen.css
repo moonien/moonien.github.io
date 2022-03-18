@@ -46,7 +46,7 @@ width:620px;margin:10px auto;margin-top:20px;display:grid;grid-template-rows:200
 .yuentracking-month yth { border-radius:7px;border:1px solid rgba(var(--main),.5);padding:8px;background:rgba(var(--main),.2);margin-right:5px;margin-bottom:5px;flex-grow:1; }
 .yuentracking-month yth a { display:block;font-weight:700;color:rgb(var(--main));text-decoration:none;border-bottom:1px solid rgba(var(--main),.5);padding-bottom:5px;margin-bottom:5px;line-height:16px; }
 .yuentracking-month yth ytags { }
-.yuentracking-month yth ytags i { font:700 10px nunito;text-transform:uppercase;margin-right:5px; }
+.yuentracking-month yth ytags i { font:700 10px nunito;display:inline-block;text-transform:uppercase;margin-right:5px; }
 .yuentracking-month yth ytags i:before { content:"#";color:rgb(var(--main)); }
 .yuentracking-month yth.y-done { filter:grayscale(100%);opacity:.7; }
 .yuentracking-month yth.y-incomplete { filter:grayscale(100%);opacity:.5;text-decoration:line-through!important; }
