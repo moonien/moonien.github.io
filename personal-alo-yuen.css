@@ -40,10 +40,10 @@ width:620px;margin:10px auto;margin-top:20px;display:grid;grid-template-rows:200
 .yuentracking-info { grid-area:info;background:var(--ybg); }
 .yuentracking-tracker { grid-area:tracker;background:var(--ybg);box-sizing:border-box;padding:20px 0px; }
 .yuentracking-tracker yscroll { display:block;overflow:auto;height:100%;padding:0px 20px;padding-right:15px; }
-.yuentracking-tracker font { font-size:25px;padding:0px;padding-left:20px;margin-left:-20px;background:var(--ybg);position:sticky;top:0px;box-shadow:100px 0px 0px var(--ybg),200px 0px 0px var(--ybg),300px 0px 0px var(--ybg),300px 0px 0px var(--ybg); }
+.yuentracking-tracker font { font-size:25px;padding:0px;padding-left:20px;margin-left:-20px;background:var(--ybg);position:sticky;top:0px;z-index:5;box-shadow:100px 0px 0px var(--ybg),200px 0px 0px var(--ybg),300px 0px 0px var(--ybg),300px 0px 0px var(--ybg); }
 
 .yuentracking-month { display:flex;flex-flow:row wrap;margin:20px 0px;margin-bottom:10px; }
-.yuentracking-month yth { border-radius:7px;border:1px solid rgba(var(--main),.5);padding:8px;background:rgba(var(--main),.2);margin-right:5px;margin-bottom:5px;flex-grow:1; }
+.yuentracking-month yth { z-index:3;border-radius:7px;border:1px solid rgba(var(--main),.5);padding:8px;background:rgba(var(--main),.2);margin-right:5px;margin-bottom:5px;flex-grow:1; }
 .yuentracking-month yth a { display:block;font-weight:700;color:rgb(var(--main));text-decoration:none;border-bottom:1px solid rgba(var(--main),.5);padding-bottom:5px;margin-bottom:5px;line-height:16px; }
 .yuentracking-month yth ytags { }
 .yuentracking-month yth ytags i { font:700 10px nunito;display:inline-block;text-transform:uppercase;margin-right:5px; }
