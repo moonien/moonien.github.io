@@ -27,7 +27,7 @@ div[class*="yuenthread10-img-"] { overflow:hidden;margin:10px auto;margin-bottom
 .yuenthread10-images { display:flex;box-shadow:none!important;width:calc(100% + 10px);margin:0px -5px;justify-content:center;align-items:flex-end; }
 .yuenthread10-images div { margin:10px 12px;margin-bottom:30px; }
 
-.yuenthread10-tags { box-shadow:none!important;padding:0px 15px;display:flex;align-items:flex-end;font-size:0px; }
+.yuenthread10-tags { text-align:left;box-shadow:none!important;padding:0px 15px;display:flex;align-items:flex-end;font-size:0px; }
 .yuenthread10-tags span,
 .yuenthread10-tags a { border-radius:5px 5px 0px 0px;background:rgb(var(--moon));padding:5px 10px;color:var(--bg-color)!important;text-transform:uppercase;font-weight:700;margin:0px 5px; }
 .yuenthread10-tags a { font-size:14px;color:rgb(var(--moon))!important;background:#fff; }
