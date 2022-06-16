@@ -13,6 +13,7 @@
 .yuenien-tag { text-align:left;margin-top:15px;font-size:0px; }
 .yuenien-tag a { display:inline-block;margin-right:10px;margin-top:5px;color:var(--accent);font:700 13px nunito;text-transform:uppercase; }
 .yuenien-tag a:before { content:"#";margin-right:1px; }
+.yuenien-tag a[href*="showuser"]:before { content:""!important;margin-right:0px!important; }
 
 img[class*="yuenien-"] { object-fit:cover;display:block;margin:0px auto;margin-bottom:15px;box-sizing:border-box; }
 .yuenien-circle { width:170px;height:170px;border-radius:100%;border:20px solid rgb(230,230,230); }
