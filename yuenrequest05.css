@@ -8,7 +8,7 @@ margin:30px auto;width:520px;text-align:justify;font:14px karla;line-height:19px
 .yuenrequest05-head span { display:block;background:var(--yeet);color:var(--bg-color);padding:25px 30px;font:900 30px vesper libre;line-height:30px; }
 .yuenrequest05-head span font { display:block;font:700 12px karla;text-transform:uppercase; }
 .yuenrequest05-head span font:before { display:block;content:"";border-top:3px solid var(--bg-color);width:70px;margin:10px 0px; }
-.yuenrequest05-head img { width:100%;max-height:250px; }
+.yuenrequest05-head img { width:100%;max-height:250px;object-fit:cover; }
 
 .yuenrequest05-character { height:310px;background:var(--bg-color); }
 .yuenrequest05-character:before { content:"\eb67";display:block;font:80px honeybee;line-height:80px;position:absolute;margin-left:110px;margin-top:210px;z-index:9;transform:rotate(-1deg);background-color:var(--yeet);background-image:var(--img);background-size:cover;background-position:center;background-clip:text;-webkit-background-clip:text;color:transparent; }
