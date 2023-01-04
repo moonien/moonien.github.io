@@ -1,0 +1,195 @@
+.yuencombat { width:650px;margin:20px auto;background:rgb(var(--devcolor));
+--bgpos:center;
+--largebg:url(https://i64.servimg.com/u/f64/19/28/65/32/0157.png);
+--smallleft:url(https://i64.servimg.com/u/f64/19/28/65/32/0252.png);
+--smallbg:url(https://i64.servimg.com/u/f64/19/28/65/32/0346.png); }
+
+body#theme[data-lightmode="true"] .yuencombat {
+--largebg:url(https://i64.servimg.com/u/f64/19/28/65/32/0441.png);
+--smallleft:url(https://i64.servimg.com/u/f64/19/28/65/32/05110.png);
+--smallbg:url(https://i64.servimg.com/u/f64/19/28/65/32/0657.png);
+}
+
+.yuencombat-level { position:absolute;padding:10px 20px;text-transform:uppercase;display:flex;flex-flow:column wrap;width:150px;height:150px;background:radial-gradient(circle, rgba(var(--devcolor) / 0.6) 50%, transparent 51%) no-repeat;background-position:top -55px left -47px; }
+.yuencombat-level span { font:800 14px var(--serif);line-height:20px; }
+.yuencombat-level span b { font-size:38px; }
+.yuencombat-level span b,
+.yuencombat-level font b { background:linear-gradient(30deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-level font { font-family:var(--bodymono);font-size:12px; }
+
+.yuencombat-stats { position:absolute;width:650px;height:255px;padding:20px;box-sizing:border-box;display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;font:800 14px var(--bodymono); }
+.yuencombat-stats span { box-shadow:0px 0px 4px rgba(23 23 23 /1);padding:4px 7px;border-radius:10px;background:linear-gradient(30deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));color:rgb(var(--textcolor)); }
+.yuencombat-stats span b { color:rgb(var(--bgcolor)); }
+
+.yuencombat-block { background:var(--header);background-position:var(--bgpos);background-size:cover;height:215px;padding:20px;display:flex;flex-flow:column nowrap;align-content:flex-start;justify-content:flex-end;border-bottom:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1; }
+.yuencombat-block span { font-size:11px;text-transform:uppercase;width:max-content;border:1px solid var(--highlight);padding:3px 4px;margin-top:5px;background:rgba(var(--devcolor) / 0.8);border-radius:3px; }
+.yuencombat-block span b { font-weight:800;background:linear-gradient(30deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
+
+.yuencombat-spells { display:flex;padding:15px 3px;padding-right:15px;background:var(--smallbg) top center no-repeat;background:var(--smallleft) top -40px left no-repeat;margin-bottom:-20px; }
+.yuencombat-spells font { display:flex;flex-flow:row wrap;gap:5px;width:100%;box-sizing:border-box;padding-left:45px;justify-content:space-between; }
+.yuencombat-spells font span { width:50px;height:50px;display:flex;flex-flow:row wrap;align-items:flex-end;justify-content:center;text-align:center;box-sizing:border-box;border:2px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1; }
+.yuencombat-spells font span b { height:60px;margin-bottom:-47px;vertical-align:text-top; }
+.yuencombat-spells font span b:first-letter { background:linear-gradient(30deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent;font:800 40px var(--bodyserif);line-height:20px; }
+.yuencombat-spells font span b div { all:initial;position:abssolute;color:rgba(var(--textcolor) / 1); }
+.yuencombat-spells font span i { background:linear-gradient(90deg, var(--highlight), var(--highlighter));width:67px;padding-top:2px;font:800 10px var(--bodyfont);color:rgba(var(--devcolor) / 1);text-transform:uppercase; }
+.yuencombat-spells font span:empty { border:2px dotted rgba(var(--bordercolor) / 0.5); }
+.yuencombat-spells:before { position:absolute;content:"SPELL SLOTS";display:block;font:800 25px var(--serif);width:85px;text-align:right;line-height:17px;padding:7px 12px; }
+.yuencombat-spells font span.usedspells { filter:grayscale(100%);opacity:0.5; }
+
+.yuencombat-post { margin:20px;border:1px solid rgb(var(--bordercolor));background:rgba(var(--bgcolor) / 0.5);padding:20px;text-align:justify;line-height:17px; }
+
+.yuencombat-hp { font:900 25px var(--bodyserif);line-height:25px;text-align:right; }
+.yuencombat-hp b { margin-left:3px;font-size:110%;background:linear-gradient(330deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-hp span { display:block;margin:5px 0px;background:rgb(var(--bordercolor));height:4px;border-radius:5px; }
+.yuencombat-hp span i { display:block;width:calc(100% / var(--max) * var(--rn));height:100%;border-radius:4px;background:linear-gradient(250deg, var(--highlight), var(--highlighter)); }
+
+.yuencombat-actions,
+.yuencombat-con  { display:flex;padding:20px;margin-top:-30px;gap:10px; }
+.yuencombat action { font-size:11px;display:flex;flex-flow:column nowrap;width:600px;gap:3px;padding:10px;border:1px solid rgb(var(--bordercolor));background:rgba(var(--bgcolor) / 0.5) var(--smallleft) left -70px center;background:rgba(var(--bgcolor) / 0.5) var(--smallbg) top -40px left; }
+.yuencombat action b,
+.yuencombat-lucky b,
+.alt-dreams b { font:900 18px var(--serif);color:var(--highlight); }
+.yuencombat action i,
+.yuencombat-lucky i { font-weight:bolder;color:var(--highlighter); }
+.yuencombat action u { font-weight:bolder;text-decoratione:none;background:linear-gradient(200deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat action font { text-align:justify; }
+
+
+
+
+
+
+.yuencombat-lucky { border-top:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1;width:100%;display:flex;flex-flow:row nowrap;justify-content:space-between;padding:20px;box-sizing:border-box;font-size:0px; }
+.yuencombat-lucky img { height:48px;padding:5px;border:1px solid rgb(var(--bordercolor));background:rgba(var(--bgcolor) / 0.5); }
+.yuencombat-lucky span { flex-grow:1;margin-right:100px; }
+.yuencombat-lucky b { font-size:20px; }
+.yuencombat-lucky i { font-size:12px;margin-left:10px; }
+.yuencombat-lucky span div,
+.alt-dreams balm { font-size:11px;margin-right:10px;display:inline-block;font-weight:bolder;border:1px solid rgb(var(--bordercolor));margin-top:5px;width:max-content;background:rgba(var(--bgcolor) / 0.5);padding:7px 8px; }
+.yuencombat-lucky.animated span,
+.yuencombat-lucky.battlecompanion span { margin-right:10px; }
+.yuencombat-lucky.animated img { width:96px;height:96px;object-fit:cover; }
+.yuencombat-lucky action { width:auto;margin-top:5px; }
+.yuencombat-lucky action i { margin:0px; }
+.yuencombat-lucky action b { font-size:16px; }
+
+
+
+
+.yuencombat-wildshape { border-top:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1;background:linear-gradient(230deg, rgba(var(--highlightRGB),0.3), rgba(var(--highlighterRGB),0.2)),var(--largebg);padding:20px;display:flex;flex-flow:row wrap;justify-content:space-between;align-items:center;overflow:hidden; }
+.yuencombat-wildshape div { font-size:40px;margin:0px; }
+.yuencombat-wildshape div i { width:40px;line-height:40px;display:block;position:absolute;line-height:50px;margin-top:-25px;margin-left:-40px; }
+.yuencombat-wildshape div i:first-child { background:linear-gradient(200deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-wildshape div i:nth-child(2) { color:rgb(var(--bordercolor)); }
+.yuencombat-wildshape div i.two-left { display:none; }
+.yuencombat-wildshape div i.one-left { clip-path:polygon(100% 0, 0% 100%, 100% 100%); }
+.yuencombat-wildshape div i.none-left { clip-path:none; }
+
+.yuencombat-wildshape wildshape { margin-top:10px;width:100%; }
+.yuencombat-wildshape wildshape img { float:left;width:132px;height:132px;border:1px solid var(--highlighter);padding:10px;object-fit:cover;margin-right:15px; }
+.yuencombat-wildshape wildshape img,
+.yuencombat-wildshape wildshape wshape font { background:rgba(var(--bgcolor) / 0.7) ; }
+.yuencombat-wildshape wildshape a { display:block;width:max-width;text-decoration:none;font:900 20px var(--serif);line-height:12px;color:var(--highlight); }
+.yuencombat-wildshape wildshape wshape { display:flex;gap:15px;margin-top:12px; }
+.yuencombat-wildshape wildshape wshape font { border-radius:3px;height:60px;width:60px;border:1px solid var(--highlighter);display:flex;flex-flow:column nowrap;justify-content:center;align-items:center; }
+.yuencombat-wildshape wildshape wshape font i { letter-spacing:-2px;padding-right:2px;font:700 32px var(--bodyserif);line-height:30px;margin-top:-0px;background:linear-gradient(20deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-wildshape wildshape wshape font b { margin-top:-5px;font-size:10px; }
+.yuencombat-wildshape wildshape wilds { display:flex;flex-flow:row wrap;align-items:space-between;align-content:space-between;justify-content:space-between;gap:7px;margin-top:12px;height:50px; }
+.yuencombat-wildshape wildshape wilds font { flex-grow:1;text-align:center;justify-content:center;padding:4px 6px;background:rgba(var(--bgcolor) / 0.5);border:1px solid var(--highlighter);border-radius:3px;font-size:11px;line-height:15px; }
+.yuencombat-wildshape wildshape wilds font b { background:linear-gradient(200deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+
+
+.yuencombat-samurai { border-top:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1;background:linear-gradient(230deg, rgba(var(--highlightRGB),0.3), rgba(var(--highlighterRGB),0.2)),var(--largebg);height:70px;padding:0px 20px;display:flex;flex-flow:row nowrap;justify-content:space-between;align-items:center;overflow:hidden; }
+.yuencombat-samurai font,
+.yuencombat-wildshape font { display:flex;flex-flow:row wrap;gap:5px;text-transform:uppercase; }
+.yuencombat-samurai span,
+.yuencombat-wildshape span { transition:0.8s;font-size:11px;padding:3px 4px;border:1px solid var(--highlight);border-radius:3px;font-weight:900;background:rgba(var(--bgcolor) / 0.5); }
+.yuencombat span.toactivate { opacity:0.5;filter:grayscale(100%); }
+.yuencombat span.activated { background:rgba(var(--bgcolor) / 0.8); }
+.yuencombat span.asifeat { color:rgb(var(--devcolor));border:1px solid var(--highlighter);background:rgba(var(--textcolor) / 0.2); }
+.yuencombat span.activated b,
+.yuencombat-samurai div b { background:linear-gradient(330deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-samurai div { width:300px;text-align:right;font:700 72px times new roman;font-variant-numeric:lining-nums;line-height:90px;margin:-80px 0px;margin-top:-70px;color:rgba(var(--textcolor) / 0.5); }
+.yuencombat-samurai div b { font-size:105px;font-style:italic;padding:0px 5px; }
+.yuencombat-samurai div i { font-style:normal;font-weight:400px; }
+.yuencombat-samurai u { text-decoration:none;font:900 21px var(--serif);line-height:15px;display:inline-block;width:40px;text-align:left;margin-left:5px; }
+.yuencombat-samurai u:before { content:"SEN ";background:linear-gradient(40deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-samurai u:after { content:"CHA RGE"; }
+
+
+
+
+.alt-dreams { height:70px; }
+.alt-dreams b { font-size:19px;text-shadow:0px 0px 5px rgb(var(--devcolor));width:100%; }
+.alt-dreams div b { font-family:times new roman;text-shadow:none;width:auto;display:inline-block;margin-top:-26px; }
+.alt-dreams court { display:flex;flex-flow:row wrap; }
+.alt-dreams balm { font-size:11px;margin-right:5px;border:1px solid rgb(var(--bordercolor));margin-top:3px;padding:4px 5px; }
+.alt-dreams div { width:280px;display:block;margin-top:-55px;margin-left:-42px; }
+.alt-dreams u { width:60px; }
+.alt-dreams u:before { content:"HEAL "; }
+.alt-dreams u:after { content:"CHAR GES"; }
+.alt-stars u:before { content:"SUM "; }
+.alt-stars u:after { content:"CHA RGE"; }
+
+
+
+
+
+
+
+.yuencombat-tabs { display:flex;flex-flow:row wrap;padding:20px;padding-bottom:0px;margin-bottom:-20px; }
+.yuencombat-tabs label { filter:grayscale(100%);flex-grow:1;transition:0.8s;text-align:center;background:rgba(var(--bgcolor) / 0.2);border:1px solid rgb(var(--bordercolor));padding:5px;margin-bottom:10px;font-size:11px; }
+.yuencombat-tabs label[for*="yc-02"] { margin-left:10px; }
+.yuencombat-tabs label b { background:linear-gradient(40deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-tabs input:checked+label,
+.yuencombat-tabs label:hover { filter:grayscale(0%);background:rgba(var(--bgcolor) / 0.5); }
+.yuencombat-tabs [type=radio] { display:none; }
+
+.yuencombat-tabs-inventory,
+.yuencombat-tabs-spells { width:630px;height:0px;transition:0.8s;overflow:hidden;background:rgba(var(--bgcolor) / 0.5) var(--largebg) top -230px left -30px;box-shadow:inset 0px 0px 0px 1px rgb(var(--bordercolor)); }
+.yuencombat-tabs scrolls { overflow:auto;height:160px;border-top:20px solid transparent;border-bottom:20px solid transparent;padding:0px 20px;display:block;line-height:20px; }
+.yuencombat-tabs ul { margin:0px 0px;padding:0px; }
+.yuencombat-tabs li { margin:0px 20px;margin-left:40px;padding:0px; }
+
+.yuencombat #yc-01-1:checked+label ~ .yuencombat-tabs-inventory,
+.yuencombat #yc-02-1:checked+label ~ .yuencombat-tabs-spells,
+.yuencombat #yc-01-2:checked+label ~ .yuencombat-tabs-inventory,
+.yuencombat #yc-02-2:checked+label ~ .yuencombat-tabs-spells,
+.yuencombat #yc-01-3:checked+label ~ .yuencombat-tabs-inventory,
+.yuencombat #yc-02-3:checked+label ~ .yuencombat-tabs-spells,
+.yuencombat #yc-01-4:checked+label ~ .yuencombat-tabs-inventory,
+.yuencombat #yc-02-4:checked+label ~ .yuencombat-tabs-spells,
+.yuencombat #yc-01-5:checked+label ~ .yuencombat-tabs-inventory,
+.yuencombat #yc-02-5:checked+label ~ .yuencombat-tabs-spells,
+.yuencombat #yc-01-6:checked+label ~ .yuencombat-tabs-inventory,
+.yuencombat #yc-02-6:checked+label ~ .yuencombat-tabs-spells,
+.yuencombat #yc-01-7:checked+label ~ .yuencombat-tabs-inventory,
+.yuencombat #yc-02-7:checked+label ~ .yuencombat-tabs-spells
+.yuencombat #yc-01-8:checked+label ~ .yuencombat-tabs-inventory,
+.yuencombat #yc-02-8:checked+label ~ .yuencombat-tabs-spells { height:200px;margin-bottom:12px; }
+
+
+
+
+.yuencombat-tabs b,
+.yuencombat-tabs a { text-transform:uppercase; }
+.yuencombat-tabs b,
+.yuencombat-post b { color:var(--highlight); }
+.yuencombat-tabs i,
+.yuencombat-post i { color:var(--highlighter); }
+
+
+.dnone { display:none; }
+
+#chrysanthemum { --header:url(https://64.media.tumblr.com/94db573e87609a848048a076d9f2a865/4101824585a3e9c8-d8/s1280x1920/5a18ef08a3d9138875d7c79b905a421c24ff219e.gifv); }
+
+#eleia { --header:url(https://64.media.tumblr.com/265cf0633eb4296c0c75463918f5c93f/cdcf820936538cef-bb/s1280x1920/302646c2a3a34b6a293c2d2b88ce1655a633b079.gifv);--bgpos:top centerwimportant; }
+#eleia { --header:url(https://64.media.tumblr.com/c701c7c0675310071bcd876828adba48/1dd9c787d6e852e9-87/s1280x1920/0dae71d4aa7d6b286a9982cf4251cf5070a42c8b.gifv);--bgpos:bottom -20px center!important; }
+#eleia .yuencombat-stats span { background:rgba(var(--bgcolor) / 0.7) linear-gradient(30deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.5)); }
+
+#rosalyne { --header:url(https://64.media.tumblr.com/6b55e865283db0d8354106b12f90b718/efd1bd66f8feccac-c6/s540x810/b587e8f1ee25901122c175e1071bd795f9603dc9.gifv); }
+#rosalyne { --sheader:url(https://64.media.tumblr.com/c50bf31268cb21ef91b5f68695a47b57/7b007e330e89862b-02/s540x810/03379d567fe67a8f03cf66464e20d75b74322c13.gifv); }
+
+#taliesin { --header:url(https://i.servimg.com/u/f64/19/28/65/32/03_ban10.png); }
+
+#yozora { --header:url(https://64.media.tumblr.com/d444874127c06436ff5675e716844de5/88330c494aeb533f-da/s540x810/b74d9370610af4927e913cdfff92d904e9cc9774.gifv); }
