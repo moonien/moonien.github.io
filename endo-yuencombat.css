@@ -39,7 +39,7 @@ body#theme[data-lightmode="true"] .yuencombat {
 .yuencombat-post { margin:20px;border:1px solid rgb(var(--bordercolor));background:rgba(var(--bgcolor) / 0.5);padding:20px;text-align:justify;line-height:17px; }
 
 .yuencombat-hp { font:900 25px var(--bodyserif);line-height:25px;text-align:right; }
-.yuencombat-hp b { margin-left:3px;font-size:110%;background:linear-gradient(330deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-hp b { margin-left:3px;font-size:110%;background:linear-gradient(330deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent!important; }
 .yuencombat-hp span { display:block;margin:5px 0px;background:rgb(var(--bordercolor));height:4px;border-radius:5px; }
 .yuencombat-hp span i { display:block;width:calc(100% / var(--max) * var(--rn));height:100%;border-radius:4px;background:linear-gradient(250deg, var(--highlight), var(--highlighter)); }
 
