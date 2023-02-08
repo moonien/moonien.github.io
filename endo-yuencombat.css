@@ -137,6 +137,8 @@ body#theme[data-lightmode="true"] .yuencombat {
 .alt-dreams u:after { content:"CHAR GES"; }
 .alt-stars u:before { content:"SUM "; }
 .alt-stars u:after { content:"CHA RGE"; }
+.alt-spores court:nth-child(2) { margin-left:-100px;text-align:right;justify-content:flex-end; }
+.alt-spores court:nth-child(2) balm { margin-top:0px;margin-bottom:3px }
 
 
 
