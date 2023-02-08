@@ -188,7 +188,7 @@ body#theme[data-lightmode="true"] .yuencombat {
 .yuencombat-post i { color:var(--highlighter); }
 
 
-.dnone { display:none; }
+.dnone { display:none!important; }
 
 #chrysanthemum { --header:url(https://64.media.tumblr.com/94db573e87609a848048a076d9f2a865/4101824585a3e9c8-d8/s1280x1920/5a18ef08a3d9138875d7c79b905a421c24ff219e.gifv); }
 
