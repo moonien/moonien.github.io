@@ -111,7 +111,7 @@ body#theme[data-lightmode="true"] .yuencombat {
 
 .yuencombat-summon wildshape { margin:0px; }
 .yuencombat-summon wildshape a { margin-bottom:14px; }
-.yuencombat-summon wildshape img { width:154px;height:154px; }
+.yuencombat-summon wildshape img { width:154px;height:154px;float:right;margin:0px;margin-left:15px; }
 .yuencombat-summon wildshape wilds { height:auto;margin:0px; }
 .yuencombat-summon wildshape wilds font { line-height:12px;text-transform:uppercase; }
 .yuencombat-summon wildshape wshape { gap:10px;margin:8px 0px; }
