@@ -85,7 +85,6 @@ body#theme[data-lightmode="true"] .yuencombat {
 
 
 .yuencombat-wildshape,
-.yuencombat-summon,
 .yuencombat-samurai { border-top:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1;background:linear-gradient(230deg, rgba(var(--highlightRGB),0.3), rgba(var(--highlighterRGB),0.2)),var(--largebg);padding:20px;display:flex;flex-flow:row wrap;justify-content:space-between;align-items:center;overflow:hidden; }
 
 .yuencombat-wildshape div { font-size:40px;margin:0px; }
@@ -109,12 +108,18 @@ body#theme[data-lightmode="true"] .yuencombat {
 .yuencombat wildshape wilds font { flex-grow:1;text-align:center;justify-content:center;padding:4px 6px;background:rgba(var(--bgcolor) / 0.5);border:1px solid var(--highlighter);border-radius:3px;font-size:11px;line-height:15px; }
 .yuencombat wildshape wilds font b { background:linear-gradient(200deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
 
+.yuencombat-summon { border-top:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1;padding:20px; }
 .yuencombat-summon wildshape { margin:0px; }
+.yuencombat wildshape wshape font,
+.yuencombat wildshape wilds font,
+.yuencombat-summon wildshape img { border-radius:0px;border-color:rgb(var(--bordercolor)); }
 .yuencombat-summon wildshape a { margin-bottom:14px; }
 .yuencombat-summon wildshape img { width:154px;height:154px;float:right;margin:0px;margin-left:15px; }
 .yuencombat-summon wildshape wilds { height:auto;margin:0px; }
 .yuencombat-summon wildshape wilds font { line-height:12px;text-transform:uppercase; }
 .yuencombat-summon wildshape wshape { gap:10px;margin:8px 0px; }
+
+.yuencombat-summon .yuencombat-actions { width:100%;padding:0px;margin-top:12px; }
 
 
 
