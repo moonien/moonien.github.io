@@ -118,18 +118,18 @@ body#theme[data-lightmode="true"] .yuencombat {
 
 
 
-
 .yuencombat-samurai { height:70px;padding:0px 20px; }
 .yuencombat-samurai font,
 .yuencombat-wildshape font { display:flex;flex-flow:row wrap;gap:5px;text-transform:uppercase; }
+.yuencombat-samurai font { width:420px;margin-right:-100px; }
 .yuencombat-samurai span,
-.yuencombat-wildshape span { transition:0.8s;font-size:11px;padding:3px 4px;border:1px solid var(--highlight);border-radius:3px;font-weight:900;background:rgba(var(--bgcolor) / 0.5); }
+.yuencombat-wildshape span { font-size:11px;padding:3px 4px;border:1px solid var(--highlight);border-radius:3px;font-weight:900;background:rgba(var(--bgcolor) / 0.5); }
 .yuencombat span.toactivate { opacity:0.5;filter:grayscale(100%); }
 .yuencombat span.activated { background:rgba(var(--bgcolor) / 0.8); }
 .yuencombat span.asifeat { color:rgb(var(--devcolor));border:1px solid var(--highlighter);background:rgba(var(--textcolor) / 0.2); }
 .yuencombat span.activated b,
 .yuencombat-samurai div b { background:linear-gradient(330deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
-.yuencombat-samurai div { width:300px;text-align:right;font:700 72px times new roman;font-variant-numeric:lining-nums;line-height:90px;margin:-80px 0px;margin-top:-70px;color:rgba(var(--textcolor) / 0.5); }
+.yuencombat-samurai div { width:200px;text-align:right;font:700 72px times new roman;font-variant-numeric:lining-nums;line-height:90px;margin:-80px 0px;margin-top:-70px;color:rgba(var(--textcolor) / 0.5); }
 .yuencombat-samurai div b { font-size:105px;font-style:italic;padding:0px 5px; }
 .yuencombat-samurai div i { font-style:normal;font-weight:400px; }
 .yuencombat-samurai u { text-decoration:none;font:900 21px var(--serif);line-height:15px;display:inline-block;width:40px;text-align:left;margin-left:5px; }
@@ -142,9 +142,9 @@ body#theme[data-lightmode="true"] .yuencombat {
 .alt-dreams { height:70px; }
 .alt-dreams b { font-size:19px;text-shadow:0px 0px 5px rgb(var(--devcolor));width:100%; }
 .alt-dreams div b { font-family:times new roman;text-shadow:none;width:auto;display:inline-block;margin-top:-26px; }
-.alt-dreams court { display:flex;flex-flow:row wrap; }
+.alt-dreams court { width:420px;display:flex;flex-flow:row wrap; }
 .alt-dreams balm { font-size:11px;margin-right:5px;border:1px solid rgb(var(--bordercolor));margin-top:3px;padding:4px 5px; }
-.alt-dreams div { width:280px;display:block;margin-top:-55px;margin-left:-42px; }
+.alt-dreams div { display:block;margin-top:-55px;margin-left:-42px; }
 .alt-dreams u { width:60px; }
 .alt-dreams u:before { content:"HEAL "; }
 .alt-dreams u:after { content:"CHAR GES"; }
