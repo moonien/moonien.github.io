@@ -62,6 +62,7 @@ body#theme[data-lightmode="true"] .yuencombat {
 .yuencombat action font { text-align:justify; }
 
 
+.yuencombat-summon .yuencombat-actions { width:100%;padding:0px;margin-top:13px; }
 
 
 
@@ -83,7 +84,10 @@ body#theme[data-lightmode="true"] .yuencombat {
 
 
 
-.yuencombat-wildshape { border-top:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1;background:linear-gradient(230deg, rgba(var(--highlightRGB),0.3), rgba(var(--highlighterRGB),0.2)),var(--largebg);padding:20px;display:flex;flex-flow:row wrap;justify-content:space-between;align-items:center;overflow:hidden; }
+.yuencombat-wildshape,
+.yuencombat-summon,
+.yuencombat-samurai { border-top:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1;background:linear-gradient(230deg, rgba(var(--highlightRGB),0.3), rgba(var(--highlighterRGB),0.2)),var(--largebg);padding:20px;display:flex;flex-flow:row wrap;justify-content:space-between;align-items:center;overflow:hidden; }
+
 .yuencombat-wildshape div { font-size:40px;margin:0px; }
 .yuencombat-wildshape div i { width:40px;line-height:40px;display:block;position:absolute;line-height:50px;margin-top:-25px;margin-left:-40px; }
 .yuencombat-wildshape div i:first-child { background:linear-gradient(200deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
@@ -92,21 +96,29 @@ body#theme[data-lightmode="true"] .yuencombat {
 .yuencombat-wildshape div i.one-left { clip-path:polygon(100% 0, 0% 100%, 100% 100%); }
 .yuencombat-wildshape div i.none-left { clip-path:none; }
 
-.yuencombat-wildshape wildshape { margin-top:10px;width:100%; }
-.yuencombat-wildshape wildshape img { float:left;width:132px;height:132px;border:1px solid var(--highlighter);padding:10px;object-fit:cover;margin-right:15px; }
-.yuencombat-wildshape wildshape img,
-.yuencombat-wildshape wildshape wshape font { background:rgba(var(--bgcolor) / 0.7) ; }
-.yuencombat-wildshape wildshape a { display:block;width:max-width;text-decoration:none;font:900 20px var(--serif);line-height:12px;color:var(--highlight); }
-.yuencombat-wildshape wildshape wshape { display:flex;gap:15px;margin-top:12px; }
-.yuencombat-wildshape wildshape wshape font { border-radius:3px;height:60px;width:60px;border:1px solid var(--highlighter);display:flex;flex-flow:column nowrap;justify-content:center;align-items:center; }
-.yuencombat-wildshape wildshape wshape font i { letter-spacing:-2px;padding-right:2px;font:700 32px var(--bodyserif);line-height:30px;margin-top:-0px;background:linear-gradient(20deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
-.yuencombat-wildshape wildshape wshape font b { margin-top:-5px;font-size:10px; }
-.yuencombat-wildshape wildshape wilds { display:flex;flex-flow:row wrap;align-items:space-between;align-content:space-between;justify-content:space-between;gap:7px;margin-top:12px;height:50px; }
-.yuencombat-wildshape wildshape wilds font { flex-grow:1;text-align:center;justify-content:center;padding:4px 6px;background:rgba(var(--bgcolor) / 0.5);border:1px solid var(--highlighter);border-radius:3px;font-size:11px;line-height:15px; }
-.yuencombat-wildshape wildshape wilds font b { background:linear-gradient(200deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat wildshape { margin-top:10px;width:100%; }
+.yuencombat wildshape img { float:left;width:132px;height:132px;border:1px solid var(--highlighter);padding:10px;object-fit:cover;margin-right:15px; }
+.yuencombat wildshape img,
+.yuencombat wildshape wshape font { background:rgba(var(--bgcolor) / 0.7) ; }
+.yuencombat wildshape a { display:block;width:max-width;text-decoration:none;font:900 20px var(--serif);line-height:12px;color:var(--highlight); }
+.yuencombat wildshape wshape { display:flex;gap:15px;margin-top:12px; }
+.yuencombat wildshape wshape font { border-radius:3px;height:60px;width:60px;border:1px solid var(--highlighter);display:flex;flex-flow:column nowrap;justify-content:center;align-items:center; }
+.yuencombat wildshape wshape font i { letter-spacing:-2px;padding-right:2px;font:700 32px var(--bodyserif);line-height:30px;margin-top:-0px;background:linear-gradient(20deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat wildshape wshape font b { margin-top:-5px;font-size:10px; }
+.yuencombat wildshape wilds { display:flex;flex-flow:row wrap;align-items:space-between;align-content:space-between;justify-content:space-between;gap:7px;margin-top:12px;height:50px; }
+.yuencombat wildshape wilds font { flex-grow:1;text-align:center;justify-content:center;padding:4px 6px;background:rgba(var(--bgcolor) / 0.5);border:1px solid var(--highlighter);border-radius:3px;font-size:11px;line-height:15px; }
+.yuencombat wildshape wilds font b { background:linear-gradient(200deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+
+.yuencombat-summon wildshape a { margin-bottom:14px; }
+.yuencombat-summon wildshape img { width:154px;height:154px; }
+.yuencombat-summon wildshape wilds { height:auto;margin:0px; }
+.yuencombat-summon wildshape wilds font { line-height:12px;text-transform:uppercase; }
+.yuencombat-summon wildshape wshape { gap:10px;margin:8px 0px; }
 
 
-.yuencombat-samurai { border-top:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1;background:linear-gradient(230deg, rgba(var(--highlightRGB),0.3), rgba(var(--highlighterRGB),0.2)),var(--largebg);height:70px;padding:0px 20px;display:flex;flex-flow:row nowrap;justify-content:space-between;align-items:center;overflow:hidden; }
+
+
+.yuencombat-samurai { height:70px;padding:0px 20px; }
 .yuencombat-samurai font,
 .yuencombat-wildshape font { display:flex;flex-flow:row wrap;gap:5px;text-transform:uppercase; }
 .yuencombat-samurai span,
