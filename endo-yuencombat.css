@@ -109,6 +109,7 @@ body#theme[data-lightmode="true"] .yuencombat {
 .yuencombat wildshape wilds font { flex-grow:1;text-align:center;justify-content:center;padding:4px 6px;background:rgba(var(--bgcolor) / 0.5);border:1px solid var(--highlighter);border-radius:3px;font-size:11px;line-height:15px; }
 .yuencombat wildshape wilds font b { background:linear-gradient(200deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
 
+.yuencombat-summon wildshape { margin:0px; }
 .yuencombat-summon wildshape a { margin-bottom:14px; }
 .yuencombat-summon wildshape img { width:154px;height:154px; }
 .yuencombat-summon wildshape wilds { height:auto;margin:0px; }
