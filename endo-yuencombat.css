@@ -207,7 +207,7 @@ body#theme[data-lightmode="true"] .yuencombat {
 
 
 
-.yuencombat-tag { margin:0px auto;margin-top:-20px;margin-bottom:20px;display:flex;width:650px; }
+.yuencombat-tag { margin:0px auto;margin-top:-20px;margin-bottom:20px;display:flex;width:650px;font-size:0px; }
 .yuencombat-tag a { margin-right:5px;background:var(--highlight);color:rgb(var(--devcolor));padding:3px 5px;text-transform:uppercase;font-size:10px;font-weight:bold;border-radius:0px 0px 3px 3px; }
 
 
