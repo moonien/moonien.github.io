@@ -206,6 +206,15 @@ body#theme[data-lightmode="true"] .yuencombat {
 .yuencombat-post i { color:var(--highlighter); }
 
 
+
+.yuencombat-tag { margin:0px auto;margin-top:-20px;margin-bottom:20px;display:flex;width:650px; }
+.yuencombat-tag a { margin-right:5px;background:var(--highlight);color:rgb(var(--devcolor));padding:3px 5px;text-transform:uppercase;font-size:10px;font-weight:bold;border-radius:0px 0px 3px 3px; }
+
+
+
+
+
+
 .dnone { display:none!important; }
 
 #chrysanthemum { --header:url(https://64.media.tumblr.com/94db573e87609a848048a076d9f2a865/4101824585a3e9c8-d8/s1280x1920/5a18ef08a3d9138875d7c79b905a421c24ff219e.gifv); }
