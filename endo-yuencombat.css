@@ -191,7 +191,7 @@ body#theme[data-lightmode="true"] .yuencombat {
 .yuencombat #yc-01-6:checked+label ~ .yuencombat-tabs-inventory,
 .yuencombat #yc-02-6:checked+label ~ .yuencombat-tabs-spells,
 .yuencombat #yc-01-7:checked+label ~ .yuencombat-tabs-inventory,
-.yuencombat #yc-02-7:checked+label ~ .yuencombat-tabs-spells
+.yuencombat #yc-02-7:checked+label ~ .yuencombat-tabs-spells,
 .yuencombat #yc-01-8:checked+label ~ .yuencombat-tabs-inventory,
 .yuencombat #yc-02-8:checked+label ~ .yuencombat-tabs-spells { height:200px;margin-bottom:12px; }
 
