@@ -225,9 +225,9 @@ body#theme[data-lightmode="true"] .yuencombat {
 
 
 
-.yuencombat-astrologian-draw b { display:flex;width:100%;justify-content:space-between;font:900 18px var(--serif);line-height:20px;background:linear-gradient(10deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-astrologian-draw b { display:flex;width:100%;justify-content:space-between;font:900 25px var(--serif);align-items:end;line-height:30px;background:linear-gradient(10deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
 .yuencombat-astrologian-draw b b1:after { content:var(--adroll); }
-.yuencombat-astrologian-draw b b2 { font:900 40px var(--bodyserif);line-height:40px; }
+.yuencombat-astrologian-draw b b2 { font:900 35px var(--bodyserif);line-height:30px; }
 
 .yuencombat-astrologian-draws { width:100%;display:grid;grid-template-columns:120px 1fr;grid-template-rows:75px 95px;grid-template-areas:"card desc" "card spread";gap:20px;padding-top:10px; }
 .yuencombat-astrologian-draws adcard { grid-area:card; }
