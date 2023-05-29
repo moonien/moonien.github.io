@@ -232,7 +232,7 @@ body#theme[data-lightmode="true"] .yuencombat {
 .yuencombat-astrologian-draws { width:100%;display:grid;grid-template-columns:120px 1fr;grid-template-rows:75px 95px;grid-template-areas:"card desc" "card spread";gap:20px;padding-top:10px; }
 .yuencombat-astrologian-draws adcard { grid-area:card; }
 .yuencombat-astrologian-draws adcard,
-.yuencombat-astrologian-draws adspread adc { display:block;width:120px;height:200px;border:1px solid rgba(var(--textcolor) / 0.7);background:linear-gradient(10deg, rgba(var(--highlightRGB),0.5), rgba(var(--highlighterRGB),0.5));border-radius:5px;box-sizing:border-box;margin-top:-10px; }
+.yuencombat-astrologian-draws adspread adc { display:block;width:120px;height:200px;border:1px solid rgba(var(--textcolor) / 0.7);background:linear-gradient(10deg, rgba(var(--highlightRGB),0.5), rgba(var(--highlighterRGB),0.5));border-radius:5px;box-sizing:border-box; }
 .yuencombat-astrologian-draws adcard:before,
 .yuencombat-astrologian-draws adc:before { content:"";display:block;height:100%;width:100%;background:var(--adimg) no-repeat center;background-size:var(--adimgsize); }
 .yuencombat-astrologian-draws addesc { grid-area:desc;display:block;background:rgba(var(--bgcolor) / 0.6);border:1px solid rgba(var(--textcolor) / 0.7);border-radius:3px;padding:10px; }
