@@ -2,12 +2,18 @@
 --bgpos:center;
 --largebg:url(https://i64.servimg.com/u/f64/19/28/65/32/0157.png);
 --smallleft:url(https://i64.servimg.com/u/f64/19/28/65/32/0252.png);
---smallbg:url(https://i64.servimg.com/u/f64/19/28/65/32/0346.png); }
+--smallbg:url(https://i64.servimg.com/u/f64/19/28/65/32/0346.png);
+--sfarcher:url(https://i20.servimg.com/u/f20/20/50/14/27/archer11.png);
+--sfchalice:url(https://i20.servimg.com/u/f20/20/50/14/27/chalic11.png);
+--sfdragon:url(https://i20.servimg.com/u/f20/20/50/14/27/dragon11.png); }
 
 body#theme[data-lightmode="true"] .yuencombat {
 --largebg:url(https://i64.servimg.com/u/f64/19/28/65/32/0441.png);
 --smallleft:url(https://i64.servimg.com/u/f64/19/28/65/32/05110.png);
 --smallbg:url(https://i64.servimg.com/u/f64/19/28/65/32/0657.png);
+--sfarcher:url(https://i20.servimg.com/u/f20/20/50/14/27/archer10.png);
+--sfchalice:url(https://i20.servimg.com/u/f20/20/50/14/27/chalic10.png);
+--sfdragon:url(https://i20.servimg.com/u/f20/20/50/14/27/dragon10.png);
 }
 
 #mobile {
@@ -157,6 +163,29 @@ body#theme[data-lightmode="true"] .yuencombat {
 .alt-stars u:after { content:"CHA RGE"; }
 .alt-spores court:nth-child(2) { margin-left:-100px;text-align:right;justify-content:flex-end; }
 .alt-spores court:nth-child(2) balm { margin:0px;margin-bottom:3px;margin-left:5px; }
+
+
+
+
+
+
+
+
+.yuencombat-wildshape starryform { width:100%;padding-top:20px; }
+.yuencombat-wildshape starryforms { display:flex;align-items:center;justify-content:space-between; }
+.yuencombat-wildshape starryforms sfpic { width:100px;height:100px;background:rgba(var(--devcolor) / 0.4) var(--sfimg) no-repeat center;background-size:var(--sfimgsize);box-sizing:border-box;border:15px solid transparent;border-radius:150px; }
+.yuencombat-wildshape starryforms sfdesc { width:calc(100% - 120px); }
+.yuencombat-wildshape starryforms sfdesc sfcon { display:flex;width:100%;justify-content:space-between;font:900 18px var(--serif);line-height:20px;texst-shadow:0px 0px 3px rgba(var(--devcolor) / 0.8);text-align:center;padding-bottom:10px;background:linear-gradient(10deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-wildshape starryforms sfdesc sfcon b { font:900 20px var(--bodyserif);padding-top:8px;line-height:12px; }
+.yuencombat-wildshape starryforms sfdesc sfcon b bb { filter:grayscale(100%);opacity:0.6; }
+.yuencombat-wildshape starryforms sfdesc sfcon:before { content:var(--sfcon); }
+.yuencombat-wildshape starryforms sfdesc:after { content:var(--sfcont);display:block;background:rgba(var(--devcolor) / 0.3);padding:10px;border-radius:10px;text-align:justify; }
+.yuencombat-wildshape starryforms.sf-archer { --sfimgsize:60px;--sfimg:var(--sfarcher);--sfcon:"THE ARCHER";
+--sfcont:"A constellation of an archer appears on you. When you activate this form, and as a bonus action on your subsequent turns while it lasts, you can make a ranged spell attack, hurling a luminous arrow that targets one creature within 60 feet of you. On a hit, the attack deals radiant damage equal to 1d8 + your Wisdom modifier."; }
+.yuencombat-wildshape starryforms.sf-chalice { --sfimgsize:65px;--sfimg:var(--sfchalice);--sfcon:"THE CHALICE";
+--sfcont:"A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature within 30 feet of you can regain hit points equal to 1d8 + your Wisdom modifier."; }
+.yuencombat-wildshape starryforms.sf-dragon { --sfimgsize:cover;--sfimg:var(--sfdragon);--sfcon:"THE DRAGON";
+--sfcont:"A constellation of a wise dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain concentration on a spell, you can treat a roll of 9 or lower on the d20 as a 10."; }
 
 
 
