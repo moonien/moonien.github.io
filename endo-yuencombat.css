@@ -318,11 +318,15 @@ body#theme[data-lightmode="true"] .yuencombat {
 
 .dnone { display:none!important; }
 
+#amalthea { --header:url(https://64.media.tumblr.com/5ff9340f85b3030aaa8494d2210a6292/9bcff55c3dbd59b8-33/s540x810/eceed6b068e607b7e9649626bbac1e544de0c104.gifv); }
+
 #chrysanthemum { --header:url(https://64.media.tumblr.com/94db573e87609a848048a076d9f2a865/4101824585a3e9c8-d8/s1280x1920/5a18ef08a3d9138875d7c79b905a421c24ff219e.gifv); }
 
 #eleia { --header:url(https://64.media.tumblr.com/265cf0633eb4296c0c75463918f5c93f/cdcf820936538cef-bb/s1280x1920/302646c2a3a34b6a293c2d2b88ce1655a633b079.gifv);--bgpos:top centerwimportant; }
 #eleia { --header:url(https://64.media.tumblr.com/c701c7c0675310071bcd876828adba48/1dd9c787d6e852e9-87/s1280x1920/0dae71d4aa7d6b286a9982cf4251cf5070a42c8b.gifv);--bgpos:bottom -20px center!important; }
 #eleia .yuencombat-stats span { background:rgba(var(--bgcolor) / 0.7) linear-gradient(30deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.5)); }
+
+#lileas { --header:url(https://64.media.tumblr.com/f76a512046a21bd2068b1af223d75e17/d6b4bb665fae2662-7b/s540x810/2475c69bb6498504b1975c2052557dfe06db1dac.gifv); }
 
 #rosalyne { --header:url(https://64.media.tumblr.com/6b55e865283db0d8354106b12f90b718/efd1bd66f8feccac-c6/s540x810/b587e8f1ee25901122c175e1071bd795f9603dc9.gifv); }
 #rosalyne { --sheader:url(https://64.media.tumblr.com/c50bf31268cb21ef91b5f68695a47b57/7b007e330e89862b-02/s540x810/03379d567fe67a8f03cf66464e20d75b74322c13.gifv); }
