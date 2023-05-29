@@ -5,7 +5,14 @@
 --smallbg:url(https://i64.servimg.com/u/f64/19/28/65/32/0346.png);
 --sfarcher:url(https://i20.servimg.com/u/f20/20/50/14/27/archer11.png);
 --sfchalice:url(https://i20.servimg.com/u/f20/20/50/14/27/chalic11.png);
---sfdragon:url(https://i20.servimg.com/u/f20/20/50/14/27/dragon11.png); }
+--sfdragon:url(https://i20.servimg.com/u/f20/20/50/14/27/dragon11.png);
+--adbalance:url(https://i20.servimg.com/u/f20/20/50/14/27/balanc10.png);
+--adbole:url(https://i20.servimg.com/u/f20/20/50/14/27/bole10.png);
+--adarrow:url(https://i20.servimg.com/u/f20/20/50/14/27/arrow10.png);
+--adspear:url(https://i20.servimg.com/u/f20/20/50/14/27/spear10.png);
+--adewer:url(https://i20.servimg.com/u/f20/20/50/14/27/ewer10.png);
+--adspire:url(https://i20.servimg.com/u/f20/20/50/14/27/spire10.png);
+}
 
 body#theme[data-lightmode="true"] .yuencombat {
 --largebg:url(https://i64.servimg.com/u/f64/19/28/65/32/0441.png);
@@ -186,6 +193,46 @@ body#theme[data-lightmode="true"] .yuencombat {
 --sfcont:"A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature within 30 feet of you can regain hit points equal to 1d8 + your Wisdom modifier."; }
 .yuencombat-wildshape starryforms.sf-dragon { --sfimgsize:cover;--sfimg:var(--sfdragon);--sfcon:"THE DRAGON";
 --sfcont:"A constellation of a wise dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain concentration on a spell, you can treat a roll of 9 or lower on the d20 as a 10."; }
+
+
+
+
+
+
+
+.yuencombat-astrologian-draw b { display:flex;width:100%;justify-content:space-between;font:900 18px var(--serif);line-height:20px;background:linear-gradient(10deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-astrologian-draw b b1:after { content:var(--adroll); }
+.yuencombat-astrologian-draw b b2 { font:900 40px var(--bodyserif);line-height:40px; }
+
+.yuencombat-astrologian-draws { width:100%;display:grid;grid-template-columns:120px 1fr;grid-template-rows:75px 95px;grid-template-areas:"card desc" "card spread";gap:20px;padding-top:10px; }
+.yuencombat-astrologian-draws adcard { grid-area:card; }
+.yuencombat-astrologian-draws adcard,
+.yuencombat-astrologian-draws adspread adc { display:block;width:120px;height:200px;border:1px solid rgba(var(--textcolor) / 0.7);background:linear-gradient(10deg, rgba(var(--highlightRGB),0.5), rgba(var(--highlighterRGB),0.5));border-radius:5px;box-sizing:border-box;margin-top:-10px; }
+.yuencombat-astrologian-draws adcard:before,
+.yuencombat-astrologian-draws adc:before { content:"";display:block;height:100%;width:100%;background:var(--adimg) no-repeat center;background-size:var(--adimgsize); }
+.yuencombat-astrologian-draws addesc { grid-area:desc;display:block;background:rgba(var(--bgcolor) / 0.6);border:1px solid rgba(var(--textcolor) / 0.7);border-radius:3px;padding:10px; }
+.yuencombat-astrologian-draws addesc b { display:inline;font:inherit;font-weight:bold; }
+.yuencombat-astrologian-draws addesc:after { content:var(--addesc);display:block;margin-top:10px; }
+.yuencombat-astrologian-draws adspread { grid-area:spread;align-self:end;justify-self:end;display:flex;height:90px;padding-top:29px;margin-bottom:-20px;overflow:hidden;gap:8.55px; }
+.yuencombat-astrologian-draws adspread adc { margin:0px;width:87px;height:140px;filter:grayscale(80%);opacity:0.5;transition:0.8s; }
+.yuencombat-astrologian-draws adc:before { background-size:var(--adimgsize2); }
+.yuencombat-astrologian-draws adspread adc:hover { margin-top:-29px;filter:grayscale(20%);opacity:1; }
+.yuencombat-astrologian-draws adspread adc.draw-0 { background:none;border-style:dashed; }
+.yuencombat-astrologian-draws adspread adc.draw-0:before { display:none; }
+.yuencombat-astrologian-draws adspread adc.draw-0:hover { margin:0px;filter:grayscale(80%);opacity:0.5; }
+
+.draw-1 { --adroll:"THE BALANCE";--adimg:var(--adbalance);--adimgsize:80px;--adimgsize2:65px;
+--addesc:"Bonus 2d6 damage on all damage rolls. This bonus damage applies once per action, attack damage roll, bonus action and reaction." }
+.draw-2 { --adroll:"THE BOLE";--adimg:var(--adbole);--adimgsize:90px;--adimgsize2:60px;
+--addesc:"All damage you take is reduced by 2d6." }
+.draw-3 { --adroll:"THE ARROW";--adimg:var(--adarrow);--adimgsize:80px;--adimgsize2:55px;
+--addesc:"You gain one extra attack when you take the attack action." }
+.draw-4 { --adroll:"THE SPEAR";--adimg:var(--adspear);--adimgsize:90px;--adimgsize2:70px;
+--addesc:"Your attack rolls crit on a 19 or 20 die result." }
+.draw-5 { --adroll:"THE EWER";--adimg:var(--adewer);--adimgsize:80px;--adimgsize2:60px;
+--addesc:"Temporarily provides one level 1 or 2 spell slot." }
+.draw-6 { --adroll:"THE SPIRE";--adimg:var(--adspire);--adimgsize:100px;--adimgsize2:70px;
+--addesc:"Temporarily provides 2, non-spell slot resources to an ally." }
 
 
 
