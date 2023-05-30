@@ -196,6 +196,9 @@ body#theme[data-lightmode="true"] .yuencombat {
 .alt-spores court:nth-child(2) { margin-left:-100px;text-align:right;justify-content:flex-end; }
 .alt-spores court:nth-child(2) balm { margin:0px;margin-bottom:3px;margin-left:5px; }
 
+.alt-rogue court { width:100%; }
+.alt-rogue u:before { content:"1D6 "; }
+
 
 
 
@@ -207,7 +210,7 @@ body#theme[data-lightmode="true"] .yuencombat {
 .yuencombat-wildshape starryforms { display:flex;align-items:center;justify-content:space-between; }
 .yuencombat-wildshape starryforms sfpic { width:100px;height:100px;background:rgba(var(--devcolor) / 0.4) var(--sfimg) no-repeat center;background-size:var(--sfimgsize);box-sizing:border-box;border:15px solid transparent;border-radius:150px; }
 .yuencombat-wildshape starryforms sfdesc { width:calc(100% - 120px); }
-.yuencombat-wildshape starryforms sfdesc sfcon { display:flex;width:100%;justify-content:space-between;font:900 18px var(--serif);line-height:20px;texst-shadow:0px 0px 3px rgba(var(--devcolor) / 0.8);text-align:center;padding-bottom:10px;background:linear-gradient(10deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-wildshape starryforms sfdesc sfcon { display:flex;width:100%;justify-content:space-between;font:900 18px var(--serif);line-height:20px;text-align:center;padding-bottom:10px;background:linear-gradient(10deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
 .yuencombat-wildshape starryforms sfdesc sfcon b { font:900 20px var(--bodyserif);padding-top:8px;line-height:12px; }
 .yuencombat-wildshape starryforms sfdesc sfcon b bb { filter:grayscale(100%);opacity:0.6; }
 .yuencombat-wildshape starryforms sfdesc sfcon:before { content:var(--sfcon); }
@@ -325,6 +328,8 @@ body#theme[data-lightmode="true"] .yuencombat {
 #eleia { --header:url(https://64.media.tumblr.com/265cf0633eb4296c0c75463918f5c93f/cdcf820936538cef-bb/s1280x1920/302646c2a3a34b6a293c2d2b88ce1655a633b079.gifv);--bgpos:top centerwimportant; }
 #eleia { --header:url(https://64.media.tumblr.com/c701c7c0675310071bcd876828adba48/1dd9c787d6e852e9-87/s1280x1920/0dae71d4aa7d6b286a9982cf4251cf5070a42c8b.gifv);--bgpos:bottom -20px center!important; }
 #eleia .yuencombat-stats span { background:rgba(var(--bgcolor) / 0.7) linear-gradient(30deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.5)); }
+
+#kaguya { --header:url(https://64.media.tumblr.com/9758ed3ab6f74d90b3174b16921eb6ee/81da97db240673ac-21/s540x810/3da8bbb7d465a9a604712447460bd73ebacfe30c.gifv); }
 
 #lileas { --header:url(https://64.media.tumblr.com/f76a512046a21bd2068b1af223d75e17/d6b4bb665fae2662-7b/s540x810/2475c69bb6498504b1975c2052557dfe06db1dac.gifv); }
 
