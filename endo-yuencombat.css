@@ -75,9 +75,6 @@ body#theme[data-lightmode="true"] .yuencombat {
 .yuencombat action font { text-align:justify; }
 
 
-.yuencombat-summon .yuencombat-actions { width:100%;padding:0px;margin-top:13px; }
-
-
 
 
 .yuencombat-lucky { border-top:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1;width:100%;display:flex;flex-flow:row nowrap;justify-content:space-between;padding:20px;box-sizing:border-box;font-size:0px; }
