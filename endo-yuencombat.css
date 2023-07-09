@@ -45,7 +45,7 @@ body#theme[data-lightmode="true"] .yuencombat {
 .yuencombat-block span { font-size:11px;text-transform:uppercase;width:max-content;border:1px solid var(--highlight);padding:3px 4px;margin-top:5px;background:rgba(var(--devcolor) / 0.8);border-radius:3px; }
 .yuencombat-block span b { font-weight:800;background:linear-gradient(30deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
 
-.yuencombat-spells { display:flex;padding:15px 3px;padding-right:15px;background:var(--smallbg) top center no-repeat;background:var(--smallleft) top -40px left no-repeat;margin-bottom:-20px; }
+.yuencombat-spells { display:flex;padding:20px 3px;padding-right:20px;background:var(--smallbg) top center no-repeat;background:var(--smallleft) top -40px left no-repeat;margin-bottom:-20px; }
 .yuencombat-spells font { display:flex;flex-flow:row wrap;gap:5px;width:100%;box-sizing:border-box;padding-left:45px;justify-content:space-between; }
 .yuencombat-spells font span { width:50px;height:50px;display:flex;flex-flow:row wrap;align-items:flex-end;justify-content:center;text-align:center;box-sizing:border-box;border:2px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1; }
 .yuencombat-spells font span b { height:60px;margin-bottom:-47px;vertical-align:text-top; }
