@@ -190,8 +190,8 @@ body#theme[data-lightmode="true"] .yuencombat {
 .alt-dreams u:after { content:"CHAR GES"; }
 .alt-stars u:before { content:"SUM "; }
 .alt-stars u:after { content:"CHA RGE"; }
-.alt-spores court:nth-child(2) { margin-left:-100px;text-align:right;justify-content:flex-end; }
-.alt-spores court:nth-child(2) balm { margin:0px;margin-bottom:3px;margin-left:5px; }
+.alt-spores court[class=""] { margin-left:-100px;text-align:right;justify-content:flex-end; }
+.alt-spores court[class=""] balm { margin:0px;margin-bottom:3px;margin-left:5px; }
 
 .alt-rogue court { width:100%; }
 .alt-rogue u:before { content:"1D6 "; }
