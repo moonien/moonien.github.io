@@ -1,19 +1,1 @@
-@import url('https://fonts.googleapis.com/css?family=Space+Mono');
-@import url('https://moonien.github.io/yuen01.css');
 
-
-
-.yuencomm01 { --bg-color:#fff;margin:20px auto;width:260px; }
-.yuencomm01-box { padding:20px;background:#fff;border-radius:8px;box-shadow:0px 0px 3px rgba(0,0,0,0.1); }
-.yuencomm01-image { height:120px;width:120px;margin:10px auto;background-size:cover;background-position:center; }
-.yuencomm01-images { background:white;mix-blend-mode:screen; }
-.yuencomm01-images:before { content:"";display:block;height:100px;background:black;border-radius:10px; }
-.yuencomm01-images:after { content:"";display:block;background:black;border:10px solid #fefefe;border-top:20px solid transparent;margin:0px 50px; }
-.yuencomm01-cont { border-radius:7px;overflow:hidden; }
-.yuencomm01-cont p { border-radius:2px;background:#eee;color:#333;font:10px space mono;padding:12px;line-height:13px;margin:0px;margin-top:2px; }
-.yuencomm01-cont img { width:100%;margin-top:2px; }
-.yuencomm01-cont p img { width:auto!important;margin:auto; }
-.yuencomm01-tag { text-align:center;margin-top:15px;padding-top:10px;border-top:3px solid #ccc;border-color:var(--yeet); }
-.yuencomm01-tag a { font:13px space mono!important;text-transform:lowercase!important;text-decoration:none;color:#777!important;transition:0.8s; }
-.yuencomm01-tag a:hover { color:#999!important; }
-.yuencomm01-time { padding:0px 15px;font:9px space mono;color:#999;text-align:right;margin-top:5px; }
