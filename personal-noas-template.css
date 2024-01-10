@@ -4,7 +4,7 @@
 .yuentemplate03-2-head { padding:clamp(15px,2vw,25px);display:flex;flex-flow:row nowrap;align-items:center;border-bottom:1px solid var(--temp-mg-color); }
 .yuentemplate03-2-head:last-child { border:none; }
 .yuentemplate03-2-head img { width:60px;height:60px;object-fit:cover;border-radius:5px;margin-right:clamp(8px,1vw,12px) }
-.yuentemplate03-2-head span a { display:block;width:max-content;max-width:90vw;font:900 180% nunito;margin-bottom:-3px; }
+.yuentemplate03-2-head span a { display:block;width:max-content;max-width:90vw;font:900 180% nunito;line-height:25px;margin-bottom:2px; }
 .yuentemplate03-2-head span font { display:block;color:#888;font-weight:bolder;text-transform:uppercase; }
 .yuentemplate03-2-body { text-align:justify;padding:clamp(15px,2vw,25px); }
 .yuentemplate03-2 a,
