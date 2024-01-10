@@ -92,3 +92,50 @@ display:flex;flex-flow:row wrap;align-items:flex-start;align-content:flex-start;
 .ytr-inactive,
 .ytd-2-finished,
 .ytr-finished { filter:grayscale(100%); }
+
+
+
+
+
+
+
+
+.Guests .yuentracker03-2 { display:block!important; }
+
+.yuentracker03-2 { --accent: var(--temp-mg-color); }
+.yuentracker03-2-cont,
+.yuentracker03-2-cont font,
+.yuentracker03-2-cont span,
+.yuentracker03-2 naps,
+.yuentracker03-2 div[class*="ytr"] { background: var(--white-hex); }
+.yuentracker03-2-cont yt { border:none; }
+.yuentracker03-2-cont b { text-shadow:none;filter:none; }
+.yuentracker03-2-cont yt i,
+.yuentracker03-2-cont yt c { color: var(--black-hex); }
+.yuentracker03-2-cont yt i { border-color: var(--gray-hex); }
+.yuentracker03-2-con { order:2;margin-left:auto; }
+
+
+
+
+
+
+/*
+.yuentracker03-2-top naps i { background: var(--bg-gradient)!important;-webkit-background-clip:text!important;color:transparent!important; }
+
+.yuentracker03-2-top .ytd-2-image span,
+.yuentracker03-2-top naps i { background: var(--bg-gradient)!important;-webkit-background-clip:text!important;color:transparent!important; }
+.yuentracker03-2-top .ytd-2-image span { height:min-content; }
+
+.yuentracker03-2-con { order:2;background:var(--bg-gradient);margin-left:auto;width:460px;height:460px;display:block;padding:1px;border-radius:8px; }
+.yuentracker03-2-cont { width:458px;margin:0px;margin-left:0.5px;box-shadow:none;border-radius:7px;mix-blend-mode:screen;--accent:#000;--temp-mg-color:#000; }
+.yuentracker03-2-cont yt i { border-color:#111; }
+*/
+.yuentracker03-2-top .ytd-2-image span { background: linear-gradient(233deg, var(--temp-mg-color) 0%, var(--temp-mg-color-2) 100%)!important;-webkit-background-clip:text!important;color:transparent!important;height:min-content; }
+
+.yuentracker03-2 .ytr-comm,
+.yuentracker03-2 .ytd-2-comm,
+.yuentracker03-2-cont span:after,
+.yuentracker03-2 .ytd-2-comm i:after { --accent: var(--temp-mg-color-2)!important; --temp-mg-color: var(--temp-mg-color-2)!important; }
+.yuentracker03-2-cont b { background: linear-gradient(90deg, var(--temp-mg-color) 0%, var(--temp-mg-color-2) 100%)!important;-webkit-background-clip:text!important;color:transparent!important; }
+.yuentracker03-2-cont b { padding:2px 0px;margin:-2px 0px; }
