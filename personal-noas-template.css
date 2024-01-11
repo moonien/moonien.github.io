@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,700,700i,900');
 
-.yuentemplate03-2 { width:100%;max-width:500px;margin:20px auto;font:15px nunito;border-radius:15px;background:var(--white-hex);overflow:hidden;box-shadow:0px 0px 0px 1px var(--temp-mg-color); }
-.yuentemplate03-2-head { padding:clamp(15px,2vw,25px);display:flex;flex-flow:row nowrap;align-items:center;border-bottom:1px solid var(--temp-mg-color); }
+.yuentemplate03-2 { width:100%;max-width:500px;margin:20px auto;font:15px nunito;border-radius:15px;background:var(--white-hex);overflow:hidden;box-shadow:0px 0px 0px 1px var(--temp-mg-color);
+                  --gap100:clamp(15px,2vw,25px);--gap50:clamp(8px,1vw,12px); }
+.yuentemplate03-2-head { padding:var(--gap100);display:flex;flex-flow:row nowrap;align-items:center;border-bottom:1px solid var(--temp-mg-color); }
 .yuentemplate03-2-head:last-child { border:none; }
-.yuentemplate03-2-head img { width:60px;height:60px;object-fit:cover;border-radius:5px;margin-right:clamp(8px,1vw,12px) }
+.yuentemplate03-2-head img { width:60px;height:60px;object-fit:cover;border-radius:5px;margin-right:var(--gap50); }
 .yuentemplate03-2-head span a { display:block;width:max-content;max-width:90vw;font:900 180% nunito;line-height:29px;margin-bottom:2px; }
 .yuentemplate03-2-head span font { display:block;color:#888;font-weight:bolder;text-transform:uppercase; }
-.yuentemplate03-2-body { text-align:justify;padding:clamp(15px,2vw,25px); }
+.yuentemplate03-2-body { text-align:justify;padding:var(--gap100); }
 .yuentemplate03-2 a,
 .yuentemplate03-2 b,
 .yuentemplate03-2 i { background: radial-gradient(circle at 60% bottom, var(--temp-mg-color-2), var(--temp-mg-color) 75%);-webkit-background-clip:text;color:transparent; }
@@ -22,3 +23,12 @@
 .yuentemplate03-2-head font:after { font-style:italic;float:right; }
 .yuentemplate03-2-head font.nominated:after { content:"NOMINATED";color:#FFD053; }
 .yuentemplate03-2-head font.won:after { content:"WON";color:#7DBE20; }
+
+
+.yuentemplate03-2-album { padding:var(--gap100);counter-reset:tracklist; }
+.yuentemplate03-2-album sg { font-size:17px;line-height:20px;padding:5px 0px;counter-increment:tracklist;display:flex;width:100%;flex-flow:nowrap; }
+.yuentemplate03-2-album sg:first-child { padding-top:0px; }
+.yuentemplate03-2-album sg:last-child { padding-bottom:0px; }
+.yuentemplate03-2-album sg:before { content:counter(tracklist);min-width:30px;padding-right:8px;text-align:right;font-weight:900;background:linear-gradient(220deg, var(--temp-mg-color) 0%, var(--temp-mg-color-2) 100%);-webkit-background-clip:text;color:transparent; }
+.yuentemplate03-2-album sg s { flex-grow:1;text-align:right;display:flex;flex-flow:row nowrap;align-items:center }
+.yuentemplate03-2-album sg s:before { content:"";margin:0px 10px;flex-grow:1;border-top:1px solid var(--border); }
