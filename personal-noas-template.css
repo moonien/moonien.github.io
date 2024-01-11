@@ -29,6 +29,6 @@
 .yuentemplate03-2-album sg { font-size:17px;line-height:20px;padding:5px 0px;counter-increment:tracklist;display:flex;width:100%;flex-flow:nowrap; }
 .yuentemplate03-2-album sg:first-child { padding-top:0px; }
 .yuentemplate03-2-album sg:last-child { padding-bottom:0px; }
-.yuentemplate03-2-album sg:before { content:counter(tracklist);min-width:30px;padding-right:8px;text-align:right;font-weight:900;background:linear-gradient(220deg, var(--temp-mg-color) 0%, var(--temp-mg-color-2) 100%);-webkit-background-clip:text;color:transparent; }
+.yuentemplate03-2-album sg:before { content:counter(tracklist) ".";min-width:35px;padding-right:8px;text-align:right;font-weight:900;background:linear-gradient(220deg, var(--temp-mg-color) 0%, var(--temp-mg-color-2) 100%);-webkit-background-clip:text;color:transparent; }
 .yuentemplate03-2-album sg s { flex-grow:1;text-align:right;display:flex;flex-flow:row nowrap;align-items:center }
 .yuentemplate03-2-album sg s:before { content:"";margin:0px 10px;flex-grow:1;border-top:1px solid var(--border); }
