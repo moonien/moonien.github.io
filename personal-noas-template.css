@@ -32,3 +32,19 @@
 .yuentemplate03-2-album sg:before { content:counter(tracklist) ".";min-width:35px;padding-right:8px;text-align:right;font-weight:900;background:linear-gradient(220deg, var(--temp-mg-color) 0%, var(--temp-mg-color-2) 100%);-webkit-background-clip:text;color:transparent; }
 .yuentemplate03-2-album sg s { flex-grow:1;text-align:right;display:flex;flex-flow:row nowrap;align-items:center }
 .yuentemplate03-2-album sg s:before { content:"";margin:0px 10px;flex-grow:1;border-top:1px solid var(--border); }
+
+
+
+
+
+
+.yuentemplate03-2-tags { padding:var(--gap50) var(--gap100);border-top:1px solid var(--temp-mg-color);display:flex;width:100%;box-sizing:border-box;justify-content:center; }
+.yuentemplate03-2-tags b { letter-spacing:0px;font-weight:700!important;background-image:none!important;background-color:#aaa!important;font-size:85%;text-transform:uppercase;margin:3px; }
+.yuentemplate03-2-tags b:before { content:"#";padding-right:1px; }
+
+.yuentemplate03-2-relationships { padding:var(--gap100); }
+.yuentemplate03-2-relationships font { font-size:12px;text-transform:uppercase;display:flex;flex-flow:row nowrap;justify-content:space-between;align-items:center;width:100%;margin:5px 0px; }
+.yuentemplate03-2-relationships font:first-child { margin-top:0px; }
+.yuentemplate03-2-relationships font:last-child { margin-bottom:0px; }
+.yuentemplate03-2-relationships font b { font-size:13px;order:2; }
+.yuentemplate03-2-relationships font:after { content:"";border-top:1px solid var(--border);flex-grow:1;margin:0px 10px;order:1; }
