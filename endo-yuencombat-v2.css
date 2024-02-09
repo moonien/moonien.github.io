@@ -66,7 +66,7 @@
 
 
 .yuenendo wildshape { margin-top:10px;width:100%; }
-.yuenendo wildshape img { float:left;width:132px;height:132px;border:1px solid var(--highlighter);padding:10px;object-fit:cover;margin-right:15px; }
+.yuenendo wildshape img { float:right;width:132px;height:132px;border:1px solid var(--highlighter);padding:10px;object-fit:cover;margin-left:15px; }
 .yuenendo wildshape img,
 .yuenendo wildshape wshape font { background:rgba(var(--bgcolor) / 0.7) ; }
 .yuenendo wildshape a { display:block;width:max-width;text-decoration:none;font:900 20px var(--serif);line-height:12px;color:var(--highlight); }
@@ -84,7 +84,7 @@
 .yuenendo wildshape wilds font,
 .yuenendo-summon wildshape img { border-radius:0px;border-color:rgb(var(--bordercolor)); }
 .yuenendo-summon wildshape a { margin-bottom:14px; }
-.yuenendo-summon wildshape img { width:154px;height:154px;float:right;margin:0px;margin-left:15px; }
+.yuenendo-summon wildshape img { width:154px;height:154px;float:left;margin:0px;margin-right:15px; }
 .yuenendo-summon wildshape wilds { height:auto;margin:0px; }
 .yuenendo-summon wildshape wilds font { line-height:12px;text-transform:uppercase; }
 .yuenendo-summon wildshape wshape { gap:10px;margin:8px 0px; }
