@@ -1,0 +1,328 @@
+.yuencombat { width:650px;margin:20px auto;background:rgb(var(--devcolor));
+--bgpos:center;
+--largebg:url(https://i64.servimg.com/u/f64/19/28/65/32/0157.png);
+--smallleft:url(https://i64.servimg.com/u/f64/19/28/65/32/0252.png);
+--smallbg:url(https://i64.servimg.com/u/f64/19/28/65/32/0346.png);
+--sfarcher:url(https://i20.servimg.com/u/f20/20/50/14/27/archer11.png);
+--sfchalice:url(https://i20.servimg.com/u/f20/20/50/14/27/chalic11.png);
+--sfdragon:url(https://i20.servimg.com/u/f20/20/50/14/27/dragon11.png);
+--adbalance:url(https://i20.servimg.com/u/f20/20/50/14/27/balanc10.png);
+--adbole:url(https://i20.servimg.com/u/f20/20/50/14/27/bole10.png);
+--adarrow:url(https://i20.servimg.com/u/f20/20/50/14/27/arrow10.png);
+--adspear:url(https://i20.servimg.com/u/f20/20/50/14/27/spear10.png);
+--adewer:url(https://i20.servimg.com/u/f20/20/50/14/27/ewer10.png);
+--adspire:url(https://i20.servimg.com/u/f20/20/50/14/27/spire10.png);
+}
+
+body#theme[data-lightmode="true"] .yuencombat {
+--largebg:url(https://i64.servimg.com/u/f64/19/28/65/32/0441.png);
+--smallleft:url(https://i64.servimg.com/u/f64/19/28/65/32/05110.png);
+--smallbg:url(https://i64.servimg.com/u/f64/19/28/65/32/0657.png);
+--sfarcher:url(https://i20.servimg.com/u/f20/20/50/14/27/archer10.png);
+--sfchalice:url(https://i20.servimg.com/u/f20/20/50/14/27/chalic10.png);
+--sfdragon:url(https://i20.servimg.com/u/f20/20/50/14/27/dragon10.png);
+}
+
+#mobile {
+  --highlight:#777;
+  --highlighter:#555;
+  --highlightRGB:120,120,120;
+  --highlighterRGB:85,85,85;
+}
+
+.yuencombat-level { position:absolute;padding:10px 20px;text-transform:uppercase;display:flex;flex-flow:column wrap;width:150px;height:150px;background:radial-gradient(circle, rgba(var(--devcolor) / 0.6) 50%, transparent 51%) no-repeat;background-position:top -55px left -47px; }
+.yuencombat-level span { font:800 14px var(--serif);line-height:20px; }
+.yuencombat-level span b { font-size:38px; }
+.yuencombat-level span b,
+.yuencombat-level font b { background:linear-gradient(30deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-level font { font-family:var(--bodymono);font-size:12px; }
+
+.yuencombat-stats { position:absolute;width:650px;height:255px;padding:20px;box-sizing:border-box;display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;font:800 14px var(--bodymono); }
+.yuencombat-stats span { box-shadow:0px 0px 4px rgba(23 23 23 /1);padding:4px 7px;border-radius:10px;background:linear-gradient(30deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));color:rgb(var(--textcolor)); }
+.yuencombat-stats span b { color:rgb(var(--bgcolor)); }
+
+.yuencombat-block { background:var(--header);background-position:var(--bgpos);background-size:cover;height:215px;padding:20px;display:flex;flex-flow:column nowrap;align-content:flex-start;justify-content:flex-end;border-bottom:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1; }
+.yuencombat-block span { font-size:11px;text-transform:uppercase;width:max-content;border:1px solid var(--highlight);padding:3px 4px;margin-top:5px;background:rgba(var(--devcolor) / 0.8);border-radius:3px; }
+.yuencombat-block span b { font-weight:800;background:linear-gradient(30deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
+
+.yuencombat-spells { display:flex;padding:20px 3px;padding-right:20px;background:var(--smallbg) top center no-repeat;background:var(--smallleft) top -40px left no-repeat;margin-bottom:-20px; }
+.yuencombat-spells font { display:flex;flex-flow:row wrap;gap:5px;width:100%;box-sizing:border-box;padding-left:45px;justify-content:space-between; }
+.yuencombat-spells font span { width:50px;height:50px;display:flex;flex-flow:row wrap;align-items:flex-end;justify-content:center;text-align:center;box-sizing:border-box;border:2px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1; }
+.yuencombat-spells font span b { height:60px;margin-bottom:-47px;vertical-align:text-top; }
+.yuencombat-spells font span b:first-letter { background:linear-gradient(30deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent;font:800 40px var(--bodyserif);line-height:20px; }
+.yuencombat-spells font span b div { all:initial;position:abssolute;color:rgba(var(--textcolor) / 1); }
+.yuencombat-spells font span i { background:linear-gradient(90deg, var(--highlight), var(--highlighter));width:67px;padding-top:2px;font:800 10px var(--bodyfont);color:rgba(var(--devcolor) / 1);text-transform:uppercase; }
+.yuencombat-spells font span:empty { border:2px dotted rgba(var(--bordercolor) / 0.5); }
+.yuencombat-spells:before { position:absolute;content:"SPELL SLOTS";display:block;font:800 25px var(--serif);width:85px;text-align:right;line-height:17px;padding:7px 12px; }
+.yuencombat-spells font span.usedspells { filter:grayscale(100%);opacity:0.5; }
+
+.yuencombat-post { margin:20px;border:1px solid rgb(var(--bordercolor));background:rgba(var(--bgcolor) / 0.5);padding:20px;text-align:justify;line-height:17px; }
+
+.yuencombat-hp { font:900 25px var(--bodyserif);line-height:25px;text-align:right; }
+.yuencombat-hp b { margin-left:3px;font-size:110%;background:linear-gradient(330deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent!important; }
+.yuencombat-hp span { display:block;margin:5px 0px;background:rgb(var(--bordercolor));height:4px;border-radius:5px; }
+.yuencombat-hp span i { display:block;width:calc(100% / var(--max) * var(--rn));height:100%;border-radius:4px;background:linear-gradient(250deg, var(--highlight), var(--highlighter)); }
+
+.yuencombat-actions,
+.yuencombat-con  { display:flex;padding:20px;margin-top:-30px;gap:10px; }
+.yuencombat action { font-size:11px;display:flex;flex-flow:column nowrap;width:600px;gap:3px;padding:10px;border:1px solid rgb(var(--bordercolor));background:rgba(var(--bgcolor) / 0.5) var(--smallleft) left -70px center;background:rgba(var(--bgcolor) / 0.5) var(--smallbg) top -40px left; }
+.yuencombat action b,
+.yuencombat-lucky b,
+.alt-dreams b { font:900 18px var(--serif);color:var(--highlight); }
+.yuencombat action i,
+.yuencombat-lucky i { font-weight:bolder;color:var(--highlighter); }
+.yuencombat action u { font-weight:bolder;text-decoratione:none;background:linear-gradient(200deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat action font { text-align:justify; }
+
+
+
+
+.yuencombat-lucky { border-top:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1;width:100%;display:flex;flex-flow:row nowrap;justify-content:space-between;padding:20px;box-sizing:border-box;font-size:0px; }
+.yuencombat-lucky img { height:48px;padding:5px;border:1px solid rgb(var(--bordercolor));background:rgba(var(--bgcolor) / 0.5); }
+.yuencombat-lucky span { flex-grow:1;margin-right:100px; }
+.yuencombat-lucky b { font-size:20px; }
+.yuencombat-lucky i { font-size:12px;margin-left:10px; }
+.yuencombat-lucky span div,
+.alt-dreams balm { font-size:11px;margin-right:10px;display:inline-block;font-weight:bolder;border:1px solid rgb(var(--bordercolor));margin-top:5px;width:max-content;background:rgba(var(--bgcolor) / 0.5);padding:7px 8px; }
+.yuencombat-lucky.animated span,
+.yuencombat-lucky.battlecompanion span { margin-right:10px; }
+.yuencombat-lucky.animated img { width:96px;height:96px;object-fit:cover; }
+.yuencombat-lucky action { width:auto;margin-top:5px; }
+.yuencombat-lucky action i { margin:0px; }
+.yuencombat-lucky action b { font-size:16px; }
+
+
+
+
+.yuencombat-wildshape,
+.yuencombat-samurai,
+.yuencombat-astrologian,
+.yuencombat-astrologian-draw { border-top:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1;background:linear-gradient(230deg, rgba(var(--highlightRGB),0.3), rgba(var(--highlighterRGB),0.2)),var(--largebg);padding:20px;display:flex;flex-flow:row wrap;justify-content:space-between;align-items:center;overflow:hidden; }
+
+
+
+
+
+
+.yuencombat-wildshape div { font-size:40px;margin:0px; }
+.yuencombat-wildshape div i { width:40px;line-height:40px;display:block;position:absolute;line-height:50px;margin-top:-25px;margin-left:-40px; }
+.yuencombat-wildshape div i:first-child { background:linear-gradient(200deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-wildshape div i:nth-child(2) { color:rgb(var(--bordercolor)); }
+.yuencombat-wildshape div i.two-left { display:none; }
+.yuencombat-wildshape div i.one-left { clip-path:polygon(100% 0, 0% 100%, 100% 100%); }
+.yuencombat-wildshape div i.none-left { clip-path:none; }
+
+.yuencombat wildshape { margin-top:10px;width:100%; }
+.yuencombat wildshape img { float:left;width:132px;height:132px;border:1px solid var(--highlighter);padding:10px;object-fit:cover;margin-right:15px; }
+.yuencombat wildshape img,
+.yuencombat wildshape wshape font { background:rgba(var(--bgcolor) / 0.7) ; }
+.yuencombat wildshape a { display:block;width:max-width;text-decoration:none;font:900 20px var(--serif);line-height:12px;color:var(--highlight); }
+.yuencombat wildshape wshape { display:flex;gap:15px;margin-top:12px; }
+.yuencombat wildshape wshape font { border-radius:3px;height:60px;width:60px;border:1px solid var(--highlighter);display:flex;flex-flow:column nowrap;justify-content:center;align-items:center; }
+.yuencombat wildshape wshape font i { letter-spacing:-2px;padding-right:2px;font:700 32px var(--bodyserif);line-height:30px;margin-top:-0px;background:linear-gradient(20deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat wildshape wshape font b { margin-top:-5px;font-size:10px; }
+.yuencombat wildshape wilds { display:flex;flex-flow:row wrap;align-items:space-between;align-content:space-between;justify-content:space-between;gap:7px;margin-top:12px;height:50px; }
+.yuencombat wildshape wilds font { flex-grow:1;text-align:center;justify-content:center;padding:4px 6px;background:rgba(var(--bgcolor) / 0.5);border:1px solid var(--highlighter);border-radius:3px;font-size:11px;line-height:15px; }
+.yuencombat wildshape wilds font b { background:linear-gradient(200deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+
+.yuencombat-summon { border-top:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1;padding:20px; }
+.yuencombat-summon wildshape { margin:0px; }
+.yuencombat wildshape wshape font,
+.yuencombat wildshape wilds font,
+.yuencombat-summon wildshape img { border-radius:0px;border-color:rgb(var(--bordercolor)); }
+.yuencombat-summon wildshape a { margin-bottom:14px; }
+.yuencombat-summon wildshape img { width:154px;height:154px;float:right;margin:0px;margin-left:15px; }
+.yuencombat-summon wildshape wilds { height:auto;margin:0px; }
+.yuencombat-summon wildshape wilds font { line-height:12px;text-transform:uppercase; }
+.yuencombat-summon wildshape wshape { gap:10px;margin:8px 0px; }
+
+.yuencombat-summon .yuencombat-actions { width:100%;padding:0px;margin-top:12px; }
+
+
+
+.yuencombat-samurai,
+.yuencombat-astrologian { height:70px;padding:0px 20px; }
+.yuencombat-samurai font,
+.yuencombat-astrologian font,
+.yuencombat-wildshape font { display:flex;flex-flow:row wrap;gap:5px;text-transform:uppercase; }
+.yuencombat-samurai font,
+.yuencombat-astrologian font { width:420px;margin-right:-100px; }
+.yuencombat-samurai span,
+.yuencombat-astrologian span,
+.yuencombat-wildshape span { font-size:11px;padding:3px 4px;border:1px solid var(--highlight);border-radius:3px;font-weight:900;background:rgba(var(--bgcolor) / 0.5); }
+.yuencombat span.toactivate { opacity:0.5;filter:grayscale(100%); }
+.yuencombat span.activated { background:rgba(var(--bgcolor) / 0.8); }
+.yuencombat span.asifeat { color:rgb(var(--devcolor));border:1px solid var(--highlighter);background:rgba(var(--textcolor) / 0.2); }
+.yuencombat span.activated b,
+.yuencombat span.active b,
+.yuencombat-samurai div b,
+.yuencombat-astrologian div b { background:linear-gradient(330deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-samurai div,
+.yuencombat-astrologian div { width:200px;text-align:right;font:700 72px times new roman;font-variant-numeric:lining-nums;line-height:90px;margin:-80px 0px;margin-top:-70px;color:rgba(var(--textcolor) / 0.5); }
+.yuencombat-samurai div b,
+.yuencombat-astrologian div b { font-size:105px;font-style:italic;padding:0px 5px; }
+.yuencombat-samurai div i,
+.yuencombat-astrologian div i { font-style:normal;font-weight:400px; }
+.yuencombat-samurai u,
+.yuencombat-astrologian div u { text-decoration:none;font:900 21px var(--serif);line-height:15px;display:inline-block;width:40px;text-align:left;margin-left:5px; }
+.yuencombat-samurai u:before,
+.yuencombat-astrologian u:before { content:"SEN ";background:linear-gradient(40deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-samurai u:after,
+.yuencombat-astrologian u:after { content:"CHA RGE"; }
+
+.yuencombat-astrologian font { width:410px; }
+.yuencombat-astrologian div { width:270px;letter-spacing:-5px; }
+.yuencombat-astrologian div b { letter-spacing:-14px;padding-right:14px;margin-right:-7px; }
+.yuencombat-astrologian div u { letter-spacing:0px;width:55px; }
+.yuencombat-astrologian div u:before { content:"DRAW "; }
+
+
+
+
+.alt-dreams { height:70px; }
+.alt-dreams b { font-size:19px;text-shadow:0px 0px 5px rgb(var(--devcolor));width:100%; }
+.alt-dreams div b { font-family:times new roman;text-shadow:none;width:auto;display:inline-block;margin-top:-26px; }
+.alt-dreams court { width:420px;display:flex;flex-flow:row wrap; }
+.alt-dreams balm { font-size:11px;margin-right:5px;border:1px solid rgb(var(--bordercolor));margin-top:3px;padding:4px 5px; }
+.alt-dreams div { display:block;margin-top:-55px;margin-left:-42px; }
+.alt-dreams u { width:60px; }
+.alt-dreams u:before { content:"HEAL "; }
+.alt-dreams u:after { content:"CHAR GES"; }
+.alt-stars u:before { content:"SUM "; }
+.alt-stars u:after { content:"CHA RGE"; }
+.alt-spores court[class=""] { margin-left:-200px;width:300px;text-align:right;justify-content:flex-end; }
+.alt-spores court[class=""] balm { margin:0px;margin-bottom:3px;margin-left:5px; }
+
+.alt-rogue court { width:100%; }
+.alt-rogue u:before { content:"1D6 "; }
+
+
+
+
+
+
+
+
+.yuencombat-wildshape starryform { width:100%;padding-top:20px; }
+.yuencombat-wildshape starryforms { display:flex;align-items:center;justify-content:space-between; }
+.yuencombat-wildshape starryforms sfpic { width:100px;height:100px;background:rgba(var(--devcolor) / 0.4) var(--sfimg) no-repeat center;background-size:var(--sfimgsize);box-sizing:border-box;border:15px solid transparent;border-radius:150px; }
+.yuencombat-wildshape starryforms sfdesc { width:calc(100% - 120px); }
+.yuencombat-wildshape starryforms sfdesc sfcon { display:flex;width:100%;justify-content:space-between;font:900 18px var(--serif);line-height:20px;text-align:center;padding-bottom:10px;background:linear-gradient(10deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-wildshape starryforms sfdesc sfcon b { font:900 20px var(--bodyserif);padding-top:8px;line-height:12px; }
+.yuencombat-wildshape starryforms sfdesc sfcon b bb { filter:grayscale(100%);opacity:0.6; }
+.yuencombat-wildshape starryforms sfdesc sfcon:before { content:var(--sfcon); }
+.yuencombat-wildshape starryforms sfdesc:after { content:var(--sfcont);display:block;background:rgba(var(--devcolor) / 0.3);padding:10px;border-radius:10px;text-align:justify; }
+.yuencombat-wildshape starryforms.sf-archer { --sfimgsize:60px;--sfimg:var(--sfarcher);--sfcon:"THE ARCHER";
+--sfcont:"A constellation of an archer appears on you. When you activate this form, and as a bonus action on your subsequent turns while it lasts, you can make a ranged spell attack, hurling a luminous arrow that targets one creature within 60 feet of you. On a hit, the attack deals radiant damage equal to 1d8 + your Wisdom modifier."; }
+.yuencombat-wildshape starryforms.sf-chalice { --sfimgsize:65px;--sfimg:var(--sfchalice);--sfcon:"THE CHALICE";
+--sfcont:"A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature within 30 feet of you can regain hit points equal to 1d8 + your Wisdom modifier."; }
+.yuencombat-wildshape starryforms.sf-dragon { --sfimgsize:cover;--sfimg:var(--sfdragon);--sfcon:"THE DRAGON";
+--sfcont:"A constellation of a wise dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain concentration on a spell, you can treat a roll of 9 or lower on the d20 as a 10."; }
+
+
+
+
+
+
+
+.yuencombat-astrologian-draw b { display:flex;width:100%;justify-content:space-between;font:900 25px var(--serif);align-items:end;line-height:30px;background:linear-gradient(10deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-astrologian-draw b b1:after { content:var(--adroll); }
+.yuencombat-astrologian-draw b b2 { font:900 35px var(--bodyserif);line-height:30px; }
+
+.yuencombat-astrologian-draws { width:100%;display:grid;grid-template-columns:120px 1fr;grid-template-rows:75px 95px;grid-template-areas:"card desc" "card spread";gap:20px;padding-top:10px; }
+.yuencombat-astrologian-draws adcard { grid-area:card; }
+.yuencombat-astrologian-draws adcard,
+.yuencombat-astrologian-draws adspread adc { display:block;width:120px;height:190px;border:1px solid rgba(var(--textcolor) / 0.7);background:linear-gradient(10deg, rgba(var(--highlightRGB),0.5), rgba(var(--highlighterRGB),0.5));border-radius:5px;box-sizing:border-box; }
+.yuencombat-astrologian-draws adcard:before,
+.yuencombat-astrologian-draws adc:before { content:"";display:block;height:100%;width:100%;background:var(--adimg) no-repeat center;background-size:var(--adimgsize); }
+.yuencombat-astrologian-draws addesc { grid-area:desc;display:block;background:rgba(var(--bgcolor) / 0.6);border:1px solid rgba(var(--textcolor) / 0.7);border-radius:3px;padding:10px; }
+.yuencombat-astrologian-draws addesc b { display:inline;font:inherit;font-weight:bold; }
+.yuencombat-astrologian-draws addesc:after { content:var(--addesc);display:block;margin-top:10px; }
+.yuencombat-astrologian-draws adspread { grid-area:spread;align-self:end;justify-self:end;display:flex;height:90px;padding-top:29px;margin-bottom:-20px;overflow:hidden;gap:8.55px; }
+.yuencombat-astrologian-draws adspread adc { margin:0px;width:87px;height:140px;filter:grayscale(80%);opacity:0.5;transition:0.8s; }
+.yuencombat-astrologian-draws adc:before { background-size:var(--adimgsize2); }
+.yuencombat-astrologian-draws adspread adc:hover { margin-top:-29px;filter:grayscale(20%);opacity:1; }
+.yuencombat-astrologian-draws adspread adc.draw-0 { background:none;border-style:dashed; }
+.yuencombat-astrologian-draws adspread adc.draw-0:before { display:none; }
+.yuencombat-astrologian-draws adspread adc.draw-0:hover { margin:0px;filter:grayscale(80%);opacity:0.5; }
+
+.draw-1 { --adroll:"THE BALANCE";--adimg:var(--adbalance);--adimgsize:80px;--adimgsize2:65px;
+--addesc:"Bonus 2d6 damage on all damage rolls. This bonus damage applies once per action, attack damage roll, bonus action and reaction." }
+.draw-2 { --adroll:"THE BOLE";--adimg:var(--adbole);--adimgsize:90px;--adimgsize2:60px;
+--addesc:"All damage you take is reduced by 2d6." }
+.draw-3 { --adroll:"THE ARROW";--adimg:var(--adarrow);--adimgsize:80px;--adimgsize2:55px;
+--addesc:"You gain one extra attack when you take the attack action." }
+.draw-4 { --adroll:"THE SPEAR";--adimg:var(--adspear);--adimgsize:90px;--adimgsize2:70px;
+--addesc:"Your attack rolls crit on a 19 or 20 die result." }
+.draw-5 { --adroll:"THE EWER";--adimg:var(--adewer);--adimgsize:80px;--adimgsize2:60px;
+--addesc:"Temporarily provides one level 1 or 2 spell slot." }
+.draw-6 { --adroll:"THE SPIRE";--adimg:var(--adspire);--adimgsize:100px;--adimgsize2:70px;
+--addesc:"Temporarily provides 2, non-spell slot resources to an ally." }
+
+
+
+
+
+
+
+.yuencombat-tabs { padding:10px 20px;padding-top:0px;margin-top:-10px; }
+.yuencombat-tabs-button { display:flex;flex-flow:row nowrap;gap:10px;padding-bottom:10px; }
+.yuencombat-tabs-buttons { cursor:pointer;filter:grayscale(100%);flex-grow:1;transition:0.8s;text-align:center;background:rgba(var(--bgcolor) / 0.2);border:1px solid rgb(var(--bordercolor));padding:5px;font-size:11px; }
+.yuencombat-tabs-buttons b { background:linear-gradient(40deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
+.yuencombat-tabs-buttons.ifchecked,
+.yuencombat-tabs-buttons:hover { filter:grayscale(0%);background:rgba(var(--bgcolor) / 0.5); }
+
+.yuencombat-tabs-box { display:none;background:rgba(var(--bgcolor) / 0.5) var(--sdevelop-bg1) top -230px left -30px;border:1px solid rgb(var(--bordercolor));margin-bottom:10px; }
+.yuencombat-tabs-box scrolls { overflow:auto;max-height:200px;border-top:20px solid transparent;border-bottom:20px solid transparent;padding:0px 20px;display:block;line-height:20px; }
+
+.yuencombat-tabs ul { margin:0px 0px;padding:0px; }
+.yuencombat-tabs li { margin:0px 20px;margin-left:40px;padding:0px; }
+
+
+
+
+.yuencombat-tabs b,
+.yuencombat-tabs a { text-transform:uppercase; }
+.yuencombat-tabs b,
+.yuencombat-post b { color:var(--highlight); }
+.yuencombat-tabs i,
+.yuencombat-post i { color:var(--highlighter); }
+
+
+
+.yuencombat-tag { margin:0px auto;margin-top:-20px;margin-bottom:20px;display:flex;width:650px;font-size:0px; }
+.yuencombat-tag a { margin-right:5px;background:var(--highlight);color:rgb(var(--devcolor))!important;padding:3px 5px;text-transform:uppercase;font-size:10px;font-weight:bold;border-radius:0px 0px 3px 3px; }
+
+
+
+
+
+
+.dnone { display:none!important; }
+
+#amalthea { --header:url(https://64.media.tumblr.com/5ff9340f85b3030aaa8494d2210a6292/9bcff55c3dbd59b8-33/s540x810/eceed6b068e607b7e9649626bbac1e544de0c104.gifv); }
+
+#chrysanthemum { --header:url(https://64.media.tumblr.com/94db573e87609a848048a076d9f2a865/4101824585a3e9c8-d8/s1280x1920/5a18ef08a3d9138875d7c79b905a421c24ff219e.gifv); }
+
+#eleia { --header:url(https://64.media.tumblr.com/c701c7c0675310071bcd876828adba48/1dd9c787d6e852e9-87/s1280x1920/0dae71d4aa7d6b286a9982cf4251cf5070a42c8b.gifv);--bgpos:bottom -20px center!important; }
+#eleia .yuencombat-stats span { background:rgba(var(--bgcolor) / 0.7) linear-gradient(30deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.5)); }
+
+#kaguya { --header:url(https://64.media.tumblr.com/4869c540a0a1065f5b2801f866ccbccd/f6964b0873ad4c4a-71/s1280x1920/b97d76529ae559b340413c989620bf5118f41f2a.gifv); }
+
+#lileas { --header:url(https://64.media.tumblr.com/f76a512046a21bd2068b1af223d75e17/d6b4bb665fae2662-7b/s540x810/2475c69bb6498504b1975c2052557dfe06db1dac.gifv); }
+
+#morrighan { --header: url(https://64.media.tumblr.com/3c5aac89dd3b4bda48c52fd6cb377092/7c1ae470774bd0d6-52/s540x810/f6c7768a9545012831d5f710eb5e90cdcf229276.gifv); }
+
+#peredur { --header: url(https://64.media.tumblr.com/20ff87ab97c8538846e2bb767ac5005d/0faa97c19ddc9f8e-fb/s1280x1920/f2eeecfadb03eea06f59fb9e98ca01d7dec90812.gifv); }
+
+#sizhui { --header:url(https://64.media.tumblr.com/d21b6ed6fa26ba06a6010762f7a7c1fe/18a41fdad12a759b-df/s1280x1920/bffeea58b548652b62a7987342facb8bc260ecea.gifv); }
+
+#rosalyne { --sheader:url(https://64.media.tumblr.com/c50bf31268cb21ef91b5f68695a47b57/7b007e330e89862b-02/s540x810/03379d567fe67a8f03cf66464e20d75b74322c13.gifv); }
+
+#taliesin { --header:url(https://64.media.tumblr.com/0bb3eb62aa11175f261f3711a05503c1/44d8814cee714e16-18/s540x810/62fc4b6d8a33859707f577480ec67d4fc4f182e9.gifv); }
+
+#vindkaldr { --header: url(https://64.media.tumblr.com/0f0ffce45df0df6b4644f665a2da6c44/f5506ccca06ff1d5-55/s640x960/8538f0a7923574376e88c4a414b52d47e44da962.gifv); }
+
+#willow { --header: url(https://64.media.tumblr.com/fb2f8e739d040e716a2a787f82cbf790/368d1ec9695be276-bc/s1280x1920/fcece1250ab89d5bc67430df0e276ba10ff2ffbf.gifv); }
+
+#yozora { --header:url(https://64.media.tumblr.com/d444874127c06436ff5675e716844de5/88330c494aeb533f-da/s540x810/b74d9370610af4927e913cdfff92d904e9cc9774.gifv); }
