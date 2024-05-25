@@ -11,6 +11,13 @@ body#theme[data-lightmode="true"] .yuenbattle {
 --smallbg:url(https://i64.servimg.com/u/f64/19/28/65/32/0657.png);
 }
 
+#mobile {
+  --highlight:#777;
+  --highlighter:#555;
+  --highlightRGB:120,120,120;
+  --highlighterRGB:85,85,85;
+}
+
 .yuenbattle-head { height:350px;background:var(--header) var(--bgpos);background-size:cover;display:flex;flex-flow:var(--order) nowrap; }
 .yuenbattle-head-spells { width:280px;height:100%;padding:25px;box-sizing:border-box;display:flex;flex-flow:row nowrap;justify-content:space-between;align-items:flex-end; }
 .yuenbattle-head-spells span { background:rgba(var(--devcolor) / .8);height:40px;width:40px;font:30px var(--bodyserif);text-align:center;line-height:17px; }
