@@ -105,7 +105,8 @@ body#theme[data-lightmode="true"] .yuenbattle {
 .yuenbattle-summon-box s3 { display:flex;flex-flow:row wrap;gap:5px;margin-top:var(--space); }
 .yuenbattle-summon-box s3 trait { flex-grow:1;background:var(--bg);text-align:center;font:11px var(--bodymono);padding:3px; }
 .yuenbattle-summon-box s3 trait b { color:var(--highlighter); }
-.yuenbattle-summon-box s3 trait[title*="a"] b { color:var(--highlight); }
+.yuenbattle-summon-box s3 trait[title*="a"] b,
+.yuenbattle-summon-box s3 trait[title*="a"] b:hover { color:var(--highlight); }
 .yuenbattle-summon .yuenbattle-actions b1 { color:var(--highlighter);font-size:18px;line-height:16px; }
 .yuenbattle-summon .yuenbattle-actions b2 { color:var(--highlight);margin-bottom:0px; }
 .yuenbattle-summon .yuenbattle-actions action { padding:10px;}
