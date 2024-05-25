@@ -65,7 +65,11 @@ body#theme[data-lightmode="true"] .yuenbattle {
 .yuenbattle .yuenendo-tabs-box ul:last-child { margin-bottom:0px; }
 
 .yuenbattle-post { padding:20px;margin-top:var(--space);background:var(--bg);text-align:justify;font-size:13px;line-height:18px; }
+.yuencombat-tabs b,
+.yuencombat-tabs a { text-transform:uppercase; }
+.yuencombat-tabs b,
 .yuenbattle-post b { color:var(--highlight); }
+.yuencombat-tabs i,
 .yuenbattle-post i { color:var(--highlighter); }
 
 .yuenbattle-actions { margin-top:var(--space);display:flex;width:100%;gap:15px; }
