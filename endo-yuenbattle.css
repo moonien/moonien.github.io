@@ -43,14 +43,16 @@ body#theme[data-lightmode="true"] .yuenbattle {
 .yuenbattle-hp font { display:block;flex-grow:1;width:100%;background:var(--bg);border-radius:5px; }
 .yuenbattle-hp .hpbar_currenthpbar { display:block;height:5px;background:linear-gradient(270deg, var(--highlight), var(--highlighter));border-radius:5px; }
 
-.yuenbattle .yuenendo-tabs { text-align:justify;border-top:1px solid rgba(var(--lightcolor) / .2);padding:0px;padding:var(--space) 0px; }
-.yuenbattle .yuenendo-tabs-button { margin-bottom:0px; }
-.yuenbattle .yuenendo-tabs-buttons { border:none;background:var(--bg);font:bold 13px var(--bodymono); }
+.yuenbattle .yuenendo-tabs { text-align:justify;border-top:1px solid rgba(var(--lightcolor) / .2);padding:var(--space) 0px;margin-top:-10px; }
+.yuenbattle .yuenendo-tabs-button { display:flex;flex-flow:row nowrap;gap:10px;padding-bottom:10px;margin-bottom:0px; }
+.yuenbattle .yuenendo-tabs-buttons { cursor:pointer;filter:grayscale(100%);flex-grow:1;transition:0.8s;text-align:center;background:rgba(var(--bgcolor) / 0.2);border:none;padding:5px;font:bold 13px var(--bodymono); }
 .yuenbattle .yuenendo-tabs-buttons b { color:var(--highlighter); }
-.yuenbattle .yuenendo-tabs-box { margin-bottom:var(--space);background:var(--bg);border:none; }
-.yuenbattle .yuenendo-tabs-box scrolls { max-height:240px;line-height:16px; }
-.yuenbattle .yuenendo-tabs-box li { margin:0px 42px; }
-.yuenbattle .yuenendo-tabs-box ul { margin-bottom:16px; }
+.yuenbattle .yuencombat-tabs-buttons.ifchecked,
+.yuenbattle .yuencombat-tabs-buttons:hover { filter:grayscale(0%); }
+.yuenbattle .yuenendo-tabs-box { display:none;border:none;margin-bottom:var(--space);background:var(--bg); }
+.yuenbattle .yuenendo-tabs-box scrolls { overflow:auto;border-top:20px solid transparent;border-bottom:20px solid transparent;padding:0px 20px;display:block;max-height:240px;line-height:16px; }
+.yuenbattle .yuenendo-tabs-box li { padding:0px;margin:0px 42px;margin-left:40px; }
+.yuenbattle .yuenendo-tabs-box ul { padding:0px;margin:0px;margin-bottom:16px; }
 .yuenbattle .yuenendo-tabs-box ul:last-child { margin-bottom:0px; }
 
 .yuenbattle-post { padding:20px;margin-top:var(--space);background:var(--bg);text-align:justify;font-size:13px;line-height:18px; }
