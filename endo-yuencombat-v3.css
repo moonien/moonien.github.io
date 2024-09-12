@@ -32,7 +32,7 @@ body#theme[data-lightmode="true"] .yuencombat,
   --highlighterRGB:85,85,85;
 }
 
-.yuencombat-level { position:absolute;padding:10px 20px;text-transform:uppercase;display:flex;flex-flow:column wrap;width:150px;height:150px;background:radial-gradient(circle, rgba(var(--devcolor) / 0.6) 59%, transparent 60%) no-repeat;background-position:top -60px left -47px; }
+.yuencombat-level { position:absolute;padding:10px 20px;text-transform:uppercase;display:flex;flex-flow:column wrap;width:150px;height:150px;background:radial-gradient(circle, rgba(var(--devcolor) / 0.8) 59%, transparent 60%) no-repeat;background-position:top -60px left -47px; }
 .yuencombat-level span { font:800 14px var(--serif);line-height:20px; }
 .yuencombat-level span b { font-size:38px; }
 .yuencombat-level span b,
