@@ -101,7 +101,7 @@ body#theme[data-lightmode="true"] .yuencombat,
 .yuencombat-lucky action i { margin:0px; }
 .yuencombat-lucky action b { font-size:16px; }
 
-.yuencombat moonflex { display:flex;flex-flow:row nowrap;width:492px; }
+.yuencombat moonflex { display:flex;flex-flow:row nowrap;width:492px;gap:5px; }
 .yuencombat moonflex action { width:500px; }
 
 
