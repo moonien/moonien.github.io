@@ -196,8 +196,12 @@ body#theme[data-lightmode="true"] .yuencombat,
 .alt-spores court[class=""] { margin-left:-200px;width:300px;text-align:right;justify-content:flex-end; }
 .alt-spores court[class=""] balm { margin:0px;margin-bottom:3px;margin-left:5px; }
 
-.alt-form { height:auto;min-height:70px;padding:20px; }
+.alt-form { height:auto;min-height:70px;padding:20px;box-sizing:border-box; }
 .alt-form court { width:100%; }
+
+.shepherd-bear court b:after { content:" BEAR"; }
+.shepherd-bear court .shepherd-a { content:"+8 TEMP HP"; }
+.shepherd-bear court .shepherd-a { content:"ADV ON STR CHECKS/SAVES"; }
 
 
 
