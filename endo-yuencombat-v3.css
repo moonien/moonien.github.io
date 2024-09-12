@@ -203,6 +203,14 @@ body#theme[data-lightmode="true"] .yuencombat,
 .shepherd-bear court .shepherd-a { content:"+8 TEMP HP"; }
 .shepherd-bear court .shepherd-a { content:"ADV ON STR CHECKS/SAVES"; }
 
+.shepherd-hawk court b:after { content:" HAWK"; }
+.shepherd-hawk court .shepherd-a { content:"REACTION TO GIVE ADV TO ATK ROLL IF TARGET WITHIN RANGE"; }
+.shepherd-hawk court .shepherd-a { content:"ADV ON PERCEPTION (WIS)"; }
+
+.shepherd-unicorn court b:after { content:" UNICORN"; }
+.shepherd-unicorn court .shepherd-a { content:"ADV ON ALL CHECKS TO DETECT ANY CREATURE WITHIN RANGE"; }
+.shepherd-unicorn court .shepherd-a { content:"+3 HP WITHIN RANGE IF USING A SPELL SLOT TO HEAL"; }
+
 
 
 
