@@ -192,6 +192,7 @@ body#theme[data-lightmode="true"] .yuencombat,
 .alt-spores court[class=""] balm { margin:0px;margin-bottom:3px;margin-left:5px; }
 
 .alt-form { height:auto;min-height:70px;padding:20px; }
+.alt-form court { width:100%; }
 
 
 
