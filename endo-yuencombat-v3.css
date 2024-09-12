@@ -183,7 +183,7 @@ body#theme[data-lightmode="true"] .yuencombat,
 
 
 .alt-dreams { height:70px; }
-.alt-dreams b { font-size:19px;text-shadow:0px 0px 5px rgb(var(--devcolor));width:100%; }
+.alt-dreams b { font-size:19px;text-shadow:0px 0px 5px rgb(var(--devcolor));width:100%;line-height:15px;margin-bottom:5px; }
 .alt-dreams div b { font-family:times new roman;text-shadow:none;width:auto;display:inline-block;margin-top:-26px; }
 .alt-dreams court { width:420px;display:flex;flex-flow:row wrap; }
 .alt-dreams balm { font-size:11px;margin-right:5px;border:1px solid rgb(var(--bordercolor));margin-top:3px;padding:4px 5px; }
@@ -191,7 +191,7 @@ body#theme[data-lightmode="true"] .yuencombat,
 .alt-spores court[class=""] { margin-left:-200px;width:300px;text-align:right;justify-content:flex-end; }
 .alt-spores court[class=""] balm { margin:0px;margin-bottom:3px;margin-left:5px; }
 
-
+.alt-form { height:auto;min-height:70px;padding:20px; }
 
 
 
