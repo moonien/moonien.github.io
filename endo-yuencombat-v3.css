@@ -95,7 +95,6 @@ body#theme[data-lightmode="true"] .yuencombat {
 
 
 .yuencombat-wildshape,
-.yuencombat-samurai,
 .yuencombat-astrologian,
 .yuencombat-astrologian-draw { border-top:5px dashed transparent;border-image:linear-gradient(90deg, var(--highlight), var(--highlighter));border-image-slice:1;background:linear-gradient(230deg, rgba(var(--highlightRGB),0.3), rgba(var(--highlighterRGB),0.2)),var(--largebg);padding:20px;display:flex;flex-flow:row wrap;justify-content:space-between;align-items:center;overflow:hidden; }
 
@@ -140,14 +139,10 @@ body#theme[data-lightmode="true"] .yuencombat {
 
 
 
-.yuencombat-samurai,
 .yuencombat-astrologian { height:70px;padding:0px 20px; }
-.yuencombat-samurai font,
 .yuencombat-astrologian font,
 .yuencombat-wildshape font { display:flex;flex-flow:row wrap;gap:5px;text-transform:uppercase; }
-.yuencombat-samurai font,
-.yuencombat-astrologian font { width:420px;margin-right:-100px; }
-.yuencombat-samurai span,
+.yuencombat-astrologian font { width:410px;margin-right:-100px; }
 .yuencombat-astrologian span,
 .yuencombat-wildshape span { font-size:11px;padding:3px 4px;border:1px solid var(--highlight);border-radius:3px;font-weight:900;background:rgba(var(--bgcolor) / 0.5); }
 .yuencombat span.toactivate { opacity:0.5;filter:grayscale(100%); }
@@ -155,26 +150,13 @@ body#theme[data-lightmode="true"] .yuencombat {
 .yuencombat span.asifeat { color:rgb(var(--devcolor));border:1px solid var(--highlighter);background:rgba(var(--textcolor) / 0.2); }
 .yuencombat span.activated b,
 .yuencombat span.active b,
-.yuencombat-samurai div b,
 .yuencombat-astrologian div b { background:linear-gradient(330deg, var(--highlight), var(--highlighter));background-clip:text;-webkit-background-clip:text;color:transparent; }
-.yuencombat-samurai div,
-.yuencombat-astrologian div { width:200px;text-align:right;font:700 72px times new roman;font-variant-numeric:lining-nums;line-height:90px;margin:-80px 0px;margin-top:-70px;color:rgba(var(--textcolor) / 0.5); }
-.yuencombat-samurai div b,
-.yuencombat-astrologian div b { font-size:105px;font-style:italic;padding:0px 5px; }
-.yuencombat-samurai div i,
+.yuencombat-astrologian div { letter-spacing:-5px;width:270px;text-align:right;font:700 72px times new roman;font-variant-numeric:lining-nums;line-height:90px;margin:-80px 0px;margin-top:-70px;color:rgba(var(--textcolor) / 0.5); }
+.yuencombat-astrologian div b { font-size:105px;font-style:italic;padding:0px 5px;letter-spacing:-14px;padding-right:14px;margin-right:-7px; }
 .yuencombat-astrologian div i { font-style:normal;font-weight:400px; }
-.yuencombat-samurai u,
-.yuencombat-astrologian div u { text-decoration:none;font:900 21px var(--serif);line-height:15px;display:inline-block;width:40px;text-align:left;margin-left:5px; }
-.yuencombat-samurai u:before,
-.yuencombat-astrologian u:before { content:"SEN ";background:linear-gradient(40deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
-.yuencombat-samurai u:after,
+.yuencombat-astrologian div u { text-decoration:none;font:900 21px var(--serif);line-height:15px;display:inline-block;letter-spacing:0px;width:55px;text-align:left;margin-left:5px; }
+.yuencombat-astrologian u:before { content:"DRAW ";background:linear-gradient(40deg, rgba(var(--highlightRGB),0.8), rgba(var(--highlighterRGB),0.8));background-clip:text;-webkit-background-clip:text;color:transparent; }
 .yuencombat-astrologian u:after { content:"CHA RGE"; }
-
-.yuencombat-astrologian font { width:410px; }
-.yuencombat-astrologian div { width:270px;letter-spacing:-5px; }
-.yuencombat-astrologian div b { letter-spacing:-14px;padding-right:14px;margin-right:-7px; }
-.yuencombat-astrologian div u { letter-spacing:0px;width:55px; }
-.yuencombat-astrologian div u:before { content:"DRAW "; }
 
 
 
