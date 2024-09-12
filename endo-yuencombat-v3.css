@@ -171,7 +171,7 @@ body#theme[data-lightmode="true"] .yuencombat,
 .yuencombat-samurai div,
 .yuencombat-astrologian div { width:200px;text-align:right;font:700 72px times new roman;font-variant-numeric:lining-nums;line-height:50px;color:rgba(var(--textcolor) / 0.5); }
 .yuencombat-samurai div b,
-.yuencombat-astrologian div b { font-size:105px;font-style:italic;padding:0px 5px; }
+.yuencombat-astrologian div b { font-size:105px;font-style:italic;padding:0px 5px;line-height:100px; }
 .yuencombat-samurai div i,
 .yuencombat-astrologian div i { font-style:normal;font-weight:400px; }
 
@@ -185,11 +185,11 @@ body#theme[data-lightmode="true"] .yuencombat,
 
 .alt-dreams { height:70px; }
 .alt-dreams b { font-size:19px;text-shadow:0px 0px 5px rgb(var(--devcolor));width:100%;line-height:15px;margin-bottom:5px; }
-.alt-dreams div b { font-family:times new roman;text-shadow:none;width:auto;display:inline-block;margin-top:-26px; }
 .alt-dreams court cc { float:right;font-family:var(--bodyserif); }
 .alt-dreams court { width:420px;display:flex;flex-flow:row wrap; }
 .alt-dreams balm { font-size:11px;margin-right:5px;border:1px solid rgb(var(--bordercolor));margin-top:3px;padding:4px 5px; }
-.alt-dreams div { display:block;width:230px;margin-top:25px; }
+.alt-dreams div { display:block;width:230px;margin-top:11px; }
+.alt-dreams div b { font-family:times new roman;text-shadow:none;width:auto;display:inline-block;line-height:100px; }
 .alt-spores court[class=""] { margin-left:-200px;width:300px;text-align:right;justify-content:flex-end; }
 .alt-spores court[class=""] balm { margin:0px;margin-bottom:3px;margin-left:5px; }
 
