@@ -122,7 +122,7 @@ body#theme[data-lightmode="true"] .yuencombat,
 .yuencombat-wildshape div i.one-left { clip-path:polygon(100% 0, 0% 100%, 100% 100%); }
 .yuencombat-wildshape div i.none-left { clip-path:none; }
 
-.yuencombat wildshape { margin-top:10px;width:100%; }
+.yuencombat wildshape { margin-top:10px;width:100%;flex-flow:row nowrap; }
 .yuencombat wildshape img { float:left;width:132px;height:132px;border:1px solid var(--highlighter);padding:10px;object-fit:cover;margin-right:15px; }
 .yuencombat wildshape img,
 .yuencombat wildshape wshape font { background:rgba(var(--bgcolor) / 0.7) ; }
