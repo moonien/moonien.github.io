@@ -48,7 +48,7 @@ body#theme[data-lightmode="true"] .yuenfight {
 .yuenfight-block span b { color:var(--highlighter);font:700 10px var(--bodyint);text-transform:uppercase; }
 
 
-.yuenfight .yuenendo-tabs {  margin-top:20px;margin-bottom:0px;position:relative;z-index:9; }
+.yuenfight .yuenendo-tabs { margin:0px 20px;margin-top:20px;margin-bottom:0px;position:relative;z-index:9; }
 .yuenfight .yuenendo-tabs-button { display:flex;flex-flow:row nowrap;gap:10px;padding-bottom:10px;margin-bottom:0px; }
 .yuenfight .yuenendo-tabs-buttons { cursor:pointer;filter:grayscale(100%);flex-grow:1;transition:0.8s;text-align:center;background:var(--bg);border:none;padding:5px;font:15px var(--bodyint);border-radius:10px;background:rgba(var(--devcolor) / .6);border:1px solid rgba(var(--bordercolor) / 0.5); }
 .yuenfight .yuenendo-tabs-buttons b { background:linear-gradient(45deg, rgba(var(--highlightRGB),1) 0%, rgba(var(--highlighterRGB),1) 100%);color:transparent;-webkit-background-clip:text;background-clip:text; }
