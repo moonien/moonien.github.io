@@ -353,8 +353,6 @@ body#theme[data-lightmode="true"] .yuencombat,
 
 .dnone { display:none!important; }
 
-#amalthea { --header:url(https://64.media.tumblr.com/5ff9340f85b3030aaa8494d2210a6292/9bcff55c3dbd59b8-33/s540x810/eceed6b068e607b7e9649626bbac1e544de0c104.gifv); }
-
 #chrysanthemum { --header:url(https://64.media.tumblr.com/e7844835dbfbec5016ec5245864852ce/f3cab37dafa89ba4-a5/s540x810/53fdb3770e87391b9b8c3c7290da924e90edec66.gifv); }
 
 #eleia { --header:url(https://64.media.tumblr.com/c701c7c0675310071bcd876828adba48/1dd9c787d6e852e9-87/s1280x1920/0dae71d4aa7d6b286a9982cf4251cf5070a42c8b.gifv);--bgpos:bottom -20px center!important; }
@@ -366,12 +364,10 @@ body#theme[data-lightmode="true"] .yuencombat,
 
 #lileas { --header:url(https://64.media.tumblr.com/f76a512046a21bd2068b1af223d75e17/d6b4bb665fae2662-7b/s540x810/2475c69bb6498504b1975c2052557dfe06db1dac.gifv); }
 
-#peredur { --header: url(https://64.media.tumblr.com/20ff87ab97c8538846e2bb767ac5005d/0faa97c19ddc9f8e-fb/s1280x1920/f2eeecfadb03eea06f59fb9e98ca01d7dec90812.gifv); }
+#opal { --header:url(https://64.media.tumblr.com/d5c4bf3fec53943297a361040e4821c6/0b484c1958a36baa-47/s540x810/f4bf8e10944d77ef348a3937beb7be4cdc4635e0.gifv); }
 
 #sizhui { --header:url(https://64.media.tumblr.com/d21b6ed6fa26ba06a6010762f7a7c1fe/18a41fdad12a759b-df/s1280x1920/bffeea58b548652b62a7987342facb8bc260ecea.gifv); }
 
 #taliesin { --header:url(https://64.media.tumblr.com/0bb3eb62aa11175f261f3711a05503c1/44d8814cee714e16-18/s540x810/62fc4b6d8a33859707f577480ec67d4fc4f182e9.gifv); }
 
 #willow { --header: url(https://64.media.tumblr.com/fb2f8e739d040e716a2a787f82cbf790/368d1ec9695be276-bc/s1280x1920/fcece1250ab89d5bc67430df0e276ba10ff2ffbf.gifv); }
-
-#yozora { --header:url(https://64.media.tumblr.com/d444874127c06436ff5675e716844de5/88330c494aeb533f-da/s540x810/b74d9370610af4927e913cdfff92d904e9cc9774.gifv); }
