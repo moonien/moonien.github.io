@@ -53,7 +53,7 @@ body#theme[data-lightmode="true"] .yuenbattle {
 .yuenbattle-hp .hpbar_overflowhpbar { background:linear-gradient(90deg, var(--highlight), var(--highlighter));float:right; }
 
 .yuenbattle .yuenendo-tabs { text-align:justify;border-top:1px solid rgba(var(--lightcolor) / .2);padding:var(--space) 0px;margin-top:0px; }
-.yuenbattle .yuenendo-tabs-button { display:flex;flex-flow:row nowrap;gap:10px;padding-bottom:10px;margin-bottom:0px; }
+.yuenbattle .yuenendo-tabs-button { display:flex;flex-flow:row nowrap;gap:10px;padding-bottom:0px;margin-bottom:0px; }
 .yuenbattle .yuenendo-tabs-buttons { cursor:pointer;filter:grayscale(100%);flex-grow:1;transition:0.8s;text-align:center;background:var(--bg);border:none;padding:5px;font:bold 13px var(--bodymono); }
 .yuenbattle .yuenendo-tabs-buttons b { color:var(--highlighter); }
 .yuenbattle .yuenendo-tabs-buttons.ifchecked,
