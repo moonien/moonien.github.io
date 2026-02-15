@@ -21,3 +21,6 @@
 .yuenpost-notes { background:#eee;box-sizing:border-box;border-radius:0px 0px 10px 10px;margin-left:20px;padding:15px;font-size:12px;line-height:16px; }
 .yuenpost-notes y1 { display:block;background:var(--yeet);position:absolute;margin-top:-27px;margin-left:-35px;font:700 14px nunito;line-height:26px;border-radius:20px;padding:0px 10px;color:var(--whitefont);text-transform:uppercase; }
 .yuenpost-tags { max-width:42%;font-size:10px;line-height:12px;padding:12px;box-sizing:border-box;text-align:center; }
+
+#silvermist { --yeet:#6CB0E0; }
+#secondstar { --yeet:#727DB3; }
