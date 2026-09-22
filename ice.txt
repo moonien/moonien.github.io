@@ -1,0 +1,50 @@
+sandshrew-oalola;ALOLAN SANDSHREW
+sandslash-oalola;ALOLAN SANDSLASH
+vulpix-oalola;ALOLAN VULPIX
+ninetales-oalola;ALOLAN NINETALES
+dewgong;DEWGONG
+cloyster;CLOYSTER
+mr_mime-ogalar;GALARIAN MR MIME
+jynx;JYNX
+lapras;LAPRAS
+sneasel;SNEASEL
+swinub;SWINUB
+piloswine;PILOSWINE
+delibird;DELIBIRD
+smoochum;SMOOCHUM
+snorunt;SNORUNT
+glalie;GLALIE
+spheal;SPHEAL
+sealeo;SEALEO
+walrein;WALREIN
+snover;SNOVER
+abomasnow;ABOMASNOW
+weavile;WEAVILE
+glaceon;GLACEON
+mamoswine;MAMOSWINE
+froslass;FROSLOSS
+darumaka-ogalar;GALARIAN DARUMAKA
+darmanitan-ogalar;GALARIAN DARMANITAN
+vanillite;VANILLITE
+vanillish;VANILLISH
+vanilluxe;VANILLUXE
+cubchoo;CUBCHOO
+beartic;BEARTIC
+cryogonal;CRYOGONAL
+amaura;AMAURA
+aurorus;AURORUS
+bergmite;BERGMITE
+avalugg;AVALUGG
+avalugg-ohisui;HISUIAN AVALUGG
+crabominable;CRABOMINABLE
+mr_rime;MR RIME
+snom;SNOM
+frosmoth;FROSMOTH
+eiscue;EISCUE
+arctozolt;ARCTOZOLT
+arctovish;ARCTOVISH
+cetoddle;CETODDLE
+cetitan;CETITAN
+frigibax;FRIGIBAX
+arctibax;ARCTIBAX
+baxcalibur;BAXCALIBUR
