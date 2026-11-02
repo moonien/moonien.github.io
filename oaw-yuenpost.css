@@ -6,7 +6,7 @@
 .yuenpost-head font { display:inline-block;border-radius:3px;padding:2px 4px;font:700 13px urbanist;line-height:15px;background:#fefefe;border:1px solid #ddd;color:#999; }
 
 .yuenpost-cont { padding:40px;background:rgb(240,240,240); }
-.yuenpost-cont p { padding:15px 20px;margin:0px;position:relative;z-index:15;background:rgba(250,250,250,0.8);border-radius:10px;white-space:preserve-breaks;font-size:15px; }
+.yuenpost-cont p { padding:15px 20px;margin:0px;position:relative;z-index:15;background:rgba(250,250,250,0.5);border-radius:10px;white-space:preserve-breaks;font-size:15px; }
 .yuenpost-cont span { position:relative;z-index:14;font-size:50px;float:right;opacity:0.5;margin:-30px -25px -70px -70px; }
 .yuenpost-cont span:last-child { float:left;margin:-20px -70px -25px -25px;transform:rotate(180deg) }
 .yuenpost-cont a.user-tagged { float:right;font-size:11px;margin-left:5px; }
