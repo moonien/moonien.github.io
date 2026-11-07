@@ -12,6 +12,7 @@
 .yuenpost-cont a.user-tagged { float:right;font-size:11px;margin-left:5px; }
 .yuenpost-cont a.user-tagged:before { content:'#';background:none;color:#ccc;font-weight:500; }
 .yuenpost-cont p i { opacity:0.7; }
+.yuenpost-cont font { display:block;margin-top:10px;padding-top:10px;font-size:12px;line-height:14px;border-top:1px solid #ddd;color:#999 }
 
 .yuenpost a,
 .yuenpost b,
