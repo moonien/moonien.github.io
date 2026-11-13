@@ -22,3 +22,16 @@
 #glennloussier {
 --ygrad: linear-gradient(120deg,rgba(75, 164, 196, 1) 0%, rgba(212, 193, 30, 1) 50%, rgba(209, 135, 98, 1) 100%);
 }
+
+#quinnlovelace {
+/*--ygrad: linear-gradient(90deg,rgba(85, 135, 35, 1) 0%, rgba(55, 121, 171, 1) 50%, rgba(79, 179, 115, 1) 100%);
+--ygrad: linear-gradient(90deg,rgba(163, 153, 46, 1) 0%, rgba(55, 121, 171, 1) 50%, rgba(44, 143, 98, 1) 100%);*/
+--ygrad: linear-gradient(90deg,rgba(163, 153, 46, 1) 0%, rgba(55, 121, 171, 1) 50%, rgba(79, 179, 115, 1) 100%)
+}
+
+#robinxu {
+--ygrad: linear-gradient(120deg,rgba(191, 59, 152, 1) 0%, rgba(155, 42, 42, 1) 50%, rgba(214, 199, 66, 1) 100%);
+}
+
+#robinxu .yuenpost-cont span { margin:-25px -20px -70px -70px }
+#robinxu .yuenpost-cont span:last-child { margin:-25px -70px -25px -20px }
