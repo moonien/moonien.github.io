@@ -37,7 +37,7 @@ padding:0px 2px;
 
 .yuensoda-right { mix-blend-mode:multiply;display:flex;flex-flow:column nowrap;justify-content:space-between;align-items:center;min-width:120px; }
 
-.yuensoda-icon { --r:7px;width:100px;height:var(--stamp-height);padding:10px;filter:drop-shadow(0px 0px 1px rgb(var(--g1)));background:radial-gradient(50% 50%,#0000 65%,#fff 67%) round var(--r) var(--r)/calc(2*var(--r)) calc(2*var(--r)); }
+.yuensoda-icon { --r:7px;box-sizing:border-box;width:100px;height:var(--stamp-height);padding:10px;filter:drop-shadow(0px 0px 1px rgb(var(--g1)));background:radial-gradient(50% 50%,#0000 65%,#fff 67%) round var(--r) var(--r)/calc(2*var(--r)) calc(2*var(--r)); }
 .yuensoda-icon span { display:block;box-shadow:0px 0px 0px 5px white;border-radius:5px;border:1px solid rgb(var(--g1));height:100%;width:100%;background-image:var(--ysimg),linear-gradient(45deg,rgb(var(--g1)),rgb(var(--g2)));background-size:cover;background-position:center;background-blend-mode:screen;background-repeat:no-repeat; }
 .yuensoda-icon span.s { background:white;font-size:40px;display:flex;align-items:center;justify-content:center; }
 .yuensoda-icon span.s:before { opacity:0.8s; }
