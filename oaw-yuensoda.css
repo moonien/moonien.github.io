@@ -1,6 +1,6 @@
 /* CREATED BY YUEN FOR EXCLUSIVE USE BY SODA ON ONAWHIM.JCINK.NET */
 
-.yuensoda { max-width:580px;width:100%;box-sizing:border-box;margin:20px auto;font:15px montserrat;line-height:20px;display:flex;flex-flow:row nowrap;background:url(https://i20.servimg.com/u/f20/20/50/14/27/0811.png),#FCFBF4;background-size:600px;background-blend-mode:multiply;border:1px solid rgb(var(--g1));padding:30px;padding-right:20px; }
+.yuensoda { max-width:580px;width:100%;box-sizing:border-box;margin:20px auto;font:14px montserrat;line-height:20px;display:flex;flex-flow:row nowrap;background:url(https://i20.servimg.com/u/f20/20/50/14/27/0811.png),#FCFBF4;background-size:600px;background-blend-mode:multiply;border:1px solid rgb(var(--g1));padding:30px;padding-right:20px; }
 
 .yuensoda-left,
 .yuensoda-timestamp,
@@ -45,7 +45,7 @@ padding:0px 2px;
 
 .yuensoda-tags { width:100%;margin:40px 0px; }
 .yuensoda-tags:before { display:block;width:max-content;content:"TO: ";margin-bottom:3px;font-weight:800;padding-right:10px; }
-.yuensoda-tags a { font-size:11px;font-weight:600;display:block;border-bottom:1px solid rgb(var(--g1));padding-bottom:3px;margin-bottom:3px;line-height:12px;color:#333; }
+.yuensoda-tags a { font-size:10px;font-weight:600;display:block;border-bottom:1px solid rgb(var(--g1));padding-bottom:3px;margin-bottom:3px;line-height:12px;color:#333; }
 
 
 
