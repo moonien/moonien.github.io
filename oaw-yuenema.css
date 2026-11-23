@@ -3,6 +3,7 @@
 .yuenema { max-width:450px;width:100%;box-sizing:border-box;margin:20px auto;font:15px urbanist;line-height:20px;border:1px solid #ddd;border-radius:10px;background:rgb(240,240,240); }
 
 .yuenema p { display:block;padding:15px 20px;margin:30px;margin-bottom:0px;position:relative;z-index:15;background:rgba(250,250,250,0.5);border-radius:10px;white-space:preserve-breaks;font:15px urbanist;line-height:20px; }
+.yuenema p i { opacity:0.7; }
 
 .yuenema-img { padding:30px;background-image:var(--yeimg),linear-gradient(45deg,rgb(var(--g1)),rgb(var(--g2)));background-size:cover;background-position:top right;background-blend-mode:screen;background-size:250px;background-repeat:no-repeat;font-size:0px;border-color:#ddd;mix-blend-mode:multiply;height:250px; }
 
