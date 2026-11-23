@@ -1,0 +1,61 @@
+/* FOR EXCLUSIVE USE BY SODA ON ONAWHIM.JCINK.NET */
+
+.yuensoda { max-width:580px;width:100%;box-sizing:border-box;margin:20px auto;font:15px urbanist;line-height:20px;display:flex;flex-flow:row nowrap;background:url(https://i20.servimg.com/u/f20/20/50/14/27/0811.png),#FCFBF4;background-size:600px;background-blend-mode:multiply;border:1px solid rgb(var(--g1));padding:30px;padding-right:20px; }
+
+.yuensoda-left,
+.yuensoda-timestamp,
+.yuensoda-right { position:relative;z-index:2; }
+
+.yuensoda-left p { white-space:preserve-breaks;padding:0px;margin:0px; }
+.yuensoda-left ooc { display:block;margin-top:30px;font-size:13px;line-height:15px;color:#777; }
+.yuensoda-left ooc:before { content:"";display:block;width:150px;margin-left:-30px;border-top:1px solid rgb(var(--g1));margin-bottom:15px; }
+
+.yuensoda-left i { opacity:0.8; }
+
+/* CREDITS: https://www.cssportal.com/css-highlighter-generator/ */
+.yuensoda-left u,
+.yuensoda-left a { 
+  background-image: linear-gradient(to right, rgba(var(--g1), 0.5), rgba(var(--g2), 0.5));
+  background-repeat: no-repeat;
+  background-size: 100% 0.3em;
+  background-position: 0 85%;
+  /* every wrapped line gets its own padding */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+text-decoration:none;
+padding:0px 2px;
+}
+.yuensoda-left a { color:#222; }
+
+
+.yuensoda-timestamp { display:flex;flex-flow:column nowrap;align-items:center;padding-left:20px;padding-right:10px; }
+.yuensoda-timestamp span { writing-mode:vertical-lr;padding:10px 0px;font-weight:800;color:rgb(var(--g1)); }
+.yuensoda-timestamp:before,
+.yuensoda-timestamp:after { content:"";flex-grow:1;border-left:1px solid rgb(var(--g1)); }
+.yuensoda-timestamp:after { border-color:rgb(var(--g2)); }
+
+.yuensoda-right { mix-blend-mode:multiply;display:flex;flex-flow:column nowrap;justify-content:space-between;align-items:center;min-width:120px; }
+
+.yuensoda-icon { --r:7px;width:100px;height:var(--stamp-height);padding:10px;filter:drop-shadow(0px 0px 1px rgb(var(--g1)));background:radial-gradient(50% 50%,#0000 65%,#fff 67%) round var(--r) var(--r)/calc(2*var(--r)) calc(2*var(--r)); }
+.yuensoda-icon span { display:block;box-shadow:0px 0px 0px 5px white;border-radius:5px;border:1px solid rgb(var(--g1));height:100%;width:100%;background-image:var(--ysimg),linear-gradient(45deg,rgb(var(--g1)),rgb(var(--g2)));background-size:cover;background-position:center;background-blend-mode:screen;background-repeat:no-repeat; }
+.yuensoda-icon span.s { background:white;font-size:60px;display:flex;align-items:center;justify-content:center; }
+.yuensoda-icon span.s:before { opacity:0.8s; }
+.yuensoda-icon img { height:100%;width:100%;object-fit:cover; }
+
+.yuensoda-tags { width:100%;margin:40px 0px; }
+.yuensoda-tags:before { display:block;width:max-content;content:"TO: ";margin-bottom:3px;font-weight:800;padding-right:10px; }
+.yuensoda-tags a { font-size:11px;font-weight:500;display:block;border-bottom:1px solid rgb(var(--g1));padding-bottom:3px;margin-bottom:3px;line-height:12px;color:#333; }
+
+
+
+.yuensoda-timestamp span { background-image:linear-gradient(to bottom,rgb(var(--g1)),rgb(var(--g2)))!important; }
+.yuensoda-icon span.s:before,
+.yuensoda-timestamp span,
+.yuensoda-tags:before { background:linear-gradient(90deg,rgb(var(--g1)),rgb(var(--g2)));background-clip:text;color:transparent; }
+
+.yuensoda-corner { background:url(https://i20.servimg.com/u/f20/20/50/14/27/edc25010.jpg) no-repeat top left,linear-gradient(45deg,rgb(var(--g1)),rgb(var(--g2)));background-size:cover;background-blend-mode:screen;min-width:230px;height:300px;margin:0px -20px -30px -210px;align-self:flex-end;mix-blend-mode:multiply;opacity:0.7;z-index:1; }
+
+
+
+/** CREDITS: stackoverflow.com/question/33451683/pen-highlighter-effect-in-css - tysm for this awesome snippet!! **/
+.yuensoda-left b { background: linear-gradient(104deg, rgba(var(--g1),0) 0.9%, rgba(var(--g1),1.25) 2.4%, rgba(var(--g1),0.5) 5.8%, rgba(var(--g1),0.1) 93%, rgba(var(--g1),0.7) 96%, rgba(var(--g1),0) 98%), linear-gradient(183deg, rgba(var(--g1),0) 0%, rgba(var(--g1),0.3) 7.9%, rgba(var(--g1),0) 15%);padding:2px 5px;box-decoration-break:clone;-webkit-box-decoration-break:clone;border-radius:7.5px; }
