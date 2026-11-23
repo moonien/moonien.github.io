@@ -15,6 +15,6 @@
 .yuenema b,
 .yuenema-notes span { background:linear-gradient(45deg,rgb(var(--g1)),rgb(var(--g2)));background-clip:text;-webkit-background-clip:text;color:transparent; }
 
-.yuenema-tags { line-height:20px;margin-top:-40px;padding:10px;position:relative; }
+.yuenema-tags { line-height:20px;margin-top:-40px;padding:10px;position:relative;font-size:0px; }
 .yuenema-tags a.user-tagged { font-size:11px;margin-left:5px; }
 .yuenema-tags a.user-tagged:before { content:'#';background:none;color:#ccc;font-weight:500; }
