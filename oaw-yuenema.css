@@ -1,0 +1,19 @@
+/* CREATED BY YUEN FOR EXCLUSIVE USE BY EMA ON ONAWHIM.JCINK.NET */
+
+.yuenema { max-width:450px;width:100%;box-sizing:border-box;margin:20px auto;font:15px urbanist;line-height:20px;border:1px solid #ddd;border-radius:10px;background:rgb(240,240,240); }
+
+.yuenema p { display:block;padding:15px 20px;margin:30px;margin-bottom:0px;position:relative;z-index:15;background:rgba(250,250,250,0.5);border-radius:10px;white-space:preserve-breaks;font:15px urbanist;line-height:20px; }
+
+.yuenema-img { padding:30px;background-image:var(--yeimg),linear-gradient(45deg,rgb(var(--g1)),rgb(var(--g2)));background-size:cover;background-position:top right;background-blend-mode:screen;background-size:250px;background-repeat:no-repeat;font-size:0px;border-color:#ddd;mix-blend-mode:multiply;height:250px; }
+
+.yuenema-notes { height:250px;margin-top:-250px;padding:50px;box-sizing:border-box;display:flex;flex-flow:row nowrap;align-items:center;position:relative; }
+.yuenema-notes span { opacity:0.5;font-size:120px;margin-right:-55px; }
+.yuenema-notes font { position:relative;display:block;width:max-content;border-radius:3px;padding:2px 4px;font:700 13px urbanist;line-height:15px;background:#fefefe;border:1px solid #ddd;color:#777; }
+
+.yuenema a,
+.yuenema b,
+.yuenema-notes span { background:linear-gradient(45deg,rgb(var(--g1)),rgb(var(--g2)));background-clip:text;-webkit-background-clip:text;color:transparent; }
+
+.yuenema-tags { line-height:20px;margin-top:-40px;padding:10px;position:relative; }
+.yuenema-tags a.user-tagged { font-size:11px;margin-left:5px; }
+.yuenema-tags a.user-tagged:before { content:'#';background:none;color:#ccc;font-weight:500; }
