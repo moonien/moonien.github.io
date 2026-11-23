@@ -6,6 +6,7 @@
 .yuensoda-timestamp,
 .yuensoda-right { position:relative;z-index:2; }
 
+.yuensoda-left { width:100%; }
 .yuensoda-left p { white-space:preserve-breaks;padding:0px;margin:0px; }
 .yuensoda-left ooc { display:block;margin-top:30px;font-size:13px;line-height:15px;color:#777; }
 .yuensoda-left ooc:before { content:"";display:block;width:150px;margin-left:-30px;border-top:1px solid rgb(var(--g1));margin-bottom:15px; }
