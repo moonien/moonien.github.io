@@ -54,7 +54,7 @@ padding:0px 2px;
 .yuensoda-timestamp span,
 .yuensoda-tags:before { background:linear-gradient(90deg,rgb(var(--g1)),rgb(var(--g2)));background-clip:text;color:transparent; }
 
-.yuensoda-corner { background:url(https://i20.servimg.com/u/f20/20/50/14/27/edc25010.jpg) no-repeat top left,linear-gradient(45deg,rgb(var(--g1)),rgb(var(--g2)));background-size:cover;background-blend-mode:screen;min-width:230px;height:300px;margin:0px -20px -30px -210px;align-self:flex-end;mix-blend-mode:multiply;opacity:0.7;z-index:1; }
+.yuensoda-corner { background:url(https://i20.servimg.com/u/f20/20/50/14/27/edc25011.jpg) no-repeat top left,linear-gradient(45deg,rgb(var(--g1)),rgb(var(--g2)));background-size:cover;background-blend-mode:screen;min-width:230px;height:300px;margin:0px -20px -30px -210px;align-self:flex-end;mix-blend-mode:multiply;opacity:0.7;z-index:1; }
 
 
 
